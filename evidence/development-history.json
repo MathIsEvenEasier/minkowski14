@@ -1,0 +1,1685 @@
+[
+  {
+    "seq": "b55daec2a23c4965b5f7f75d4480d8ed",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "Algebra",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 7.656
+      },
+      {
+        "module": "Polygon",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.511
+      },
+      {
+        "module": "Facet",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 3.008
+      },
+      {
+        "module": "Coordinates",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.349
+      },
+      {
+        "module": "Plane",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.262
+      },
+      {
+        "module": "Parameters",
+        "exit_code": 1,
+        "log": "Parameters.lean:45:41: error: linarith failed to find a contradiction\ncase h_10.left\nh0 : 1246979603717467 / 10 ^ 15 < rho\nh1 : rho < 1246979603717468 / 10 ^ 15\nh2 : (1246979603717467 / 1000000000000000) ^ 2 < rho ^ 2\nh3 : rho ^ 2 < (1246979603717468 / 1000000000000000) ^ 2\nx\u271d : \u2115\na\u271d : |rho| < 1\n\u22a2 False\nfailed\n",
+        "seconds": 6.281
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphData.Chunk005",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.306
+      },
+      "modules_finished": 8
+    },
+    "source_sha256": {
+      "Final.lean": "7f74eb33b4a3282ec4509722243096eb25576fddcfd3baeee66bea45c7db625a",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "Plane.lean": "b48cdcd454711d26ce9a1192d17b7ba25bf33759306069373fc9370ecbd170fd",
+      "Audit.lean": "e60bb384caec3cc00b4bc76b648979f22485bb6d3055df27dca90cdf8b9ddc6d",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "2dae064c55334962bc80096f17155547",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "Plane",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.247
+      },
+      {
+        "module": "Parameters",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.583
+      },
+      {
+        "module": "Positions",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 4.256
+      },
+      {
+        "module": "Geometry/Chunk001",
+        "exit_code": 1,
+        "log": "Geometry/Chunk001.lean:512:8: error: (kernel) excessive memory consumption detected\n",
+        "seconds": 21.879
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge010",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 5.121
+      },
+      "modules_finished": 60
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "84ee516e41bf90024ab44d94b334d66583a4c6bfe44e88f2ffdd0fe7f18eebd9",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "56be2ea451de6ac05ae9b33d90cabf07f07c8443ce7f79bb09f0381aedc7f373",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "43897dab5b4263b0db984ae131c83404338e619c475fb714e4897b8cd8af9336",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "80844a9e80efcdcbaa0cb4e3b122425ddc28c59807e7e271cab9d30dabdaaabb",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "Geometry/Chunk001.lean": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb"
+    }
+  },
+  {
+    "seq": "ce5ae6d4692a49e8bed0e1d664b3cf40",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "Positions",
+        "exit_code": 1,
+        "log": "Positions.lean:13:4: error: maximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\nPositions.lean:16:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'positions', which is 'noncomputable'\n",
+        "seconds": 3.794
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphEncoding.Root",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 1.961
+      },
+      "modules_finished": 79
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "dc3121684bd2dd0bde6ba764355b8949cbf7d1fa02730a76c5bf9ddb8862cde0",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "56be2ea451de6ac05ae9b33d90cabf07f07c8443ce7f79bb09f0381aedc7f373",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "43897dab5b4263b0db984ae131c83404338e619c475fb714e4897b8cd8af9336",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "80844a9e80efcdcbaa0cb4e3b122425ddc28c59807e7e271cab9d30dabdaaabb",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "Geometry/Chunk001.lean": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb"
+    }
+  },
+  {
+    "seq": "6a5087cf7b9b41e9b8a7c75857942c2c",
+    "status": "PASS",
+    "records": [
+      {
+        "module": "Positions",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 5.093
+      },
+      {
+        "module": "Geometry/Chunk001",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.579
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphEncoding",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 42.426
+      },
+      "modules_finished": 80
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "56be2ea451de6ac05ae9b33d90cabf07f07c8443ce7f79bb09f0381aedc7f373",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "43897dab5b4263b0db984ae131c83404338e619c475fb714e4897b8cd8af9336",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "80844a9e80efcdcbaa0cb4e3b122425ddc28c59807e7e271cab9d30dabdaaabb",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "Geometry/Chunk001.lean": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb"
+    }
+  },
+  {
+    "seq": "fcf06178c9334ee78522b19995a55245",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "Geometry/Chunk002",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.53
+      },
+      {
+        "module": "Geometry/Chunk003",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.542
+      },
+      {
+        "module": "Geometry/Chunk004",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.438
+      },
+      {
+        "module": "Geometry/Chunk005",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.918
+      },
+      {
+        "module": "Geometry/Chunk006",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.456
+      },
+      {
+        "module": "Geometry/Chunk007",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.395
+      },
+      {
+        "module": "Geometry/Chunk008",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.448
+      },
+      {
+        "module": "Geometry/Chunk009",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.546
+      },
+      {
+        "module": "Geometry/Chunk010",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.527
+      },
+      {
+        "module": "Geometry/Chunk011",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.511
+      },
+      {
+        "module": "Geometry/Chunk012",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.498
+      },
+      {
+        "module": "Geometry/Chunk013",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.794
+      },
+      {
+        "module": "Geometry/Chunk014",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.493
+      },
+      {
+        "module": "Geometry/Chunk015",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.36
+      },
+      {
+        "module": "Geometry/Chunk016",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.312
+      },
+      {
+        "module": "Geometry/Chunk017",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.584
+      },
+      {
+        "module": "Geometry/Chunk018",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.521
+      },
+      {
+        "module": "Geometry/Chunk019",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.587
+      },
+      {
+        "module": "Geometry/Chunk020",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.494
+      },
+      {
+        "module": "Geometry/Chunk021",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.773
+      },
+      {
+        "module": "Geometry/Chunk022",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.587
+      },
+      {
+        "module": "Geometry/Chunk023",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.348
+      },
+      {
+        "module": "Geometry/Chunk024",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.453
+      },
+      {
+        "module": "Geometry/Chunk025",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.526
+      },
+      {
+        "module": "Geometry/Chunk026",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.582
+      },
+      {
+        "module": "Geometry/Chunk027",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 6.576
+      },
+      {
+        "module": "Geometry/Chunk028",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 4.275
+      },
+      {
+        "module": "Embedding",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.083
+      },
+      {
+        "module": "ColouringTransfer",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.029
+      },
+      {
+        "module": "PositiveControlSAT",
+        "exit_code": 1,
+        "log": "PositiveControlSAT.lean:3:8: error(lean.unknownIdentifier): Unknown identifier `liftIO`\nPositiveControlSAT.lean:4:8: error(lean.unknownIdentifier): Unknown identifier `liftIO`\nPositiveControlSAT.lean:6:0: error: no such file or directory (error code: 2)\n  file: /tmp/m14-positive.cnf\nPositiveControlSAT.lean:7:0: error: no such file or directory (error code: 2)\n  file: /tmp/m14-positive.cnf\nPositiveControlSAT.lean:8:0: error: no such file or directory (error code: 2)\n  file: /tmp/m14-positive.cnf\nPositiveControlSAT.lean:9:14: error(lean.unknownIdentifier): Unknown constant `certificate.clause_3`\n",
+        "seconds": 0.87
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk003",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 52408/58112\nLRAT chunk progress: 2000 additions, source step 53879/58112\nLRAT chunk progress: 3000 additions, source step 55352/58112\nLRAT chunk progress: 4000 additions, source step 56851/58112\nLRAT_STREAM_PROGRESS additions=100 step=51075/58112\nLRAT_STREAM_PROGRESS additions=200 step=51225/58112\nLRAT_STREAM_PROGRESS additions=300 step=51369/58112\nLRAT_STREAM_PROGRESS additions=400 step=51522/58112\nLRAT_STREAM_PROGRESS additions=500 step=51668/58112\nLRAT_STREAM_PROGRESS additions=600 step=51820/58112\nLRAT_STREAM_PROGRESS additions=700 step=51970/58112\nLRAT_STREAM_PROGRESS additions=800 step=52115/58112\nLRAT_STREAM_PROGRESS additions=900 step=52264/58112\nLRAT_STREAM_PROGRESS additions=1000 step=52408/58112\nLRAT_STREAM_PROGRESS additions=1100 step=52556/58112\nLRAT_STREAM_PROGRESS additions=1200 step=52704/58112\nLRAT_STREAM_PROGRESS additions=1300 step=52849/58112\nLRAT_STREAM_PROGRESS additions=1400 step=52999/58112\nLRAT_STREAM_PROGRESS additions=1500 step=53144/58112\nLRAT_STREAM_PROGRESS additions=1600 step=53289/58112\nLRAT_STREAM_PROGRESS additions=1700 step=53439/58112\nLRAT_STREAM_PROGRESS additions=1800 step=53585/58112\nLRAT_STREAM_PROGRESS additions=1900 step=53731/58112\nLRAT_STREAM_PROGRESS additions=2000 step=53879/58112\nLRAT_STREAM_PROGRESS additions=2100 step=54032/58112\nLRAT_STREAM_PROGRESS additions=2200 step=54182/58112\nLRAT_STREAM_PROGRESS additions=2300 step=54333/58112\nLRAT_STREAM_PROGRESS additions=2400 step=54476/58112\nLRAT_STREAM_PROGRESS additions=2500 step=54623/58112\nLRAT_STREAM_PROGRESS additions=2600 step=54768/58112\nLRAT_STREAM_PROGRESS additions=2700 step=54910/58112\nLRAT_STREAM_PROGRESS additions=2800 step=55057/58112\nLRAT_STREAM_PROGRESS additions=2900 step=55205/58112\nLRAT_STREAM_PROGRESS additions=3000 step=55352/58112\nLRAT_STREAM_PROGRESS additions=3100 step=55498/58112\nLRAT_STREAM_PROGRESS additions=3200 step=55651/58112\nLRAT_STREAM_PROGRESS additions=3300 step=55804/58112\nLRAT_STREAM_PROGRESS additions=3400 step=55955/58112\nLRAT_STREAM_PROGRESS additions=3500 step=56108/58112\nLRAT_STREAM_PROGRESS additions=3600 step=56256/58112\nLRAT_STREAM_PROGRESS additions=3700 step=56401/58112\nLRAT_STREAM_PROGRESS additions=3800 step=56552/58112\nLRAT_STREAM_PROGRESS additions=3900 step=56697/58112\nLRAT_STREAM_PROGRESS additions=4000 step=56851/58112\nLRAT_STREAM_PROGRESS additions=4100 step=57000/58112\nLRAT_STREAM_PROGRESS additions=4200 step=57153/58112\nLRAT_STREAM_PROGRESS additions=4300 step=57306/58112\nLRAT_STREAM_PROGRESS additions=4400 step=57464/58112\nLRAT_STREAM_PROGRESS additions=4500 step=57615/58112\nLRAT_STREAM_PROGRESS additions=4600 step=57767/58112\nLRAT_STREAM_PROGRESS additions=4700 step=57914/58112\nLRAT_STREAM_PROGRESS additions=4800 step=58062/58112\n",
+        "seconds": 53.268
+      },
+      "modules_finished": 83
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "56be2ea451de6ac05ae9b33d90cabf07f07c8443ce7f79bb09f0381aedc7f373",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "43897dab5b4263b0db984ae131c83404338e619c475fb714e4897b8cd8af9336",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "80844a9e80efcdcbaa0cb4e3b122425ddc28c59807e7e271cab9d30dabdaaabb",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "Geometry/Chunk002.lean": "4c3ea6ce4361abd82eee22313649e99fde78d7de155b050c5cc453fdf0aaa99c",
+      "Geometry/Chunk003.lean": "3887b82fee669166c2bf694186ece29f543e577ccc16a64e5195cc91ba495c86",
+      "Geometry/Chunk004.lean": "ca8f0d34d6058e4d67a6698737e68537c98a4e70fd1b4bda35041e5df2b91c00",
+      "Geometry/Chunk005.lean": "f092ffc7112bae06bcf02af6cd48cf735baed458181e550bea9f35f890c9d93e",
+      "Geometry/Chunk006.lean": "a8f53f4bde187fafed06059b889bbdd7cf563c49da7916334c77d5873296d710",
+      "Geometry/Chunk007.lean": "01a7d9ef9988cfad31d51d5f16d251fd357c5bc666cbe7f1f8958c11e3394c28",
+      "Geometry/Chunk008.lean": "db9065874006f93a0cddb7a3cfe74819bc0b9eb2968f30c99891ddef42df4b4d",
+      "Geometry/Chunk009.lean": "1142451e8c1e4cf9d1abb5509fd14d4e6e7a13bbc0bc4a7c2acbc39c13dfa058",
+      "Geometry/Chunk010.lean": "106c8e8632d254b6e382d38170cf3d29f1af13d203d4ba14a87cfe19ca2738a4",
+      "Geometry/Chunk011.lean": "d59939c7f9e77e62a28a0b150832f2f850e9cfe34c7cfc7fe64a3bd12ae6af4b",
+      "Geometry/Chunk012.lean": "39ca7c7643c93a9f51b2ddda8f9a72fbc00fcb02dc47682bb8f7d63427fabfb1",
+      "Geometry/Chunk013.lean": "b27dec9e108c60d3f9bb7cdf2b04ad51cb54aba22cf427dc5c3b889169f7086e",
+      "Geometry/Chunk014.lean": "c263509ab18bd3c1fb73c1c04da44f18bf27f65503b4ef55762c8ba878b29744",
+      "Geometry/Chunk015.lean": "5326cb7d9d3f856d5c8a225d7a0087c70e2a04022990c61f1c29932404b87f8b",
+      "Geometry/Chunk016.lean": "165f60a260894f5b6735fea14de020a6ff212901027b11a4b0ebf6efa303525b",
+      "Geometry/Chunk017.lean": "b4809f99488511eff01391bf3028ea9bd25450540622b3b8c2cf1543fccf45dd",
+      "Geometry/Chunk018.lean": "18e1f8cfebccd1fa109c8162e4d7322ae2ea5399ae6913b2d0349b099b023d9e",
+      "Geometry/Chunk019.lean": "2665dbee1f3364f6abe59372f28369dd2d092e7aea7c0568924a14f752f5e516",
+      "Geometry/Chunk020.lean": "5d534417359d8863dd0babea0bc35dbef044cb4e3344b7c546e6f754b8fa9076",
+      "Geometry/Chunk021.lean": "43c0a8bcc6804368e0735e752a9e776e4d6648e3bbdff8f24854196ac6a53080",
+      "Geometry/Chunk022.lean": "f49b458f6ae7b676b989f9397afc0e79dc059bd4eab5e44d435626eb271314d0",
+      "Geometry/Chunk023.lean": "37b9bd3dd0d70a198947398e25b5f3cc76bfea531501e3edaba67fa100f860d4",
+      "Geometry/Chunk024.lean": "a1e8f6b49d8bb36bc2f383b08f4d36ed660495551ac63f2df9f3ff7467b992a2",
+      "Geometry/Chunk025.lean": "d5b7f6c759a618d12e5509fef12362a654cac4d325595230f484ca27e83cae74",
+      "Geometry/Chunk026.lean": "db7a78e9d4dd8c0bf3f13972b4def7174997dfdddcc4c4c00400c9796712ecae",
+      "Geometry/Chunk027.lean": "3e1e1766b1a23ea255d4c71fbdb8a627e9a1fbc49d3962d0049f4ac6f6d9ca01",
+      "Geometry/Chunk028.lean": "ba28ef90d7aaa67eea8103a11de0080b39f6b8e158aabbbe49c21870c9658f9b"
+    }
+  },
+  {
+    "seq": "0be5f57a5f534b40a94366be9a5ad159",
+    "status": "PASS",
+    "records": [
+      {
+        "module": "FoundationAudit",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 0.75
+      },
+      {
+        "module": "PositiveControlSAT",
+        "exit_code": 0,
+        "log": "'PositiveControl.certificate.clause_3' depends on axioms: [propext]\n",
+        "seconds": 0.885
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk005",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 65714/71090\nLRAT chunk progress: 2000 additions, source step 67220/71090\nLRAT chunk progress: 3000 additions, source step 68677/71090\nLRAT chunk progress: 4000 additions, source step 70154/71090\nLRAT_STREAM_PROGRESS additions=100 step=64334/71090\nLRAT_STREAM_PROGRESS additions=200 step=64493/71090\nLRAT_STREAM_PROGRESS additions=300 step=64656/71090\nLRAT_STREAM_PROGRESS additions=400 step=64811/71090\nLRAT_STREAM_PROGRESS additions=500 step=64964/71090\nLRAT_STREAM_PROGRESS additions=600 step=65109/71090\nLRAT_STREAM_PROGRESS additions=700 step=65262/71090\nLRAT_STREAM_PROGRESS additions=800 step=65412/71090\nLRAT_STREAM_PROGRESS additions=900 step=65560/71090\nLRAT_STREAM_PROGRESS additions=1000 step=65714/71090\nLRAT_STREAM_PROGRESS additions=1100 step=65863/71090\nLRAT_STREAM_PROGRESS additions=1200 step=66021/71090\nLRAT_STREAM_PROGRESS additions=1300 step=66168/71090\nLRAT_STREAM_PROGRESS additions=1400 step=66320/71090\nLRAT_STREAM_PROGRESS additions=1500 step=66477/71090\nLRAT_STREAM_PROGRESS additions=1600 step=66632/71090\nLRAT_STREAM_PROGRESS additions=1700 step=66778/71090\nLRAT_STREAM_PROGRESS additions=1800 step=66923/71090\nLRAT_STREAM_PROGRESS additions=1900 step=67070/71090\nLRAT_STREAM_PROGRESS additions=2000 step=67220/71090\nLRAT_STREAM_PROGRESS additions=2100 step=67365/71090\nLRAT_STREAM_PROGRESS additions=2200 step=67507/71090\nLRAT_STREAM_PROGRESS additions=2300 step=67652/71090\nLRAT_STREAM_PROGRESS additions=2400 step=67800/71090\nLRAT_STREAM_PROGRESS additions=2500 step=67943/71090\nLRAT_STREAM_PROGRESS additions=2600 step=68093/71090\nLRAT_STREAM_PROGRESS additions=2700 step=68237/71090\nLRAT_STREAM_PROGRESS additions=2800 step=68386/71090\nLRAT_STREAM_PROGRESS additions=2900 step=68532/71090\nLRAT_STREAM_PROGRESS additions=3000 step=68677/71090\nLRAT_STREAM_PROGRESS additions=3100 step=68828/71090\nLRAT_STREAM_PROGRESS additions=3200 step=68976/71090\nLRAT_STREAM_PROGRESS additions=3300 step=69121/71090\nLRAT_STREAM_PROGRESS additions=3400 step=69263/71090\nLRAT_STREAM_PROGRESS additions=3500 step=69413/71090\nLRAT_STREAM_PROGRESS additions=3600 step=69565/71090\nLRAT_STREAM_PROGRESS additions=3700 step=69711/71090\nLRAT_STREAM_PROGRESS additions=3800 step=69858/71090\nLRAT_STREAM_PROGRESS additions=3900 step=70005/71090\nLRAT_STREAM_PROGRESS additions=4000 step=70154/71090\nLRAT_STREAM_PROGRESS additions=4100 step=70300/71090\nLRAT_STREAM_PROGRESS additions=4200 step=70453/71090\nLRAT_STREAM_PROGRESS additions=4300 step=70604/71090\nLRAT_STREAM_PROGRESS additions=4400 step=70755/71090\nLRAT_STREAM_PROGRESS additions=4500 step=70906/71090\nLRAT_STREAM_PROGRESS additions=4600 step=71050/71090\n",
+        "seconds": 51.02
+      },
+      "modules_finished": 85
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "ddbdf9999412e960c188586461897b586cd8bc4c3419c8153602a83776d9356b",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "683ee5f7c6c8f134b2bb99b4becca5a9bc11cf57dda8bbaf775b8cbce8ff0b5f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "d39fcf753e8b46509e3e4d90b46d590c",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "NegativeControl",
+        "exit_code": 1,
+        "log": "NegativeControl.lean:6:2: error: Tactic `decide` proved that the proposition\n  { a0 := 1, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }.sub\n      { a0 := 0, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 } =\n    { a0 := 2, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }\nis false\n",
+        "seconds": 1.907
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk006",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 72614/78107\nLRAT chunk progress: 2000 additions, source step 74102/78107\nLRAT chunk progress: 3000 additions, source step 75547/78107\nLRAT chunk progress: 4000 additions, source step 77072/78107\nLRAT_STREAM_PROGRESS additions=100 step=71241/78107\nLRAT_STREAM_PROGRESS additions=200 step=71387/78107\nLRAT_STREAM_PROGRESS additions=300 step=71532/78107\nLRAT_STREAM_PROGRESS additions=400 step=71677/78107\nLRAT_STREAM_PROGRESS additions=500 step=71832/78107\nLRAT_STREAM_PROGRESS additions=600 step=72011/78107\nLRAT_STREAM_PROGRESS additions=700 step=72161/78107\nLRAT_STREAM_PROGRESS additions=800 step=72303/78107\nLRAT_STREAM_PROGRESS additions=900 step=72461/78107\nLRAT_STREAM_PROGRESS additions=1000 step=72614/78107\nLRAT_STREAM_PROGRESS additions=1100 step=72764/78107\nLRAT_STREAM_PROGRESS additions=1200 step=72915/78107\nLRAT_STREAM_PROGRESS additions=1300 step=73066/78107\nLRAT_STREAM_PROGRESS additions=1400 step=73211/78107\nLRAT_STREAM_PROGRESS additions=1500 step=73360/78107\nLRAT_STREAM_PROGRESS additions=1600 step=73510/78107\nLRAT_STREAM_PROGRESS additions=1700 step=73663/78107\nLRAT_STREAM_PROGRESS additions=1800 step=73806/78107\nLRAT_STREAM_PROGRESS additions=1900 step=73954/78107\nLRAT_STREAM_PROGRESS additions=2000 step=74102/78107\nLRAT_STREAM_PROGRESS additions=2100 step=74245/78107\nLRAT_STREAM_PROGRESS additions=2200 step=74390/78107\nLRAT_STREAM_PROGRESS additions=2300 step=74529/78107\nLRAT_STREAM_PROGRESS additions=2400 step=74674/78107\nLRAT_STREAM_PROGRESS additions=2500 step=74818/78107\nLRAT_STREAM_PROGRESS additions=2600 step=74962/78107\nLRAT_STREAM_PROGRESS additions=2700 step=75110/78107\nLRAT_STREAM_PROGRESS additions=2800 step=75248/78107\nLRAT_STREAM_PROGRESS additions=2900 step=75400/78107\nLRAT_STREAM_PROGRESS additions=3000 step=75547/78107\nLRAT_STREAM_PROGRESS additions=3100 step=75700/78107\nLRAT_STREAM_PROGRESS additions=3200 step=75855/78107\nLRAT_STREAM_PROGRESS additions=3300 step=76005/78107\nLRAT_STREAM_PROGRESS additions=3400 step=76153/78107\nLRAT_STREAM_PROGRESS additions=3500 step=76300/78107\nLRAT_STREAM_PROGRESS additions=3600 step=76449/78107\nLRAT_STREAM_PROGRESS additions=3700 step=76607/78107\nLRAT_STREAM_PROGRESS additions=3800 step=76761/78107\nLRAT_STREAM_PROGRESS additions=3900 step=76915/78107\nLRAT_STREAM_PROGRESS additions=4000 step=77072/78107\nLRAT_STREAM_PROGRESS additions=4100 step=77230/78107\nLRAT_STREAM_PROGRESS additions=4200 step=77379/78107\nLRAT_STREAM_PROGRESS additions=4300 step=77525/78107\nLRAT_STREAM_PROGRESS additions=4400 step=77677/78107\nLRAT_STREAM_PROGRESS additions=4500 step=77839/78107\nLRAT_STREAM_PROGRESS additions=4600 step=77996/78107\n",
+        "seconds": 52.482
+      },
+      "modules_finished": 86
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "ddbdf9999412e960c188586461897b586cd8bc4c3419c8153602a83776d9356b",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "683ee5f7c6c8f134b2bb99b4becca5a9bc11cf57dda8bbaf775b8cbce8ff0b5f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "36255ea4eac14b2a9f32c36f8ee2f580",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "NegativeControlSAT",
+        "exit_code": 1,
+        "log": "NegativeControlSAT.lean:12:0: error: LRAT step 0, clause 2: no refutation: #[], #[1], [(-1, 1)]\n",
+        "seconds": 0.865
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk006",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 72614/78107\nLRAT chunk progress: 2000 additions, source step 74102/78107\nLRAT chunk progress: 3000 additions, source step 75547/78107\nLRAT chunk progress: 4000 additions, source step 77072/78107\nLRAT_STREAM_PROGRESS additions=100 step=71241/78107\nLRAT_STREAM_PROGRESS additions=200 step=71387/78107\nLRAT_STREAM_PROGRESS additions=300 step=71532/78107\nLRAT_STREAM_PROGRESS additions=400 step=71677/78107\nLRAT_STREAM_PROGRESS additions=500 step=71832/78107\nLRAT_STREAM_PROGRESS additions=600 step=72011/78107\nLRAT_STREAM_PROGRESS additions=700 step=72161/78107\nLRAT_STREAM_PROGRESS additions=800 step=72303/78107\nLRAT_STREAM_PROGRESS additions=900 step=72461/78107\nLRAT_STREAM_PROGRESS additions=1000 step=72614/78107\nLRAT_STREAM_PROGRESS additions=1100 step=72764/78107\nLRAT_STREAM_PROGRESS additions=1200 step=72915/78107\nLRAT_STREAM_PROGRESS additions=1300 step=73066/78107\nLRAT_STREAM_PROGRESS additions=1400 step=73211/78107\nLRAT_STREAM_PROGRESS additions=1500 step=73360/78107\nLRAT_STREAM_PROGRESS additions=1600 step=73510/78107\nLRAT_STREAM_PROGRESS additions=1700 step=73663/78107\nLRAT_STREAM_PROGRESS additions=1800 step=73806/78107\nLRAT_STREAM_PROGRESS additions=1900 step=73954/78107\nLRAT_STREAM_PROGRESS additions=2000 step=74102/78107\nLRAT_STREAM_PROGRESS additions=2100 step=74245/78107\nLRAT_STREAM_PROGRESS additions=2200 step=74390/78107\nLRAT_STREAM_PROGRESS additions=2300 step=74529/78107\nLRAT_STREAM_PROGRESS additions=2400 step=74674/78107\nLRAT_STREAM_PROGRESS additions=2500 step=74818/78107\nLRAT_STREAM_PROGRESS additions=2600 step=74962/78107\nLRAT_STREAM_PROGRESS additions=2700 step=75110/78107\nLRAT_STREAM_PROGRESS additions=2800 step=75248/78107\nLRAT_STREAM_PROGRESS additions=2900 step=75400/78107\nLRAT_STREAM_PROGRESS additions=3000 step=75547/78107\nLRAT_STREAM_PROGRESS additions=3100 step=75700/78107\nLRAT_STREAM_PROGRESS additions=3200 step=75855/78107\nLRAT_STREAM_PROGRESS additions=3300 step=76005/78107\nLRAT_STREAM_PROGRESS additions=3400 step=76153/78107\nLRAT_STREAM_PROGRESS additions=3500 step=76300/78107\nLRAT_STREAM_PROGRESS additions=3600 step=76449/78107\nLRAT_STREAM_PROGRESS additions=3700 step=76607/78107\nLRAT_STREAM_PROGRESS additions=3800 step=76761/78107\nLRAT_STREAM_PROGRESS additions=3900 step=76915/78107\nLRAT_STREAM_PROGRESS additions=4000 step=77072/78107\nLRAT_STREAM_PROGRESS additions=4100 step=77230/78107\nLRAT_STREAM_PROGRESS additions=4200 step=77379/78107\nLRAT_STREAM_PROGRESS additions=4300 step=77525/78107\nLRAT_STREAM_PROGRESS additions=4400 step=77677/78107\nLRAT_STREAM_PROGRESS additions=4500 step=77839/78107\nLRAT_STREAM_PROGRESS additions=4600 step=77996/78107\n",
+        "seconds": 52.482
+      },
+      "modules_finished": 86
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "ddbdf9999412e960c188586461897b586cd8bc4c3419c8153602a83776d9356b",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "683ee5f7c6c8f134b2bb99b4becca5a9bc11cf57dda8bbaf775b8cbce8ff0b5f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "dc468158e99b4438a9661953c88126f6",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "NegativeKernel",
+        "exit_code": 1,
+        "log": "NegativeKernel.lean:6:0: error: (kernel) declaration type mismatch, 'Minkowski14RejectedKernelControl' has type\n  True\nbut it is expected to have type\n  False\n",
+        "seconds": 1.18
+      }
+    ],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk006",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 72614/78107\nLRAT chunk progress: 2000 additions, source step 74102/78107\nLRAT chunk progress: 3000 additions, source step 75547/78107\nLRAT chunk progress: 4000 additions, source step 77072/78107\nLRAT_STREAM_PROGRESS additions=100 step=71241/78107\nLRAT_STREAM_PROGRESS additions=200 step=71387/78107\nLRAT_STREAM_PROGRESS additions=300 step=71532/78107\nLRAT_STREAM_PROGRESS additions=400 step=71677/78107\nLRAT_STREAM_PROGRESS additions=500 step=71832/78107\nLRAT_STREAM_PROGRESS additions=600 step=72011/78107\nLRAT_STREAM_PROGRESS additions=700 step=72161/78107\nLRAT_STREAM_PROGRESS additions=800 step=72303/78107\nLRAT_STREAM_PROGRESS additions=900 step=72461/78107\nLRAT_STREAM_PROGRESS additions=1000 step=72614/78107\nLRAT_STREAM_PROGRESS additions=1100 step=72764/78107\nLRAT_STREAM_PROGRESS additions=1200 step=72915/78107\nLRAT_STREAM_PROGRESS additions=1300 step=73066/78107\nLRAT_STREAM_PROGRESS additions=1400 step=73211/78107\nLRAT_STREAM_PROGRESS additions=1500 step=73360/78107\nLRAT_STREAM_PROGRESS additions=1600 step=73510/78107\nLRAT_STREAM_PROGRESS additions=1700 step=73663/78107\nLRAT_STREAM_PROGRESS additions=1800 step=73806/78107\nLRAT_STREAM_PROGRESS additions=1900 step=73954/78107\nLRAT_STREAM_PROGRESS additions=2000 step=74102/78107\nLRAT_STREAM_PROGRESS additions=2100 step=74245/78107\nLRAT_STREAM_PROGRESS additions=2200 step=74390/78107\nLRAT_STREAM_PROGRESS additions=2300 step=74529/78107\nLRAT_STREAM_PROGRESS additions=2400 step=74674/78107\nLRAT_STREAM_PROGRESS additions=2500 step=74818/78107\nLRAT_STREAM_PROGRESS additions=2600 step=74962/78107\nLRAT_STREAM_PROGRESS additions=2700 step=75110/78107\nLRAT_STREAM_PROGRESS additions=2800 step=75248/78107\nLRAT_STREAM_PROGRESS additions=2900 step=75400/78107\nLRAT_STREAM_PROGRESS additions=3000 step=75547/78107\nLRAT_STREAM_PROGRESS additions=3100 step=75700/78107\nLRAT_STREAM_PROGRESS additions=3200 step=75855/78107\nLRAT_STREAM_PROGRESS additions=3300 step=76005/78107\nLRAT_STREAM_PROGRESS additions=3400 step=76153/78107\nLRAT_STREAM_PROGRESS additions=3500 step=76300/78107\nLRAT_STREAM_PROGRESS additions=3600 step=76449/78107\nLRAT_STREAM_PROGRESS additions=3700 step=76607/78107\nLRAT_STREAM_PROGRESS additions=3800 step=76761/78107\nLRAT_STREAM_PROGRESS additions=3900 step=76915/78107\nLRAT_STREAM_PROGRESS additions=4000 step=77072/78107\nLRAT_STREAM_PROGRESS additions=4100 step=77230/78107\nLRAT_STREAM_PROGRESS additions=4200 step=77379/78107\nLRAT_STREAM_PROGRESS additions=4300 step=77525/78107\nLRAT_STREAM_PROGRESS additions=4400 step=77677/78107\nLRAT_STREAM_PROGRESS additions=4500 step=77839/78107\nLRAT_STREAM_PROGRESS additions=4600 step=77996/78107\n",
+        "seconds": 52.482
+      },
+      "modules_finished": 86
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "ddbdf9999412e960c188586461897b586cd8bc4c3419c8153602a83776d9356b",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "683ee5f7c6c8f134b2bb99b4becca5a9bc11cf57dda8bbaf775b8cbce8ff0b5f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "2c03c26848d14124a3801a105fc4381b",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk012",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 110226/115139\nLRAT chunk progress: 2000 additions, source step 111719/115139\nLRAT chunk progress: 3000 additions, source step 113256/115139\nLRAT chunk progress: 4000 additions, source step 114777/115139\nLRAT_STREAM_PROGRESS additions=100 step=108879/115139\nLRAT_STREAM_PROGRESS additions=200 step=109034/115139\nLRAT_STREAM_PROGRESS additions=300 step=109190/115139\nLRAT_STREAM_PROGRESS additions=400 step=109338/115139\nLRAT_STREAM_PROGRESS additions=500 step=109486/115139\nLRAT_STREAM_PROGRESS additions=600 step=109633/115139\nLRAT_STREAM_PROGRESS additions=700 step=109777/115139\nLRAT_STREAM_PROGRESS additions=800 step=109924/115139\nLRAT_STREAM_PROGRESS additions=900 step=110078/115139\nLRAT_STREAM_PROGRESS additions=1000 step=110226/115139\nLRAT_STREAM_PROGRESS additions=1100 step=110373/115139\nLRAT_STREAM_PROGRESS additions=1200 step=110521/115139\nLRAT_STREAM_PROGRESS additions=1300 step=110674/115139\nLRAT_STREAM_PROGRESS additions=1400 step=110821/115139\nLRAT_STREAM_PROGRESS additions=1500 step=110978/115139\nLRAT_STREAM_PROGRESS additions=1600 step=111124/115139\nLRAT_STREAM_PROGRESS additions=1700 step=111267/115139\nLRAT_STREAM_PROGRESS additions=1800 step=111416/115139\nLRAT_STREAM_PROGRESS additions=1900 step=111569/115139\nLRAT_STREAM_PROGRESS additions=2000 step=111719/115139\nLRAT_STREAM_PROGRESS additions=2100 step=111874/115139\nLRAT_STREAM_PROGRESS additions=2200 step=112024/115139\nLRAT_STREAM_PROGRESS additions=2300 step=112188/115139\nLRAT_STREAM_PROGRESS additions=2400 step=112347/115139\nLRAT_STREAM_PROGRESS additions=2500 step=112495/115139\nLRAT_STREAM_PROGRESS additions=2600 step=112648/115139\nLRAT_STREAM_PROGRESS additions=2700 step=112801/115139\nLRAT_STREAM_PROGRESS additions=2800 step=112963/115139\nLRAT_STREAM_PROGRESS additions=2900 step=113111/115139\nLRAT_STREAM_PROGRESS additions=3000 step=113256/115139\nLRAT_STREAM_PROGRESS additions=3100 step=113414/115139\nLRAT_STREAM_PROGRESS additions=3200 step=113565/115139\nLRAT_STREAM_PROGRESS additions=3300 step=113715/115139\nLRAT_STREAM_PROGRESS additions=3400 step=113867/115139\nLRAT_STREAM_PROGRESS additions=3500 step=114020/115139\nLRAT_STREAM_PROGRESS additions=3600 step=114172/115139\nLRAT_STREAM_PROGRESS additions=3700 step=114319/115139\nLRAT_STREAM_PROGRESS additions=3800 step=114471/115139\nLRAT_STREAM_PROGRESS additions=3900 step=114621/115139\nLRAT_STREAM_PROGRESS additions=4000 step=114777/115139\nLRAT_STREAM_PROGRESS additions=4100 step=114937/115139\nLRAT_STREAM_PROGRESS additions=4200 step=115088/115139\n",
+        "seconds": 52.444
+      },
+      "modules_finished": 92
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "0fb63974ca2549bd913e1ba122f39778",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk014",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 123115/128604\nLRAT chunk progress: 2000 additions, source step 124617/128604\nLRAT chunk progress: 3000 additions, source step 126131/128604\nLRAT chunk progress: 4000 additions, source step 127626/128604\nLRAT_STREAM_PROGRESS additions=100 step=121755/128604\nLRAT_STREAM_PROGRESS additions=200 step=121909/128604\nLRAT_STREAM_PROGRESS additions=300 step=122064/128604\nLRAT_STREAM_PROGRESS additions=400 step=122217/128604\nLRAT_STREAM_PROGRESS additions=500 step=122376/128604\nLRAT_STREAM_PROGRESS additions=600 step=122520/128604\nLRAT_STREAM_PROGRESS additions=700 step=122672/128604\nLRAT_STREAM_PROGRESS additions=800 step=122828/128604\nLRAT_STREAM_PROGRESS additions=900 step=122971/128604\nLRAT_STREAM_PROGRESS additions=1000 step=123115/128604\nLRAT_STREAM_PROGRESS additions=1100 step=123265/128604\nLRAT_STREAM_PROGRESS additions=1200 step=123420/128604\nLRAT_STREAM_PROGRESS additions=1300 step=123566/128604\nLRAT_STREAM_PROGRESS additions=1400 step=123711/128604\nLRAT_STREAM_PROGRESS additions=1500 step=123862/128604\nLRAT_STREAM_PROGRESS additions=1600 step=124009/128604\nLRAT_STREAM_PROGRESS additions=1700 step=124162/128604\nLRAT_STREAM_PROGRESS additions=1800 step=124311/128604\nLRAT_STREAM_PROGRESS additions=1900 step=124470/128604\nLRAT_STREAM_PROGRESS additions=2000 step=124617/128604\nLRAT_STREAM_PROGRESS additions=2100 step=124765/128604\nLRAT_STREAM_PROGRESS additions=2200 step=124917/128604\nLRAT_STREAM_PROGRESS additions=2300 step=125070/128604\nLRAT_STREAM_PROGRESS additions=2400 step=125222/128604\nLRAT_STREAM_PROGRESS additions=2500 step=125370/128604\nLRAT_STREAM_PROGRESS additions=2600 step=125516/128604\nLRAT_STREAM_PROGRESS additions=2700 step=125675/128604\nLRAT_STREAM_PROGRESS additions=2800 step=125831/128604\nLRAT_STREAM_PROGRESS additions=2900 step=125980/128604\nLRAT_STREAM_PROGRESS additions=3000 step=126131/128604\nLRAT_STREAM_PROGRESS additions=3100 step=126287/128604\nLRAT_STREAM_PROGRESS additions=3200 step=126433/128604\nLRAT_STREAM_PROGRESS additions=3300 step=126582/128604\nLRAT_STREAM_PROGRESS additions=3400 step=126732/128604\nLRAT_STREAM_PROGRESS additions=3500 step=126883/128604\nLRAT_STREAM_PROGRESS additions=3600 step=127029/128604\nLRAT_STREAM_PROGRESS additions=3700 step=127174/128604\nLRAT_STREAM_PROGRESS additions=3800 step=127320/128604\nLRAT_STREAM_PROGRESS additions=3900 step=127472/128604\nLRAT_STREAM_PROGRESS additions=4000 step=127626/128604\nLRAT_STREAM_PROGRESS additions=4100 step=127774/128604\nLRAT_STREAM_PROGRESS additions=4200 step=127923/128604\nLRAT_STREAM_PROGRESS additions=4300 step=128072/128604\nLRAT_STREAM_PROGRESS additions=4400 step=128220/128604\nLRAT_STREAM_PROGRESS additions=4500 step=128372/128604\nLRAT_STREAM_PROGRESS additions=4600 step=128519/128604\n",
+        "seconds": 51.816
+      },
+      "modules_finished": 94
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "810fa2ad5f34479c941e5149a5c5032a",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk015",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 130093/135262\nLRAT chunk progress: 2000 additions, source step 131574/135262\nLRAT chunk progress: 3000 additions, source step 133052/135262\nLRAT chunk progress: 4000 additions, source step 134535/135262\nLRAT_STREAM_PROGRESS additions=100 step=128752/135262\nLRAT_STREAM_PROGRESS additions=200 step=128894/135262\nLRAT_STREAM_PROGRESS additions=300 step=129047/135262\nLRAT_STREAM_PROGRESS additions=400 step=129191/135262\nLRAT_STREAM_PROGRESS additions=500 step=129336/135262\nLRAT_STREAM_PROGRESS additions=600 step=129485/135262\nLRAT_STREAM_PROGRESS additions=700 step=129645/135262\nLRAT_STREAM_PROGRESS additions=800 step=129797/135262\nLRAT_STREAM_PROGRESS additions=900 step=129947/135262\nLRAT_STREAM_PROGRESS additions=1000 step=130093/135262\nLRAT_STREAM_PROGRESS additions=1100 step=130248/135262\nLRAT_STREAM_PROGRESS additions=1200 step=130399/135262\nLRAT_STREAM_PROGRESS additions=1300 step=130539/135262\nLRAT_STREAM_PROGRESS additions=1400 step=130684/135262\nLRAT_STREAM_PROGRESS additions=1500 step=130826/135262\nLRAT_STREAM_PROGRESS additions=1600 step=130981/135262\nLRAT_STREAM_PROGRESS additions=1700 step=131134/135262\nLRAT_STREAM_PROGRESS additions=1800 step=131285/135262\nLRAT_STREAM_PROGRESS additions=1900 step=131427/135262\nLRAT_STREAM_PROGRESS additions=2000 step=131574/135262\nLRAT_STREAM_PROGRESS additions=2100 step=131725/135262\nLRAT_STREAM_PROGRESS additions=2200 step=131876/135262\nLRAT_STREAM_PROGRESS additions=2300 step=132024/135262\nLRAT_STREAM_PROGRESS additions=2400 step=132175/135262\nLRAT_STREAM_PROGRESS additions=2500 step=132318/135262\nLRAT_STREAM_PROGRESS additions=2600 step=132461/135262\nLRAT_STREAM_PROGRESS additions=2700 step=132607/135262\nLRAT_STREAM_PROGRESS additions=2800 step=132756/135262\nLRAT_STREAM_PROGRESS additions=2900 step=132903/135262\nLRAT_STREAM_PROGRESS additions=3000 step=133052/135262\nLRAT_STREAM_PROGRESS additions=3100 step=133195/135262\nLRAT_STREAM_PROGRESS additions=3200 step=133338/135262\nLRAT_STREAM_PROGRESS additions=3300 step=133480/135262\nLRAT_STREAM_PROGRESS additions=3400 step=133631/135262\nLRAT_STREAM_PROGRESS additions=3500 step=133778/135262\nLRAT_STREAM_PROGRESS additions=3600 step=133923/135262\nLRAT_STREAM_PROGRESS additions=3700 step=134073/135262\nLRAT_STREAM_PROGRESS additions=3800 step=134225/135262\nLRAT_STREAM_PROGRESS additions=3900 step=134379/135262\nLRAT_STREAM_PROGRESS additions=4000 step=134535/135262\nLRAT_STREAM_PROGRESS additions=4100 step=134683/135262\nLRAT_STREAM_PROGRESS additions=4200 step=134832/135262\nLRAT_STREAM_PROGRESS additions=4300 step=134977/135262\nLRAT_STREAM_PROGRESS additions=4400 step=135127/135262\n",
+        "seconds": 50.568
+      },
+      "modules_finished": 95
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "f23a96291f8a4cf79b82edfb6f4ce5fd",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk016",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 136788/141663\nLRAT chunk progress: 2000 additions, source step 138294/141663\nLRAT chunk progress: 3000 additions, source step 139867/141663\nLRAT chunk progress: 4000 additions, source step 141352/141663\nLRAT_STREAM_PROGRESS additions=100 step=135415/141663\nLRAT_STREAM_PROGRESS additions=200 step=135561/141663\nLRAT_STREAM_PROGRESS additions=300 step=135711/141663\nLRAT_STREAM_PROGRESS additions=400 step=135859/141663\nLRAT_STREAM_PROGRESS additions=500 step=136011/141663\nLRAT_STREAM_PROGRESS additions=600 step=136170/141663\nLRAT_STREAM_PROGRESS additions=700 step=136318/141663\nLRAT_STREAM_PROGRESS additions=800 step=136474/141663\nLRAT_STREAM_PROGRESS additions=900 step=136629/141663\nLRAT_STREAM_PROGRESS additions=1000 step=136788/141663\nLRAT_STREAM_PROGRESS additions=1100 step=136935/141663\nLRAT_STREAM_PROGRESS additions=1200 step=137093/141663\nLRAT_STREAM_PROGRESS additions=1300 step=137244/141663\nLRAT_STREAM_PROGRESS additions=1400 step=137393/141663\nLRAT_STREAM_PROGRESS additions=1500 step=137540/141663\nLRAT_STREAM_PROGRESS additions=1600 step=137690/141663\nLRAT_STREAM_PROGRESS additions=1700 step=137843/141663\nLRAT_STREAM_PROGRESS additions=1800 step=137991/141663\nLRAT_STREAM_PROGRESS additions=1900 step=138141/141663\nLRAT_STREAM_PROGRESS additions=2000 step=138294/141663\nLRAT_STREAM_PROGRESS additions=2100 step=138454/141663\nLRAT_STREAM_PROGRESS additions=2200 step=138653/141663\nLRAT_STREAM_PROGRESS additions=2300 step=138824/141663\nLRAT_STREAM_PROGRESS additions=2400 step=138967/141663\nLRAT_STREAM_PROGRESS additions=2500 step=139117/141663\nLRAT_STREAM_PROGRESS additions=2600 step=139261/141663\nLRAT_STREAM_PROGRESS additions=2700 step=139410/141663\nLRAT_STREAM_PROGRESS additions=2800 step=139562/141663\nLRAT_STREAM_PROGRESS additions=2900 step=139713/141663\nLRAT_STREAM_PROGRESS additions=3000 step=139867/141663\nLRAT_STREAM_PROGRESS additions=3100 step=140019/141663\nLRAT_STREAM_PROGRESS additions=3200 step=140168/141663\nLRAT_STREAM_PROGRESS additions=3300 step=140318/141663\nLRAT_STREAM_PROGRESS additions=3400 step=140460/141663\nLRAT_STREAM_PROGRESS additions=3500 step=140602/141663\nLRAT_STREAM_PROGRESS additions=3600 step=140756/141663\nLRAT_STREAM_PROGRESS additions=3700 step=140903/141663\nLRAT_STREAM_PROGRESS additions=3800 step=141053/141663\nLRAT_STREAM_PROGRESS additions=3900 step=141200/141663\nLRAT_STREAM_PROGRESS additions=4000 step=141352/141663\nLRAT_STREAM_PROGRESS additions=4100 step=141500/141663\nLRAT_STREAM_PROGRESS additions=4200 step=141647/141663\n",
+        "seconds": 50.221
+      },
+      "modules_finished": 96
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "888f9978b339492fba8dccc0ca92a3a4",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk017",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 143227/148025\nLRAT chunk progress: 2000 additions, source step 144729/148025\nLRAT chunk progress: 3000 additions, source step 146293/148025\nLRAT chunk progress: 4000 additions, source step 147847/148025\nLRAT_STREAM_PROGRESS additions=100 step=141817/148025\nLRAT_STREAM_PROGRESS additions=200 step=142001/148025\nLRAT_STREAM_PROGRESS additions=300 step=142159/148025\nLRAT_STREAM_PROGRESS additions=400 step=142311/148025\nLRAT_STREAM_PROGRESS additions=500 step=142463/148025\nLRAT_STREAM_PROGRESS additions=600 step=142614/148025\nLRAT_STREAM_PROGRESS additions=700 step=142770/148025\nLRAT_STREAM_PROGRESS additions=800 step=142920/148025\nLRAT_STREAM_PROGRESS additions=900 step=143071/148025\nLRAT_STREAM_PROGRESS additions=1000 step=143227/148025\nLRAT_STREAM_PROGRESS additions=1100 step=143371/148025\nLRAT_STREAM_PROGRESS additions=1200 step=143524/148025\nLRAT_STREAM_PROGRESS additions=1300 step=143679/148025\nLRAT_STREAM_PROGRESS additions=1400 step=143831/148025\nLRAT_STREAM_PROGRESS additions=1500 step=143978/148025\nLRAT_STREAM_PROGRESS additions=1600 step=144134/148025\nLRAT_STREAM_PROGRESS additions=1700 step=144282/148025\nLRAT_STREAM_PROGRESS additions=1800 step=144429/148025\nLRAT_STREAM_PROGRESS additions=1900 step=144582/148025\nLRAT_STREAM_PROGRESS additions=2000 step=144729/148025\nLRAT_STREAM_PROGRESS additions=2100 step=144879/148025\nLRAT_STREAM_PROGRESS additions=2200 step=145035/148025\nLRAT_STREAM_PROGRESS additions=2300 step=145199/148025\nLRAT_STREAM_PROGRESS additions=2400 step=145353/148025\nLRAT_STREAM_PROGRESS additions=2500 step=145502/148025\nLRAT_STREAM_PROGRESS additions=2600 step=145666/148025\nLRAT_STREAM_PROGRESS additions=2700 step=145822/148025\nLRAT_STREAM_PROGRESS additions=2800 step=145977/148025\nLRAT_STREAM_PROGRESS additions=2900 step=146130/148025\nLRAT_STREAM_PROGRESS additions=3000 step=146293/148025\nLRAT_STREAM_PROGRESS additions=3100 step=146457/148025\nLRAT_STREAM_PROGRESS additions=3200 step=146614/148025\nLRAT_STREAM_PROGRESS additions=3300 step=146773/148025\nLRAT_STREAM_PROGRESS additions=3400 step=146930/148025\nLRAT_STREAM_PROGRESS additions=3500 step=147096/148025\nLRAT_STREAM_PROGRESS additions=3600 step=147243/148025\nLRAT_STREAM_PROGRESS additions=3700 step=147402/148025\nLRAT_STREAM_PROGRESS additions=3800 step=147552/148025\nLRAT_STREAM_PROGRESS additions=3900 step=147698/148025\nLRAT_STREAM_PROGRESS additions=4000 step=147847/148025\nLRAT_STREAM_PROGRESS additions=4100 step=148002/148025\n",
+        "seconds": 53.563
+      },
+      "modules_finished": 97
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "e6df6c4528db4e3abd6182b2c0787f2b",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk018",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 149559/154603\nLRAT chunk progress: 2000 additions, source step 151069/154603\nLRAT chunk progress: 3000 additions, source step 152579/154603\nLRAT chunk progress: 4000 additions, source step 154098/154603\nLRAT_STREAM_PROGRESS additions=100 step=148185/154603\nLRAT_STREAM_PROGRESS additions=200 step=148340/154603\nLRAT_STREAM_PROGRESS additions=300 step=148492/154603\nLRAT_STREAM_PROGRESS additions=400 step=148635/154603\nLRAT_STREAM_PROGRESS additions=500 step=148795/154603\nLRAT_STREAM_PROGRESS additions=600 step=148949/154603\nLRAT_STREAM_PROGRESS additions=700 step=149108/154603\nLRAT_STREAM_PROGRESS additions=800 step=149257/154603\nLRAT_STREAM_PROGRESS additions=900 step=149407/154603\nLRAT_STREAM_PROGRESS additions=1000 step=149559/154603\nLRAT_STREAM_PROGRESS additions=1100 step=149715/154603\nLRAT_STREAM_PROGRESS additions=1200 step=149872/154603\nLRAT_STREAM_PROGRESS additions=1300 step=150020/154603\nLRAT_STREAM_PROGRESS additions=1400 step=150175/154603\nLRAT_STREAM_PROGRESS additions=1500 step=150321/154603\nLRAT_STREAM_PROGRESS additions=1600 step=150475/154603\nLRAT_STREAM_PROGRESS additions=1700 step=150624/154603\nLRAT_STREAM_PROGRESS additions=1800 step=150765/154603\nLRAT_STREAM_PROGRESS additions=1900 step=150917/154603\nLRAT_STREAM_PROGRESS additions=2000 step=151069/154603\nLRAT_STREAM_PROGRESS additions=2100 step=151217/154603\nLRAT_STREAM_PROGRESS additions=2200 step=151372/154603\nLRAT_STREAM_PROGRESS additions=2300 step=151526/154603\nLRAT_STREAM_PROGRESS additions=2400 step=151677/154603\nLRAT_STREAM_PROGRESS additions=2500 step=151827/154603\nLRAT_STREAM_PROGRESS additions=2600 step=151979/154603\nLRAT_STREAM_PROGRESS additions=2700 step=152132/154603\nLRAT_STREAM_PROGRESS additions=2800 step=152279/154603\nLRAT_STREAM_PROGRESS additions=2900 step=152424/154603\nLRAT_STREAM_PROGRESS additions=3000 step=152579/154603\nLRAT_STREAM_PROGRESS additions=3100 step=152735/154603\nLRAT_STREAM_PROGRESS additions=3200 step=152891/154603\nLRAT_STREAM_PROGRESS additions=3300 step=153052/154603\nLRAT_STREAM_PROGRESS additions=3400 step=153208/154603\nLRAT_STREAM_PROGRESS additions=3500 step=153355/154603\nLRAT_STREAM_PROGRESS additions=3600 step=153511/154603\nLRAT_STREAM_PROGRESS additions=3700 step=153658/154603\nLRAT_STREAM_PROGRESS additions=3800 step=153802/154603\nLRAT_STREAM_PROGRESS additions=3900 step=153947/154603\nLRAT_STREAM_PROGRESS additions=4000 step=154098/154603\nLRAT_STREAM_PROGRESS additions=4100 step=154247/154603\nLRAT_STREAM_PROGRESS additions=4200 step=154404/154603\nLRAT_STREAM_PROGRESS additions=4300 step=154553/154603\n",
+        "seconds": 53.933
+      },
+      "modules_finished": 98
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "0a0b6c6a2c194280a8ad74d9c4964f9e",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk019",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 156099/161660\nLRAT chunk progress: 2000 additions, source step 157570/161660\nLRAT chunk progress: 3000 additions, source step 159065/161660\nLRAT chunk progress: 4000 additions, source step 160563/161660\nLRAT_STREAM_PROGRESS additions=100 step=154750/161660\nLRAT_STREAM_PROGRESS additions=200 step=154904/161660\nLRAT_STREAM_PROGRESS additions=300 step=155050/161660\nLRAT_STREAM_PROGRESS additions=400 step=155202/161660\nLRAT_STREAM_PROGRESS additions=500 step=155351/161660\nLRAT_STREAM_PROGRESS additions=600 step=155511/161660\nLRAT_STREAM_PROGRESS additions=700 step=155662/161660\nLRAT_STREAM_PROGRESS additions=800 step=155807/161660\nLRAT_STREAM_PROGRESS additions=900 step=155955/161660\nLRAT_STREAM_PROGRESS additions=1000 step=156099/161660\nLRAT_STREAM_PROGRESS additions=1100 step=156255/161660\nLRAT_STREAM_PROGRESS additions=1200 step=156406/161660\nLRAT_STREAM_PROGRESS additions=1300 step=156544/161660\nLRAT_STREAM_PROGRESS additions=1400 step=156688/161660\nLRAT_STREAM_PROGRESS additions=1500 step=156836/161660\nLRAT_STREAM_PROGRESS additions=1600 step=156977/161660\nLRAT_STREAM_PROGRESS additions=1700 step=157118/161660\nLRAT_STREAM_PROGRESS additions=1800 step=157269/161660\nLRAT_STREAM_PROGRESS additions=1900 step=157422/161660\nLRAT_STREAM_PROGRESS additions=2000 step=157570/161660\nLRAT_STREAM_PROGRESS additions=2100 step=157727/161660\nLRAT_STREAM_PROGRESS additions=2200 step=157874/161660\nLRAT_STREAM_PROGRESS additions=2300 step=158029/161660\nLRAT_STREAM_PROGRESS additions=2400 step=158181/161660\nLRAT_STREAM_PROGRESS additions=2500 step=158324/161660\nLRAT_STREAM_PROGRESS additions=2600 step=158471/161660\nLRAT_STREAM_PROGRESS additions=2700 step=158623/161660\nLRAT_STREAM_PROGRESS additions=2800 step=158772/161660\nLRAT_STREAM_PROGRESS additions=2900 step=158918/161660\nLRAT_STREAM_PROGRESS additions=3000 step=159065/161660\nLRAT_STREAM_PROGRESS additions=3100 step=159214/161660\nLRAT_STREAM_PROGRESS additions=3200 step=159364/161660\nLRAT_STREAM_PROGRESS additions=3300 step=159515/161660\nLRAT_STREAM_PROGRESS additions=3400 step=159667/161660\nLRAT_STREAM_PROGRESS additions=3500 step=159822/161660\nLRAT_STREAM_PROGRESS additions=3600 step=159970/161660\nLRAT_STREAM_PROGRESS additions=3700 step=160116/161660\nLRAT_STREAM_PROGRESS additions=3800 step=160265/161660\nLRAT_STREAM_PROGRESS additions=3900 step=160410/161660\nLRAT_STREAM_PROGRESS additions=4000 step=160563/161660\nLRAT_STREAM_PROGRESS additions=4100 step=160709/161660\nLRAT_STREAM_PROGRESS additions=4200 step=160859/161660\nLRAT_STREAM_PROGRESS additions=4300 step=161010/161660\nLRAT_STREAM_PROGRESS additions=4400 step=161157/161660\nLRAT_STREAM_PROGRESS additions=4500 step=161306/161660\nLRAT_STREAM_PROGRESS additions=4600 step=161450/161660\nLRAT_STREAM_PROGRESS additions=4700 step=161599/161660\n",
+        "seconds": 53.963
+      },
+      "modules_finished": 99
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "010fd9664fdd4441ad79004dee89153a",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk020",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 163140/169148\nLRAT chunk progress: 2000 additions, source step 164650/169148\nLRAT chunk progress: 3000 additions, source step 166182/169148\nLRAT chunk progress: 4000 additions, source step 167704/169148\nLRAT_STREAM_PROGRESS additions=100 step=161810/169148\nLRAT_STREAM_PROGRESS additions=200 step=161962/169148\nLRAT_STREAM_PROGRESS additions=300 step=162106/169148\nLRAT_STREAM_PROGRESS additions=400 step=162258/169148\nLRAT_STREAM_PROGRESS additions=500 step=162402/169148\nLRAT_STREAM_PROGRESS additions=600 step=162549/169148\nLRAT_STREAM_PROGRESS additions=700 step=162700/169148\nLRAT_STREAM_PROGRESS additions=800 step=162844/169148\nLRAT_STREAM_PROGRESS additions=900 step=162993/169148\nLRAT_STREAM_PROGRESS additions=1000 step=163140/169148\nLRAT_STREAM_PROGRESS additions=1100 step=163295/169148\nLRAT_STREAM_PROGRESS additions=1200 step=163443/169148\nLRAT_STREAM_PROGRESS additions=1300 step=163595/169148\nLRAT_STREAM_PROGRESS additions=1400 step=163744/169148\nLRAT_STREAM_PROGRESS additions=1500 step=163900/169148\nLRAT_STREAM_PROGRESS additions=1600 step=164046/169148\nLRAT_STREAM_PROGRESS additions=1700 step=164196/169148\nLRAT_STREAM_PROGRESS additions=1800 step=164353/169148\nLRAT_STREAM_PROGRESS additions=1900 step=164504/169148\nLRAT_STREAM_PROGRESS additions=2000 step=164650/169148\nLRAT_STREAM_PROGRESS additions=2100 step=164799/169148\nLRAT_STREAM_PROGRESS additions=2200 step=164953/169148\nLRAT_STREAM_PROGRESS additions=2300 step=165096/169148\nLRAT_STREAM_PROGRESS additions=2400 step=165249/169148\nLRAT_STREAM_PROGRESS additions=2500 step=165397/169148\nLRAT_STREAM_PROGRESS additions=2600 step=165554/169148\nLRAT_STREAM_PROGRESS additions=2700 step=165707/169148\nLRAT_STREAM_PROGRESS additions=2800 step=165862/169148\nLRAT_STREAM_PROGRESS additions=2900 step=166020/169148\nLRAT_STREAM_PROGRESS additions=3000 step=166182/169148\nLRAT_STREAM_PROGRESS additions=3100 step=166333/169148\nLRAT_STREAM_PROGRESS additions=3200 step=166492/169148\nLRAT_STREAM_PROGRESS additions=3300 step=166650/169148\nLRAT_STREAM_PROGRESS additions=3400 step=166798/169148\nLRAT_STREAM_PROGRESS additions=3500 step=166947/169148\nLRAT_STREAM_PROGRESS additions=3600 step=167099/169148\nLRAT_STREAM_PROGRESS additions=3700 step=167250/169148\nLRAT_STREAM_PROGRESS additions=3800 step=167403/169148\nLRAT_STREAM_PROGRESS additions=3900 step=167558/169148\nLRAT_STREAM_PROGRESS additions=4000 step=167704/169148\nLRAT_STREAM_PROGRESS additions=4100 step=167855/169148\nLRAT_STREAM_PROGRESS additions=4200 step=168001/169148\nLRAT_STREAM_PROGRESS additions=4300 step=168146/169148\nLRAT_STREAM_PROGRESS additions=4400 step=168296/169148\nLRAT_STREAM_PROGRESS additions=4500 step=168444/169148\nLRAT_STREAM_PROGRESS additions=4600 step=168594/169148\nLRAT_STREAM_PROGRESS additions=4700 step=168735/169148\nLRAT_STREAM_PROGRESS additions=4800 step=168877/169148\nLRAT_STREAM_PROGRESS additions=4900 step=169019/169148\n",
+        "seconds": 55.528
+      },
+      "modules_finished": 100
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "d4b451bf12a948d98bb120bd33a4b1f2",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk021",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 170641/175872\nLRAT chunk progress: 2000 additions, source step 172139/175872\nLRAT chunk progress: 3000 additions, source step 173638/175872\nLRAT chunk progress: 4000 additions, source step 175136/175872\nLRAT_STREAM_PROGRESS additions=100 step=169294/175872\nLRAT_STREAM_PROGRESS additions=200 step=169450/175872\nLRAT_STREAM_PROGRESS additions=300 step=169595/175872\nLRAT_STREAM_PROGRESS additions=400 step=169745/175872\nLRAT_STREAM_PROGRESS additions=500 step=169893/175872\nLRAT_STREAM_PROGRESS additions=600 step=170043/175872\nLRAT_STREAM_PROGRESS additions=700 step=170196/175872\nLRAT_STREAM_PROGRESS additions=800 step=170344/175872\nLRAT_STREAM_PROGRESS additions=900 step=170495/175872\nLRAT_STREAM_PROGRESS additions=1000 step=170641/175872\nLRAT_STREAM_PROGRESS additions=1100 step=170794/175872\nLRAT_STREAM_PROGRESS additions=1200 step=170948/175872\nLRAT_STREAM_PROGRESS additions=1300 step=171097/175872\nLRAT_STREAM_PROGRESS additions=1400 step=171246/175872\nLRAT_STREAM_PROGRESS additions=1500 step=171396/175872\nLRAT_STREAM_PROGRESS additions=1600 step=171539/175872\nLRAT_STREAM_PROGRESS additions=1700 step=171688/175872\nLRAT_STREAM_PROGRESS additions=1800 step=171834/175872\nLRAT_STREAM_PROGRESS additions=1900 step=171986/175872\nLRAT_STREAM_PROGRESS additions=2000 step=172139/175872\nLRAT_STREAM_PROGRESS additions=2100 step=172288/175872\nLRAT_STREAM_PROGRESS additions=2200 step=172437/175872\nLRAT_STREAM_PROGRESS additions=2300 step=172591/175872\nLRAT_STREAM_PROGRESS additions=2400 step=172742/175872\nLRAT_STREAM_PROGRESS additions=2500 step=172889/175872\nLRAT_STREAM_PROGRESS additions=2600 step=173037/175872\nLRAT_STREAM_PROGRESS additions=2700 step=173194/175872\nLRAT_STREAM_PROGRESS additions=2800 step=173340/175872\nLRAT_STREAM_PROGRESS additions=2900 step=173487/175872\nLRAT_STREAM_PROGRESS additions=3000 step=173638/175872\nLRAT_STREAM_PROGRESS additions=3100 step=173790/175872\nLRAT_STREAM_PROGRESS additions=3200 step=173938/175872\nLRAT_STREAM_PROGRESS additions=3300 step=174088/175872\nLRAT_STREAM_PROGRESS additions=3400 step=174236/175872\nLRAT_STREAM_PROGRESS additions=3500 step=174391/175872\nLRAT_STREAM_PROGRESS additions=3600 step=174544/175872\nLRAT_STREAM_PROGRESS additions=3700 step=174691/175872\nLRAT_STREAM_PROGRESS additions=3800 step=174842/175872\nLRAT_STREAM_PROGRESS additions=3900 step=174992/175872\nLRAT_STREAM_PROGRESS additions=4000 step=175136/175872\nLRAT_STREAM_PROGRESS additions=4100 step=175282/175872\nLRAT_STREAM_PROGRESS additions=4200 step=175428/175872\nLRAT_STREAM_PROGRESS additions=4300 step=175578/175872\nLRAT_STREAM_PROGRESS additions=4400 step=175729/175872\n",
+        "seconds": 51.81
+      },
+      "modules_finished": 101
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "e038c1c8644e4d4d8c4126b3c4ed5cb4",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk022",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 177369/183176\nLRAT chunk progress: 2000 additions, source step 178931/183176\nLRAT chunk progress: 3000 additions, source step 180436/183176\nLRAT chunk progress: 4000 additions, source step 181939/183176\nLRAT_STREAM_PROGRESS additions=100 step=176026/183176\nLRAT_STREAM_PROGRESS additions=200 step=176179/183176\nLRAT_STREAM_PROGRESS additions=300 step=176330/183176\nLRAT_STREAM_PROGRESS additions=400 step=176473/183176\nLRAT_STREAM_PROGRESS additions=500 step=176626/183176\nLRAT_STREAM_PROGRESS additions=600 step=176772/183176\nLRAT_STREAM_PROGRESS additions=700 step=176925/183176\nLRAT_STREAM_PROGRESS additions=800 step=177075/183176\nLRAT_STREAM_PROGRESS additions=900 step=177224/183176\nLRAT_STREAM_PROGRESS additions=1000 step=177369/183176\nLRAT_STREAM_PROGRESS additions=1100 step=177512/183176\nLRAT_STREAM_PROGRESS additions=1200 step=177662/183176\nLRAT_STREAM_PROGRESS additions=1300 step=177815/183176\nLRAT_STREAM_PROGRESS additions=1400 step=177966/183176\nLRAT_STREAM_PROGRESS additions=1500 step=178119/183176\nLRAT_STREAM_PROGRESS additions=1600 step=178263/183176\nLRAT_STREAM_PROGRESS additions=1700 step=178413/183176\nLRAT_STREAM_PROGRESS additions=1800 step=178567/183176\nLRAT_STREAM_PROGRESS additions=1900 step=178767/183176\nLRAT_STREAM_PROGRESS additions=2000 step=178931/183176\nLRAT_STREAM_PROGRESS additions=2100 step=179081/183176\nLRAT_STREAM_PROGRESS additions=2200 step=179229/183176\nLRAT_STREAM_PROGRESS additions=2300 step=179382/183176\nLRAT_STREAM_PROGRESS additions=2400 step=179528/183176\nLRAT_STREAM_PROGRESS additions=2500 step=179677/183176\nLRAT_STREAM_PROGRESS additions=2600 step=179829/183176\nLRAT_STREAM_PROGRESS additions=2700 step=179978/183176\nLRAT_STREAM_PROGRESS additions=2800 step=180132/183176\nLRAT_STREAM_PROGRESS additions=2900 step=180284/183176\nLRAT_STREAM_PROGRESS additions=3000 step=180436/183176\nLRAT_STREAM_PROGRESS additions=3100 step=180588/183176\nLRAT_STREAM_PROGRESS additions=3200 step=180734/183176\nLRAT_STREAM_PROGRESS additions=3300 step=180889/183176\nLRAT_STREAM_PROGRESS additions=3400 step=181038/183176\nLRAT_STREAM_PROGRESS additions=3500 step=181191/183176\nLRAT_STREAM_PROGRESS additions=3600 step=181343/183176\nLRAT_STREAM_PROGRESS additions=3700 step=181493/183176\nLRAT_STREAM_PROGRESS additions=3800 step=181631/183176\nLRAT_STREAM_PROGRESS additions=3900 step=181788/183176\nLRAT_STREAM_PROGRESS additions=4000 step=181939/183176\nLRAT_STREAM_PROGRESS additions=4100 step=182087/183176\nLRAT_STREAM_PROGRESS additions=4200 step=182236/183176\nLRAT_STREAM_PROGRESS additions=4300 step=182382/183176\nLRAT_STREAM_PROGRESS additions=4400 step=182532/183176\nLRAT_STREAM_PROGRESS additions=4500 step=182686/183176\nLRAT_STREAM_PROGRESS additions=4600 step=182837/183176\nLRAT_STREAM_PROGRESS additions=4700 step=182984/183176\nLRAT_STREAM_PROGRESS additions=4800 step=183130/183176\n",
+        "seconds": 51.396
+      },
+      "modules_finished": 102
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "a4aed1e674eb4a64bf3d1998e9aa176f",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk023",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 184683/189666\nLRAT chunk progress: 2000 additions, source step 186204/189666\nLRAT chunk progress: 3000 additions, source step 187729/189666\nLRAT chunk progress: 4000 additions, source step 189248/189666\nLRAT_STREAM_PROGRESS additions=100 step=183325/189666\nLRAT_STREAM_PROGRESS additions=200 step=183472/189666\nLRAT_STREAM_PROGRESS additions=300 step=183621/189666\nLRAT_STREAM_PROGRESS additions=400 step=183772/189666\nLRAT_STREAM_PROGRESS additions=500 step=183921/189666\nLRAT_STREAM_PROGRESS additions=600 step=184069/189666\nLRAT_STREAM_PROGRESS additions=700 step=184221/189666\nLRAT_STREAM_PROGRESS additions=800 step=184378/189666\nLRAT_STREAM_PROGRESS additions=900 step=184530/189666\nLRAT_STREAM_PROGRESS additions=1000 step=184683/189666\nLRAT_STREAM_PROGRESS additions=1100 step=184835/189666\nLRAT_STREAM_PROGRESS additions=1200 step=184985/189666\nLRAT_STREAM_PROGRESS additions=1300 step=185137/189666\nLRAT_STREAM_PROGRESS additions=1400 step=185295/189666\nLRAT_STREAM_PROGRESS additions=1500 step=185447/189666\nLRAT_STREAM_PROGRESS additions=1600 step=185595/189666\nLRAT_STREAM_PROGRESS additions=1700 step=185746/189666\nLRAT_STREAM_PROGRESS additions=1800 step=185893/189666\nLRAT_STREAM_PROGRESS additions=1900 step=186050/189666\nLRAT_STREAM_PROGRESS additions=2000 step=186204/189666\nLRAT_STREAM_PROGRESS additions=2100 step=186358/189666\nLRAT_STREAM_PROGRESS additions=2200 step=186512/189666\nLRAT_STREAM_PROGRESS additions=2300 step=186662/189666\nLRAT_STREAM_PROGRESS additions=2400 step=186819/189666\nLRAT_STREAM_PROGRESS additions=2500 step=186976/189666\nLRAT_STREAM_PROGRESS additions=2600 step=187129/189666\nLRAT_STREAM_PROGRESS additions=2700 step=187279/189666\nLRAT_STREAM_PROGRESS additions=2800 step=187425/189666\nLRAT_STREAM_PROGRESS additions=2900 step=187579/189666\nLRAT_STREAM_PROGRESS additions=3000 step=187729/189666\nLRAT_STREAM_PROGRESS additions=3100 step=187879/189666\nLRAT_STREAM_PROGRESS additions=3200 step=188037/189666\nLRAT_STREAM_PROGRESS additions=3300 step=188189/189666\nLRAT_STREAM_PROGRESS additions=3400 step=188344/189666\nLRAT_STREAM_PROGRESS additions=3500 step=188496/189666\nLRAT_STREAM_PROGRESS additions=3600 step=188647/189666\nLRAT_STREAM_PROGRESS additions=3700 step=188800/189666\nLRAT_STREAM_PROGRESS additions=3800 step=188949/189666\nLRAT_STREAM_PROGRESS additions=3900 step=189102/189666\nLRAT_STREAM_PROGRESS additions=4000 step=189248/189666\nLRAT_STREAM_PROGRESS additions=4100 step=189399/189666\nLRAT_STREAM_PROGRESS additions=4200 step=189558/189666\n",
+        "seconds": 51.212
+      },
+      "modules_finished": 103
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "5343394876e04c11bd46965da70f805c",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk024",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 191239/196582\nLRAT chunk progress: 2000 additions, source step 192780/196582\nLRAT chunk progress: 3000 additions, source step 194315/196582\nLRAT chunk progress: 4000 additions, source step 195827/196582\nLRAT_STREAM_PROGRESS additions=100 step=189819/196582\nLRAT_STREAM_PROGRESS additions=200 step=189970/196582\nLRAT_STREAM_PROGRESS additions=300 step=190126/196582\nLRAT_STREAM_PROGRESS additions=400 step=190285/196582\nLRAT_STREAM_PROGRESS additions=500 step=190444/196582\nLRAT_STREAM_PROGRESS additions=600 step=190606/196582\nLRAT_STREAM_PROGRESS additions=700 step=190763/196582\nLRAT_STREAM_PROGRESS additions=800 step=190922/196582\nLRAT_STREAM_PROGRESS additions=900 step=191082/196582\nLRAT_STREAM_PROGRESS additions=1000 step=191239/196582\nLRAT_STREAM_PROGRESS additions=1100 step=191391/196582\nLRAT_STREAM_PROGRESS additions=1200 step=191547/196582\nLRAT_STREAM_PROGRESS additions=1300 step=191706/196582\nLRAT_STREAM_PROGRESS additions=1400 step=191859/196582\nLRAT_STREAM_PROGRESS additions=1500 step=192013/196582\nLRAT_STREAM_PROGRESS additions=1600 step=192174/196582\nLRAT_STREAM_PROGRESS additions=1700 step=192325/196582\nLRAT_STREAM_PROGRESS additions=1800 step=192478/196582\nLRAT_STREAM_PROGRESS additions=1900 step=192626/196582\nLRAT_STREAM_PROGRESS additions=2000 step=192780/196582\nLRAT_STREAM_PROGRESS additions=2100 step=192936/196582\nLRAT_STREAM_PROGRESS additions=2200 step=193089/196582\nLRAT_STREAM_PROGRESS additions=2300 step=193247/196582\nLRAT_STREAM_PROGRESS additions=2400 step=193398/196582\nLRAT_STREAM_PROGRESS additions=2500 step=193557/196582\nLRAT_STREAM_PROGRESS additions=2600 step=193707/196582\nLRAT_STREAM_PROGRESS additions=2700 step=193859/196582\nLRAT_STREAM_PROGRESS additions=2800 step=194009/196582\nLRAT_STREAM_PROGRESS additions=2900 step=194164/196582\nLRAT_STREAM_PROGRESS additions=3000 step=194315/196582\nLRAT_STREAM_PROGRESS additions=3100 step=194467/196582\nLRAT_STREAM_PROGRESS additions=3200 step=194616/196582\nLRAT_STREAM_PROGRESS additions=3300 step=194766/196582\nLRAT_STREAM_PROGRESS additions=3400 step=194919/196582\nLRAT_STREAM_PROGRESS additions=3500 step=195065/196582\nLRAT_STREAM_PROGRESS additions=3600 step=195222/196582\nLRAT_STREAM_PROGRESS additions=3700 step=195369/196582\nLRAT_STREAM_PROGRESS additions=3800 step=195513/196582\nLRAT_STREAM_PROGRESS additions=3900 step=195671/196582\nLRAT_STREAM_PROGRESS additions=4000 step=195827/196582\nLRAT_STREAM_PROGRESS additions=4100 step=195980/196582\nLRAT_STREAM_PROGRESS additions=4200 step=196132/196582\nLRAT_STREAM_PROGRESS additions=4300 step=196283/196582\nLRAT_STREAM_PROGRESS additions=4400 step=196442/196582\n",
+        "seconds": 55.817
+      },
+      "modules_finished": 104
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "c4b7125321154b1e826121691deceef0",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk025",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 198113/203043\nLRAT chunk progress: 2000 additions, source step 199647/203043\nLRAT chunk progress: 3000 additions, source step 201217/203043\nLRAT chunk progress: 4000 additions, source step 202778/203043\nLRAT_STREAM_PROGRESS additions=100 step=196739/203043\nLRAT_STREAM_PROGRESS additions=200 step=196894/203043\nLRAT_STREAM_PROGRESS additions=300 step=197041/203043\nLRAT_STREAM_PROGRESS additions=400 step=197186/203043\nLRAT_STREAM_PROGRESS additions=500 step=197339/203043\nLRAT_STREAM_PROGRESS additions=600 step=197489/203043\nLRAT_STREAM_PROGRESS additions=700 step=197645/203043\nLRAT_STREAM_PROGRESS additions=800 step=197808/203043\nLRAT_STREAM_PROGRESS additions=900 step=197964/203043\nLRAT_STREAM_PROGRESS additions=1000 step=198113/203043\nLRAT_STREAM_PROGRESS additions=1100 step=198267/203043\nLRAT_STREAM_PROGRESS additions=1200 step=198423/203043\nLRAT_STREAM_PROGRESS additions=1300 step=198573/203043\nLRAT_STREAM_PROGRESS additions=1400 step=198720/203043\nLRAT_STREAM_PROGRESS additions=1500 step=198875/203043\nLRAT_STREAM_PROGRESS additions=1600 step=199028/203043\nLRAT_STREAM_PROGRESS additions=1700 step=199179/203043\nLRAT_STREAM_PROGRESS additions=1800 step=199334/203043\nLRAT_STREAM_PROGRESS additions=1900 step=199491/203043\nLRAT_STREAM_PROGRESS additions=2000 step=199647/203043\nLRAT_STREAM_PROGRESS additions=2100 step=199807/203043\nLRAT_STREAM_PROGRESS additions=2200 step=199958/203043\nLRAT_STREAM_PROGRESS additions=2300 step=200109/203043\nLRAT_STREAM_PROGRESS additions=2400 step=200268/203043\nLRAT_STREAM_PROGRESS additions=2500 step=200427/203043\nLRAT_STREAM_PROGRESS additions=2600 step=200588/203043\nLRAT_STREAM_PROGRESS additions=2700 step=200745/203043\nLRAT_STREAM_PROGRESS additions=2800 step=200901/203043\nLRAT_STREAM_PROGRESS additions=2900 step=201063/203043\nLRAT_STREAM_PROGRESS additions=3000 step=201217/203043\nLRAT_STREAM_PROGRESS additions=3100 step=201374/203043\nLRAT_STREAM_PROGRESS additions=3200 step=201534/203043\nLRAT_STREAM_PROGRESS additions=3300 step=201682/203043\nLRAT_STREAM_PROGRESS additions=3400 step=201839/203043\nLRAT_STREAM_PROGRESS additions=3500 step=201997/203043\nLRAT_STREAM_PROGRESS additions=3600 step=202155/203043\nLRAT_STREAM_PROGRESS additions=3700 step=202306/203043\nLRAT_STREAM_PROGRESS additions=3800 step=202470/203043\nLRAT_STREAM_PROGRESS additions=3900 step=202617/203043\nLRAT_STREAM_PROGRESS additions=4000 step=202778/203043\nLRAT_STREAM_PROGRESS additions=4100 step=202947/203043\n",
+        "seconds": 55.864
+      },
+      "modules_finished": 105
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "43e3059a89354bffa680dfb59a2ee45b",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk026",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 204571/208543\nLRAT chunk progress: 2000 additions, source step 206114/208543\nLRAT chunk progress: 3000 additions, source step 207678/208543\nLRAT_STREAM_PROGRESS additions=100 step=203205/208543\nLRAT_STREAM_PROGRESS additions=200 step=203357/208543\nLRAT_STREAM_PROGRESS additions=300 step=203508/208543\nLRAT_STREAM_PROGRESS additions=400 step=203654/208543\nLRAT_STREAM_PROGRESS additions=500 step=203804/208543\nLRAT_STREAM_PROGRESS additions=600 step=203959/208543\nLRAT_STREAM_PROGRESS additions=700 step=204107/208543\nLRAT_STREAM_PROGRESS additions=800 step=204260/208543\nLRAT_STREAM_PROGRESS additions=900 step=204417/208543\nLRAT_STREAM_PROGRESS additions=1000 step=204571/208543\nLRAT_STREAM_PROGRESS additions=1100 step=204733/208543\nLRAT_STREAM_PROGRESS additions=1200 step=204883/208543\nLRAT_STREAM_PROGRESS additions=1300 step=205041/208543\nLRAT_STREAM_PROGRESS additions=1400 step=205200/208543\nLRAT_STREAM_PROGRESS additions=1500 step=205352/208543\nLRAT_STREAM_PROGRESS additions=1600 step=205504/208543\nLRAT_STREAM_PROGRESS additions=1700 step=205659/208543\nLRAT_STREAM_PROGRESS additions=1800 step=205811/208543\nLRAT_STREAM_PROGRESS additions=1900 step=205963/208543\nLRAT_STREAM_PROGRESS additions=2000 step=206114/208543\nLRAT_STREAM_PROGRESS additions=2100 step=206267/208543\nLRAT_STREAM_PROGRESS additions=2200 step=206429/208543\nLRAT_STREAM_PROGRESS additions=2300 step=206576/208543\nLRAT_STREAM_PROGRESS additions=2400 step=206735/208543\nLRAT_STREAM_PROGRESS additions=2500 step=206893/208543\nLRAT_STREAM_PROGRESS additions=2600 step=207051/208543\nLRAT_STREAM_PROGRESS additions=2700 step=207208/208543\nLRAT_STREAM_PROGRESS additions=2800 step=207361/208543\nLRAT_STREAM_PROGRESS additions=2900 step=207517/208543\nLRAT_STREAM_PROGRESS additions=3000 step=207678/208543\nLRAT_STREAM_PROGRESS additions=3100 step=207831/208543\nLRAT_STREAM_PROGRESS additions=3200 step=207994/208543\nLRAT_STREAM_PROGRESS additions=3300 step=208143/208543\nLRAT_STREAM_PROGRESS additions=3400 step=208298/208543\nLRAT_STREAM_PROGRESS additions=3500 step=208443/208543\n",
+        "seconds": 52.433
+      },
+      "modules_finished": 106
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "1c6b7e1b32bb4ab3809cbef959f5198f",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk027",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 210058/213784\nLRAT chunk progress: 2000 additions, source step 211597/213784\nLRAT chunk progress: 3000 additions, source step 213158/213784\nLRAT_STREAM_PROGRESS additions=100 step=208698/213784\nLRAT_STREAM_PROGRESS additions=200 step=208847/213784\nLRAT_STREAM_PROGRESS additions=300 step=208994/213784\nLRAT_STREAM_PROGRESS additions=400 step=209145/213784\nLRAT_STREAM_PROGRESS additions=500 step=209301/213784\nLRAT_STREAM_PROGRESS additions=600 step=209456/213784\nLRAT_STREAM_PROGRESS additions=700 step=209609/213784\nLRAT_STREAM_PROGRESS additions=800 step=209764/213784\nLRAT_STREAM_PROGRESS additions=900 step=209913/213784\nLRAT_STREAM_PROGRESS additions=1000 step=210058/213784\nLRAT_STREAM_PROGRESS additions=1100 step=210213/213784\nLRAT_STREAM_PROGRESS additions=1200 step=210370/213784\nLRAT_STREAM_PROGRESS additions=1300 step=210526/213784\nLRAT_STREAM_PROGRESS additions=1400 step=210675/213784\nLRAT_STREAM_PROGRESS additions=1500 step=210825/213784\nLRAT_STREAM_PROGRESS additions=1600 step=210975/213784\nLRAT_STREAM_PROGRESS additions=1700 step=211126/213784\nLRAT_STREAM_PROGRESS additions=1800 step=211283/213784\nLRAT_STREAM_PROGRESS additions=1900 step=211438/213784\nLRAT_STREAM_PROGRESS additions=2000 step=211597/213784\nLRAT_STREAM_PROGRESS additions=2100 step=211758/213784\nLRAT_STREAM_PROGRESS additions=2200 step=211927/213784\nLRAT_STREAM_PROGRESS additions=2300 step=212076/213784\nLRAT_STREAM_PROGRESS additions=2400 step=212229/213784\nLRAT_STREAM_PROGRESS additions=2500 step=212385/213784\nLRAT_STREAM_PROGRESS additions=2600 step=212539/213784\nLRAT_STREAM_PROGRESS additions=2700 step=212692/213784\nLRAT_STREAM_PROGRESS additions=2800 step=212848/213784\nLRAT_STREAM_PROGRESS additions=2900 step=212999/213784\nLRAT_STREAM_PROGRESS additions=3000 step=213158/213784\nLRAT_STREAM_PROGRESS additions=3100 step=213314/213784\nLRAT_STREAM_PROGRESS additions=3200 step=213466/213784\nLRAT_STREAM_PROGRESS additions=3300 step=213618/213784\nLRAT_STREAM_PROGRESS additions=3400 step=213777/213784\n",
+        "seconds": 52.183
+      },
+      "modules_finished": 107
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "e7c0736f3a6240478c9b43c7f117f6d9",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk028",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 215335/219877\nLRAT chunk progress: 2000 additions, source step 216858/219877\nLRAT chunk progress: 3000 additions, source step 218445/219877\nLRAT_STREAM_PROGRESS additions=100 step=213942/219877\nLRAT_STREAM_PROGRESS additions=200 step=214105/219877\nLRAT_STREAM_PROGRESS additions=300 step=214259/219877\nLRAT_STREAM_PROGRESS additions=400 step=214422/219877\nLRAT_STREAM_PROGRESS additions=500 step=214577/219877\nLRAT_STREAM_PROGRESS additions=600 step=214721/219877\nLRAT_STREAM_PROGRESS additions=700 step=214878/219877\nLRAT_STREAM_PROGRESS additions=800 step=215031/219877\nLRAT_STREAM_PROGRESS additions=900 step=215182/219877\nLRAT_STREAM_PROGRESS additions=1000 step=215335/219877\nLRAT_STREAM_PROGRESS additions=1100 step=215483/219877\nLRAT_STREAM_PROGRESS additions=1200 step=215634/219877\nLRAT_STREAM_PROGRESS additions=1300 step=215790/219877\nLRAT_STREAM_PROGRESS additions=1400 step=215941/219877\nLRAT_STREAM_PROGRESS additions=1500 step=216093/219877\nLRAT_STREAM_PROGRESS additions=1600 step=216247/219877\nLRAT_STREAM_PROGRESS additions=1700 step=216401/219877\nLRAT_STREAM_PROGRESS additions=1800 step=216554/219877\nLRAT_STREAM_PROGRESS additions=1900 step=216706/219877\nLRAT_STREAM_PROGRESS additions=2000 step=216858/219877\nLRAT_STREAM_PROGRESS additions=2100 step=217011/219877\nLRAT_STREAM_PROGRESS additions=2200 step=217168/219877\nLRAT_STREAM_PROGRESS additions=2300 step=217320/219877\nLRAT_STREAM_PROGRESS additions=2400 step=217488/219877\nLRAT_STREAM_PROGRESS additions=2500 step=217674/219877\nLRAT_STREAM_PROGRESS additions=2600 step=217828/219877\nLRAT_STREAM_PROGRESS additions=2700 step=217978/219877\nLRAT_STREAM_PROGRESS additions=2800 step=218133/219877\nLRAT_STREAM_PROGRESS additions=2900 step=218290/219877\nLRAT_STREAM_PROGRESS additions=3000 step=218445/219877\nLRAT_STREAM_PROGRESS additions=3100 step=218591/219877\nLRAT_STREAM_PROGRESS additions=3200 step=218736/219877\nLRAT_STREAM_PROGRESS additions=3300 step=218881/219877\nLRAT_STREAM_PROGRESS additions=3400 step=219043/219877\nLRAT_STREAM_PROGRESS additions=3500 step=219189/219877\nLRAT_STREAM_PROGRESS additions=3600 step=219341/219877\nLRAT_STREAM_PROGRESS additions=3700 step=219497/219877\nLRAT_STREAM_PROGRESS additions=3800 step=219637/219877\nLRAT_STREAM_PROGRESS additions=3900 step=219790/219877\n",
+        "seconds": 52.198
+      },
+      "modules_finished": 108
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "1b2107e1e05b48f3a6e6cfa1ab97bacc",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk029",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 221370/226044\nLRAT chunk progress: 2000 additions, source step 222854/226044\nLRAT chunk progress: 3000 additions, source step 224369/226044\nLRAT chunk progress: 4000 additions, source step 225904/226044\nLRAT_STREAM_PROGRESS additions=100 step=220024/226044\nLRAT_STREAM_PROGRESS additions=200 step=220172/226044\nLRAT_STREAM_PROGRESS additions=300 step=220327/226044\nLRAT_STREAM_PROGRESS additions=400 step=220488/226044\nLRAT_STREAM_PROGRESS additions=500 step=220641/226044\nLRAT_STREAM_PROGRESS additions=600 step=220786/226044\nLRAT_STREAM_PROGRESS additions=700 step=220927/226044\nLRAT_STREAM_PROGRESS additions=800 step=221069/226044\nLRAT_STREAM_PROGRESS additions=900 step=221218/226044\nLRAT_STREAM_PROGRESS additions=1000 step=221370/226044\nLRAT_STREAM_PROGRESS additions=1100 step=221519/226044\nLRAT_STREAM_PROGRESS additions=1200 step=221667/226044\nLRAT_STREAM_PROGRESS additions=1300 step=221813/226044\nLRAT_STREAM_PROGRESS additions=1400 step=221962/226044\nLRAT_STREAM_PROGRESS additions=1500 step=222107/226044\nLRAT_STREAM_PROGRESS additions=1600 step=222252/226044\nLRAT_STREAM_PROGRESS additions=1700 step=222395/226044\nLRAT_STREAM_PROGRESS additions=1800 step=222541/226044\nLRAT_STREAM_PROGRESS additions=1900 step=222695/226044\nLRAT_STREAM_PROGRESS additions=2000 step=222854/226044\nLRAT_STREAM_PROGRESS additions=2100 step=223010/226044\nLRAT_STREAM_PROGRESS additions=2200 step=223158/226044\nLRAT_STREAM_PROGRESS additions=2300 step=223316/226044\nLRAT_STREAM_PROGRESS additions=2400 step=223472/226044\nLRAT_STREAM_PROGRESS additions=2500 step=223619/226044\nLRAT_STREAM_PROGRESS additions=2600 step=223769/226044\nLRAT_STREAM_PROGRESS additions=2700 step=223918/226044\nLRAT_STREAM_PROGRESS additions=2800 step=224069/226044\nLRAT_STREAM_PROGRESS additions=2900 step=224219/226044\nLRAT_STREAM_PROGRESS additions=3000 step=224369/226044\nLRAT_STREAM_PROGRESS additions=3100 step=224520/226044\nLRAT_STREAM_PROGRESS additions=3200 step=224678/226044\nLRAT_STREAM_PROGRESS additions=3300 step=224829/226044\nLRAT_STREAM_PROGRESS additions=3400 step=224983/226044\nLRAT_STREAM_PROGRESS additions=3500 step=225135/226044\nLRAT_STREAM_PROGRESS additions=3600 step=225292/226044\nLRAT_STREAM_PROGRESS additions=3700 step=225444/226044\nLRAT_STREAM_PROGRESS additions=3800 step=225597/226044\nLRAT_STREAM_PROGRESS additions=3900 step=225747/226044\nLRAT_STREAM_PROGRESS additions=4000 step=225904/226044\n",
+        "seconds": 53.438
+      },
+      "modules_finished": 109
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "037f3948ed3c42279ed77efc6902d68d",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk030",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 227543/233279\nLRAT chunk progress: 2000 additions, source step 229069/233279\nLRAT chunk progress: 3000 additions, source step 230564/233279\nLRAT chunk progress: 4000 additions, source step 232197/233279\nLRAT_STREAM_PROGRESS additions=100 step=226186/233279\nLRAT_STREAM_PROGRESS additions=200 step=226336/233279\nLRAT_STREAM_PROGRESS additions=300 step=226493/233279\nLRAT_STREAM_PROGRESS additions=400 step=226642/233279\nLRAT_STREAM_PROGRESS additions=500 step=226793/233279\nLRAT_STREAM_PROGRESS additions=600 step=226943/233279\nLRAT_STREAM_PROGRESS additions=700 step=227090/233279\nLRAT_STREAM_PROGRESS additions=800 step=227242/233279\nLRAT_STREAM_PROGRESS additions=900 step=227391/233279\nLRAT_STREAM_PROGRESS additions=1000 step=227543/233279\nLRAT_STREAM_PROGRESS additions=1100 step=227698/233279\nLRAT_STREAM_PROGRESS additions=1200 step=227847/233279\nLRAT_STREAM_PROGRESS additions=1300 step=228002/233279\nLRAT_STREAM_PROGRESS additions=1400 step=228158/233279\nLRAT_STREAM_PROGRESS additions=1500 step=228305/233279\nLRAT_STREAM_PROGRESS additions=1600 step=228457/233279\nLRAT_STREAM_PROGRESS additions=1700 step=228605/233279\nLRAT_STREAM_PROGRESS additions=1800 step=228763/233279\nLRAT_STREAM_PROGRESS additions=1900 step=228913/233279\nLRAT_STREAM_PROGRESS additions=2000 step=229069/233279\nLRAT_STREAM_PROGRESS additions=2100 step=229222/233279\nLRAT_STREAM_PROGRESS additions=2200 step=229370/233279\nLRAT_STREAM_PROGRESS additions=2300 step=229521/233279\nLRAT_STREAM_PROGRESS additions=2400 step=229671/233279\nLRAT_STREAM_PROGRESS additions=2500 step=229816/233279\nLRAT_STREAM_PROGRESS additions=2600 step=229962/233279\nLRAT_STREAM_PROGRESS additions=2700 step=230111/233279\nLRAT_STREAM_PROGRESS additions=2800 step=230261/233279\nLRAT_STREAM_PROGRESS additions=2900 step=230415/233279\nLRAT_STREAM_PROGRESS additions=3000 step=230564/233279\nLRAT_STREAM_PROGRESS additions=3100 step=230718/233279\nLRAT_STREAM_PROGRESS additions=3200 step=230873/233279\nLRAT_STREAM_PROGRESS additions=3300 step=231029/233279\nLRAT_STREAM_PROGRESS additions=3400 step=231183/233279\nLRAT_STREAM_PROGRESS additions=3500 step=231344/233279\nLRAT_STREAM_PROGRESS additions=3600 step=231496/233279\nLRAT_STREAM_PROGRESS additions=3700 step=231650/233279\nLRAT_STREAM_PROGRESS additions=3800 step=231816/233279\nLRAT_STREAM_PROGRESS additions=3900 step=232000/233279\nLRAT_STREAM_PROGRESS additions=4000 step=232197/233279\nLRAT_STREAM_PROGRESS additions=4100 step=232397/233279\nLRAT_STREAM_PROGRESS additions=4200 step=232597/233279\nLRAT_STREAM_PROGRESS additions=4300 step=232769/233279\nLRAT_STREAM_PROGRESS additions=4400 step=232925/233279\nLRAT_STREAM_PROGRESS additions=4500 step=233079/233279\nLRAT_STREAM_PROGRESS additions=4600 step=233232/233279\n",
+        "seconds": 51.021
+      },
+      "modules_finished": 110
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "29400e8c18954f91b450bc90eaa731cd",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk031",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 234801/240037\nLRAT chunk progress: 2000 additions, source step 236343/240037\nLRAT chunk progress: 3000 additions, source step 237866/240037\nLRAT chunk progress: 4000 additions, source step 239428/240037\nLRAT_STREAM_PROGRESS additions=100 step=233429/240037\nLRAT_STREAM_PROGRESS additions=200 step=233578/240037\nLRAT_STREAM_PROGRESS additions=300 step=233736/240037\nLRAT_STREAM_PROGRESS additions=400 step=233894/240037\nLRAT_STREAM_PROGRESS additions=500 step=234039/240037\nLRAT_STREAM_PROGRESS additions=600 step=234192/240037\nLRAT_STREAM_PROGRESS additions=700 step=234348/240037\nLRAT_STREAM_PROGRESS additions=800 step=234495/240037\nLRAT_STREAM_PROGRESS additions=900 step=234648/240037\nLRAT_STREAM_PROGRESS additions=1000 step=234801/240037\nLRAT_STREAM_PROGRESS additions=1100 step=234949/240037\nLRAT_STREAM_PROGRESS additions=1200 step=235107/240037\nLRAT_STREAM_PROGRESS additions=1300 step=235268/240037\nLRAT_STREAM_PROGRESS additions=1400 step=235429/240037\nLRAT_STREAM_PROGRESS additions=1500 step=235578/240037\nLRAT_STREAM_PROGRESS additions=1600 step=235731/240037\nLRAT_STREAM_PROGRESS additions=1700 step=235885/240037\nLRAT_STREAM_PROGRESS additions=1800 step=236036/240037\nLRAT_STREAM_PROGRESS additions=1900 step=236188/240037\nLRAT_STREAM_PROGRESS additions=2000 step=236343/240037\nLRAT_STREAM_PROGRESS additions=2100 step=236495/240037\nLRAT_STREAM_PROGRESS additions=2200 step=236651/240037\nLRAT_STREAM_PROGRESS additions=2300 step=236799/240037\nLRAT_STREAM_PROGRESS additions=2400 step=236956/240037\nLRAT_STREAM_PROGRESS additions=2500 step=237109/240037\nLRAT_STREAM_PROGRESS additions=2600 step=237259/240037\nLRAT_STREAM_PROGRESS additions=2700 step=237412/240037\nLRAT_STREAM_PROGRESS additions=2800 step=237567/240037\nLRAT_STREAM_PROGRESS additions=2900 step=237714/240037\nLRAT_STREAM_PROGRESS additions=3000 step=237866/240037\nLRAT_STREAM_PROGRESS additions=3100 step=238024/240037\nLRAT_STREAM_PROGRESS additions=3200 step=238180/240037\nLRAT_STREAM_PROGRESS additions=3300 step=238332/240037\nLRAT_STREAM_PROGRESS additions=3400 step=238494/240037\nLRAT_STREAM_PROGRESS additions=3500 step=238648/240037\nLRAT_STREAM_PROGRESS additions=3600 step=238805/240037\nLRAT_STREAM_PROGRESS additions=3700 step=238964/240037\nLRAT_STREAM_PROGRESS additions=3800 step=239109/240037\nLRAT_STREAM_PROGRESS additions=3900 step=239262/240037\nLRAT_STREAM_PROGRESS additions=4000 step=239428/240037\nLRAT_STREAM_PROGRESS additions=4100 step=239581/240037\nLRAT_STREAM_PROGRESS additions=4200 step=239729/240037\nLRAT_STREAM_PROGRESS additions=4300 step=239877/240037\nLRAT_STREAM_PROGRESS additions=4400 step=240031/240037\n",
+        "seconds": 51.546
+      },
+      "modules_finished": 111
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "e764171e4fb044e6be99f669ecec4af5",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk032",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 241555/246259\nLRAT chunk progress: 2000 additions, source step 243077/246259\nLRAT chunk progress: 3000 additions, source step 244586/246259\nLRAT chunk progress: 4000 additions, source step 246143/246259\nLRAT_STREAM_PROGRESS additions=100 step=240188/246259\nLRAT_STREAM_PROGRESS additions=200 step=240343/246259\nLRAT_STREAM_PROGRESS additions=300 step=240495/246259\nLRAT_STREAM_PROGRESS additions=400 step=240650/246259\nLRAT_STREAM_PROGRESS additions=500 step=240799/246259\nLRAT_STREAM_PROGRESS additions=600 step=240949/246259\nLRAT_STREAM_PROGRESS additions=700 step=241103/246259\nLRAT_STREAM_PROGRESS additions=800 step=241252/246259\nLRAT_STREAM_PROGRESS additions=900 step=241401/246259\nLRAT_STREAM_PROGRESS additions=1000 step=241555/246259\nLRAT_STREAM_PROGRESS additions=1100 step=241711/246259\nLRAT_STREAM_PROGRESS additions=1200 step=241860/246259\nLRAT_STREAM_PROGRESS additions=1300 step=242014/246259\nLRAT_STREAM_PROGRESS additions=1400 step=242166/246259\nLRAT_STREAM_PROGRESS additions=1500 step=242324/246259\nLRAT_STREAM_PROGRESS additions=1600 step=242471/246259\nLRAT_STREAM_PROGRESS additions=1700 step=242622/246259\nLRAT_STREAM_PROGRESS additions=1800 step=242774/246259\nLRAT_STREAM_PROGRESS additions=1900 step=242924/246259\nLRAT_STREAM_PROGRESS additions=2000 step=243077/246259\nLRAT_STREAM_PROGRESS additions=2100 step=243224/246259\nLRAT_STREAM_PROGRESS additions=2200 step=243373/246259\nLRAT_STREAM_PROGRESS additions=2300 step=243519/246259\nLRAT_STREAM_PROGRESS additions=2400 step=243676/246259\nLRAT_STREAM_PROGRESS additions=2500 step=243825/246259\nLRAT_STREAM_PROGRESS additions=2600 step=243979/246259\nLRAT_STREAM_PROGRESS additions=2700 step=244125/246259\nLRAT_STREAM_PROGRESS additions=2800 step=244273/246259\nLRAT_STREAM_PROGRESS additions=2900 step=244429/246259\nLRAT_STREAM_PROGRESS additions=3000 step=244586/246259\nLRAT_STREAM_PROGRESS additions=3100 step=244735/246259\nLRAT_STREAM_PROGRESS additions=3200 step=244889/246259\nLRAT_STREAM_PROGRESS additions=3300 step=245052/246259\nLRAT_STREAM_PROGRESS additions=3400 step=245209/246259\nLRAT_STREAM_PROGRESS additions=3500 step=245372/246259\nLRAT_STREAM_PROGRESS additions=3600 step=245528/246259\nLRAT_STREAM_PROGRESS additions=3700 step=245693/246259\nLRAT_STREAM_PROGRESS additions=3800 step=245839/246259\nLRAT_STREAM_PROGRESS additions=3900 step=245985/246259\nLRAT_STREAM_PROGRESS additions=4000 step=246143/246259\n",
+        "seconds": 51.119
+      },
+      "modules_finished": 112
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "1ecbb8b557af49be8ec659a1551dc9d2",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk033",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 247772/252893\nLRAT chunk progress: 2000 additions, source step 249303/252893\nLRAT chunk progress: 3000 additions, source step 250846/252893\nLRAT chunk progress: 4000 additions, source step 252393/252893\nLRAT_STREAM_PROGRESS additions=100 step=246412/252893\nLRAT_STREAM_PROGRESS additions=200 step=246564/252893\nLRAT_STREAM_PROGRESS additions=300 step=246717/252893\nLRAT_STREAM_PROGRESS additions=400 step=246870/252893\nLRAT_STREAM_PROGRESS additions=500 step=247019/252893\nLRAT_STREAM_PROGRESS additions=600 step=247168/252893\nLRAT_STREAM_PROGRESS additions=700 step=247318/252893\nLRAT_STREAM_PROGRESS additions=800 step=247476/252893\nLRAT_STREAM_PROGRESS additions=900 step=247625/252893\nLRAT_STREAM_PROGRESS additions=1000 step=247772/252893\nLRAT_STREAM_PROGRESS additions=1100 step=247926/252893\nLRAT_STREAM_PROGRESS additions=1200 step=248074/252893\nLRAT_STREAM_PROGRESS additions=1300 step=248231/252893\nLRAT_STREAM_PROGRESS additions=1400 step=248383/252893\nLRAT_STREAM_PROGRESS additions=1500 step=248536/252893\nLRAT_STREAM_PROGRESS additions=1600 step=248688/252893\nLRAT_STREAM_PROGRESS additions=1700 step=248839/252893\nLRAT_STREAM_PROGRESS additions=1800 step=248989/252893\nLRAT_STREAM_PROGRESS additions=1900 step=249146/252893\nLRAT_STREAM_PROGRESS additions=2000 step=249303/252893\nLRAT_STREAM_PROGRESS additions=2100 step=249459/252893\nLRAT_STREAM_PROGRESS additions=2200 step=249607/252893\nLRAT_STREAM_PROGRESS additions=2300 step=249764/252893\nLRAT_STREAM_PROGRESS additions=2400 step=249923/252893\nLRAT_STREAM_PROGRESS additions=2500 step=250075/252893\nLRAT_STREAM_PROGRESS additions=2600 step=250221/252893\nLRAT_STREAM_PROGRESS additions=2700 step=250378/252893\nLRAT_STREAM_PROGRESS additions=2800 step=250531/252893\nLRAT_STREAM_PROGRESS additions=2900 step=250687/252893\nLRAT_STREAM_PROGRESS additions=3000 step=250846/252893\nLRAT_STREAM_PROGRESS additions=3100 step=251001/252893\nLRAT_STREAM_PROGRESS additions=3200 step=251157/252893\nLRAT_STREAM_PROGRESS additions=3300 step=251312/252893\nLRAT_STREAM_PROGRESS additions=3400 step=251457/252893\nLRAT_STREAM_PROGRESS additions=3500 step=251616/252893\nLRAT_STREAM_PROGRESS additions=3600 step=251778/252893\nLRAT_STREAM_PROGRESS additions=3700 step=251931/252893\nLRAT_STREAM_PROGRESS additions=3800 step=252085/252893\nLRAT_STREAM_PROGRESS additions=3900 step=252239/252893\nLRAT_STREAM_PROGRESS additions=4000 step=252393/252893\nLRAT_STREAM_PROGRESS additions=4100 step=252545/252893\nLRAT_STREAM_PROGRESS additions=4200 step=252702/252893\nLRAT_STREAM_PROGRESS additions=4300 step=252856/252893\n",
+        "seconds": 50.723
+      },
+      "modules_finished": 113
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "cf57bac6c9274baeb9dfb5270f847cd8",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk034",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 254478/258834\nLRAT chunk progress: 2000 additions, source step 256029/258834\nLRAT chunk progress: 3000 additions, source step 257513/258834\nLRAT_STREAM_PROGRESS additions=100 step=253046/258834\nLRAT_STREAM_PROGRESS additions=200 step=253202/258834\nLRAT_STREAM_PROGRESS additions=300 step=253359/258834\nLRAT_STREAM_PROGRESS additions=400 step=253523/258834\nLRAT_STREAM_PROGRESS additions=500 step=253685/258834\nLRAT_STREAM_PROGRESS additions=600 step=253845/258834\nLRAT_STREAM_PROGRESS additions=700 step=254008/258834\nLRAT_STREAM_PROGRESS additions=800 step=254162/258834\nLRAT_STREAM_PROGRESS additions=900 step=254317/258834\nLRAT_STREAM_PROGRESS additions=1000 step=254478/258834\nLRAT_STREAM_PROGRESS additions=1100 step=254636/258834\nLRAT_STREAM_PROGRESS additions=1200 step=254798/258834\nLRAT_STREAM_PROGRESS additions=1300 step=254953/258834\nLRAT_STREAM_PROGRESS additions=1400 step=255107/258834\nLRAT_STREAM_PROGRESS additions=1500 step=255256/258834\nLRAT_STREAM_PROGRESS additions=1600 step=255410/258834\nLRAT_STREAM_PROGRESS additions=1700 step=255561/258834\nLRAT_STREAM_PROGRESS additions=1800 step=255719/258834\nLRAT_STREAM_PROGRESS additions=1900 step=255872/258834\nLRAT_STREAM_PROGRESS additions=2000 step=256029/258834\nLRAT_STREAM_PROGRESS additions=2100 step=256174/258834\nLRAT_STREAM_PROGRESS additions=2200 step=256327/258834\nLRAT_STREAM_PROGRESS additions=2300 step=256477/258834\nLRAT_STREAM_PROGRESS additions=2400 step=256625/258834\nLRAT_STREAM_PROGRESS additions=2500 step=256775/258834\nLRAT_STREAM_PROGRESS additions=2600 step=256927/258834\nLRAT_STREAM_PROGRESS additions=2700 step=257075/258834\nLRAT_STREAM_PROGRESS additions=2800 step=257222/258834\nLRAT_STREAM_PROGRESS additions=2900 step=257363/258834\nLRAT_STREAM_PROGRESS additions=3000 step=257513/258834\nLRAT_STREAM_PROGRESS additions=3100 step=257670/258834\nLRAT_STREAM_PROGRESS additions=3200 step=257826/258834\nLRAT_STREAM_PROGRESS additions=3300 step=257976/258834\nLRAT_STREAM_PROGRESS additions=3400 step=258132/258834\nLRAT_STREAM_PROGRESS additions=3500 step=258279/258834\nLRAT_STREAM_PROGRESS additions=3600 step=258421/258834\nLRAT_STREAM_PROGRESS additions=3700 step=258580/258834\nLRAT_STREAM_PROGRESS additions=3800 step=258729/258834\n",
+        "seconds": 51.583
+      },
+      "modules_finished": 114
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "13ed46eddbf5445089433bdd3e73df2c",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk035",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 260357/264813\nLRAT chunk progress: 2000 additions, source step 261944/264813\nLRAT chunk progress: 3000 additions, source step 263527/264813\nLRAT_STREAM_PROGRESS additions=100 step=258988/264813\nLRAT_STREAM_PROGRESS additions=200 step=259140/264813\nLRAT_STREAM_PROGRESS additions=300 step=259290/264813\nLRAT_STREAM_PROGRESS additions=400 step=259443/264813\nLRAT_STREAM_PROGRESS additions=500 step=259594/264813\nLRAT_STREAM_PROGRESS additions=600 step=259744/264813\nLRAT_STREAM_PROGRESS additions=700 step=259898/264813\nLRAT_STREAM_PROGRESS additions=800 step=260049/264813\nLRAT_STREAM_PROGRESS additions=900 step=260201/264813\nLRAT_STREAM_PROGRESS additions=1000 step=260357/264813\nLRAT_STREAM_PROGRESS additions=1100 step=260515/264813\nLRAT_STREAM_PROGRESS additions=1200 step=260674/264813\nLRAT_STREAM_PROGRESS additions=1300 step=260837/264813\nLRAT_STREAM_PROGRESS additions=1400 step=261003/264813\nLRAT_STREAM_PROGRESS additions=1500 step=261160/264813\nLRAT_STREAM_PROGRESS additions=1600 step=261315/264813\nLRAT_STREAM_PROGRESS additions=1700 step=261478/264813\nLRAT_STREAM_PROGRESS additions=1800 step=261641/264813\nLRAT_STREAM_PROGRESS additions=1900 step=261797/264813\nLRAT_STREAM_PROGRESS additions=2000 step=261944/264813\nLRAT_STREAM_PROGRESS additions=2100 step=262106/264813\nLRAT_STREAM_PROGRESS additions=2200 step=262261/264813\nLRAT_STREAM_PROGRESS additions=2300 step=262422/264813\nLRAT_STREAM_PROGRESS additions=2400 step=262586/264813\nLRAT_STREAM_PROGRESS additions=2500 step=262746/264813\nLRAT_STREAM_PROGRESS additions=2600 step=262906/264813\nLRAT_STREAM_PROGRESS additions=2700 step=263057/264813\nLRAT_STREAM_PROGRESS additions=2800 step=263207/264813\nLRAT_STREAM_PROGRESS additions=2900 step=263370/264813\nLRAT_STREAM_PROGRESS additions=3000 step=263527/264813\nLRAT_STREAM_PROGRESS additions=3100 step=263682/264813\nLRAT_STREAM_PROGRESS additions=3200 step=263831/264813\nLRAT_STREAM_PROGRESS additions=3300 step=263974/264813\nLRAT_STREAM_PROGRESS additions=3400 step=264132/264813\nLRAT_STREAM_PROGRESS additions=3500 step=264310/264813\nLRAT_STREAM_PROGRESS additions=3600 step=264455/264813\nLRAT_STREAM_PROGRESS additions=3700 step=264605/264813\nLRAT_STREAM_PROGRESS additions=3800 step=264762/264813\n",
+        "seconds": 54.377
+      },
+      "modules_finished": 115
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "42e0fb129a624f4b9ff0d522bcf1e007",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk036",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 266369/270757\nLRAT chunk progress: 2000 additions, source step 267915/270757\nLRAT chunk progress: 3000 additions, source step 269496/270757\nLRAT_STREAM_PROGRESS additions=100 step=264971/270757\nLRAT_STREAM_PROGRESS additions=200 step=265124/270757\nLRAT_STREAM_PROGRESS additions=300 step=265276/270757\nLRAT_STREAM_PROGRESS additions=400 step=265439/270757\nLRAT_STREAM_PROGRESS additions=500 step=265591/270757\nLRAT_STREAM_PROGRESS additions=600 step=265740/270757\nLRAT_STREAM_PROGRESS additions=700 step=265889/270757\nLRAT_STREAM_PROGRESS additions=800 step=266048/270757\nLRAT_STREAM_PROGRESS additions=900 step=266210/270757\nLRAT_STREAM_PROGRESS additions=1000 step=266369/270757\nLRAT_STREAM_PROGRESS additions=1100 step=266525/270757\nLRAT_STREAM_PROGRESS additions=1200 step=266676/270757\nLRAT_STREAM_PROGRESS additions=1300 step=266824/270757\nLRAT_STREAM_PROGRESS additions=1400 step=266978/270757\nLRAT_STREAM_PROGRESS additions=1500 step=267132/270757\nLRAT_STREAM_PROGRESS additions=1600 step=267288/270757\nLRAT_STREAM_PROGRESS additions=1700 step=267442/270757\nLRAT_STREAM_PROGRESS additions=1800 step=267602/270757\nLRAT_STREAM_PROGRESS additions=1900 step=267758/270757\nLRAT_STREAM_PROGRESS additions=2000 step=267915/270757\nLRAT_STREAM_PROGRESS additions=2100 step=268067/270757\nLRAT_STREAM_PROGRESS additions=2200 step=268233/270757\nLRAT_STREAM_PROGRESS additions=2300 step=268387/270757\nLRAT_STREAM_PROGRESS additions=2400 step=268546/270757\nLRAT_STREAM_PROGRESS additions=2500 step=268701/270757\nLRAT_STREAM_PROGRESS additions=2600 step=268856/270757\nLRAT_STREAM_PROGRESS additions=2700 step=269011/270757\nLRAT_STREAM_PROGRESS additions=2800 step=269172/270757\nLRAT_STREAM_PROGRESS additions=2900 step=269333/270757\nLRAT_STREAM_PROGRESS additions=3000 step=269496/270757\nLRAT_STREAM_PROGRESS additions=3100 step=269650/270757\nLRAT_STREAM_PROGRESS additions=3200 step=269808/270757\nLRAT_STREAM_PROGRESS additions=3300 step=269966/270757\nLRAT_STREAM_PROGRESS additions=3400 step=270119/270757\nLRAT_STREAM_PROGRESS additions=3500 step=270282/270757\nLRAT_STREAM_PROGRESS additions=3600 step=270441/270757\nLRAT_STREAM_PROGRESS additions=3700 step=270600/270757\nLRAT_STREAM_PROGRESS additions=3800 step=270754/270757\n",
+        "seconds": 53.962
+      },
+      "modules_finished": 116
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "4aee05cd1486495cbd2f9004c8fffb17",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk037",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 272337/276887\nLRAT chunk progress: 2000 additions, source step 273913/276887\nLRAT chunk progress: 3000 additions, source step 275544/276887\nLRAT_STREAM_PROGRESS additions=100 step=270916/276887\nLRAT_STREAM_PROGRESS additions=200 step=271073/276887\nLRAT_STREAM_PROGRESS additions=300 step=271226/276887\nLRAT_STREAM_PROGRESS additions=400 step=271383/276887\nLRAT_STREAM_PROGRESS additions=500 step=271545/276887\nLRAT_STREAM_PROGRESS additions=600 step=271698/276887\nLRAT_STREAM_PROGRESS additions=700 step=271851/276887\nLRAT_STREAM_PROGRESS additions=800 step=272015/276887\nLRAT_STREAM_PROGRESS additions=900 step=272179/276887\nLRAT_STREAM_PROGRESS additions=1000 step=272337/276887\nLRAT_STREAM_PROGRESS additions=1100 step=272489/276887\nLRAT_STREAM_PROGRESS additions=1200 step=272649/276887\nLRAT_STREAM_PROGRESS additions=1300 step=272808/276887\nLRAT_STREAM_PROGRESS additions=1400 step=272971/276887\nLRAT_STREAM_PROGRESS additions=1500 step=273127/276887\nLRAT_STREAM_PROGRESS additions=1600 step=273278/276887\nLRAT_STREAM_PROGRESS additions=1700 step=273435/276887\nLRAT_STREAM_PROGRESS additions=1800 step=273592/276887\nLRAT_STREAM_PROGRESS additions=1900 step=273747/276887\nLRAT_STREAM_PROGRESS additions=2000 step=273913/276887\nLRAT_STREAM_PROGRESS additions=2100 step=274074/276887\nLRAT_STREAM_PROGRESS additions=2200 step=274228/276887\nLRAT_STREAM_PROGRESS additions=2300 step=274382/276887\nLRAT_STREAM_PROGRESS additions=2400 step=274549/276887\nLRAT_STREAM_PROGRESS additions=2500 step=274721/276887\nLRAT_STREAM_PROGRESS additions=2600 step=274881/276887\nLRAT_STREAM_PROGRESS additions=2700 step=275051/276887\nLRAT_STREAM_PROGRESS additions=2800 step=275216/276887\nLRAT_STREAM_PROGRESS additions=2900 step=275378/276887\nLRAT_STREAM_PROGRESS additions=3000 step=275544/276887\nLRAT_STREAM_PROGRESS additions=3100 step=275707/276887\nLRAT_STREAM_PROGRESS additions=3200 step=275869/276887\nLRAT_STREAM_PROGRESS additions=3300 step=276024/276887\nLRAT_STREAM_PROGRESS additions=3400 step=276187/276887\nLRAT_STREAM_PROGRESS additions=3500 step=276352/276887\nLRAT_STREAM_PROGRESS additions=3600 step=276504/276887\nLRAT_STREAM_PROGRESS additions=3700 step=276660/276887\nLRAT_STREAM_PROGRESS additions=3800 step=276817/276887\n",
+        "seconds": 54.413
+      },
+      "modules_finished": 117
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "e47aaa8ddcec4ebaac8f7f54cbdb76da",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk038",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 278496/283132\nLRAT chunk progress: 2000 additions, source step 280120/283132\nLRAT chunk progress: 3000 additions, source step 281745/283132\nLRAT_STREAM_PROGRESS additions=100 step=277049/283132\nLRAT_STREAM_PROGRESS additions=200 step=277212/283132\nLRAT_STREAM_PROGRESS additions=300 step=277374/283132\nLRAT_STREAM_PROGRESS additions=400 step=277533/283132\nLRAT_STREAM_PROGRESS additions=500 step=277691/283132\nLRAT_STREAM_PROGRESS additions=600 step=277844/283132\nLRAT_STREAM_PROGRESS additions=700 step=278011/283132\nLRAT_STREAM_PROGRESS additions=800 step=278175/283132\nLRAT_STREAM_PROGRESS additions=900 step=278338/283132\nLRAT_STREAM_PROGRESS additions=1000 step=278496/283132\nLRAT_STREAM_PROGRESS additions=1100 step=278664/283132\nLRAT_STREAM_PROGRESS additions=1200 step=278820/283132\nLRAT_STREAM_PROGRESS additions=1300 step=278978/283132\nLRAT_STREAM_PROGRESS additions=1400 step=279143/283132\nLRAT_STREAM_PROGRESS additions=1500 step=279304/283132\nLRAT_STREAM_PROGRESS additions=1600 step=279469/283132\nLRAT_STREAM_PROGRESS additions=1700 step=279631/283132\nLRAT_STREAM_PROGRESS additions=1800 step=279793/283132\nLRAT_STREAM_PROGRESS additions=1900 step=279959/283132\nLRAT_STREAM_PROGRESS additions=2000 step=280120/283132\nLRAT_STREAM_PROGRESS additions=2100 step=280275/283132\nLRAT_STREAM_PROGRESS additions=2200 step=280442/283132\nLRAT_STREAM_PROGRESS additions=2300 step=280610/283132\nLRAT_STREAM_PROGRESS additions=2400 step=280783/283132\nLRAT_STREAM_PROGRESS additions=2500 step=280946/283132\nLRAT_STREAM_PROGRESS additions=2600 step=281115/283132\nLRAT_STREAM_PROGRESS additions=2700 step=281269/283132\nLRAT_STREAM_PROGRESS additions=2800 step=281432/283132\nLRAT_STREAM_PROGRESS additions=2900 step=281588/283132\nLRAT_STREAM_PROGRESS additions=3000 step=281745/283132\nLRAT_STREAM_PROGRESS additions=3100 step=281899/283132\nLRAT_STREAM_PROGRESS additions=3200 step=282056/283132\nLRAT_STREAM_PROGRESS additions=3300 step=282210/283132\nLRAT_STREAM_PROGRESS additions=3400 step=282372/283132\nLRAT_STREAM_PROGRESS additions=3500 step=282523/283132\nLRAT_STREAM_PROGRESS additions=3600 step=282669/283132\nLRAT_STREAM_PROGRESS additions=3700 step=282823/283132\nLRAT_STREAM_PROGRESS additions=3800 step=282979/283132\n",
+        "seconds": 52.722
+      },
+      "modules_finished": 118
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "6c9040aa11844d8381f1578b5617facc",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk039",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 284711/289595\nLRAT chunk progress: 2000 additions, source step 286341/289595\nLRAT chunk progress: 3000 additions, source step 288007/289595\nLRAT_STREAM_PROGRESS additions=100 step=283285/289595\nLRAT_STREAM_PROGRESS additions=200 step=283443/289595\nLRAT_STREAM_PROGRESS additions=300 step=283596/289595\nLRAT_STREAM_PROGRESS additions=400 step=283748/289595\nLRAT_STREAM_PROGRESS additions=500 step=283907/289595\nLRAT_STREAM_PROGRESS additions=600 step=284074/289595\nLRAT_STREAM_PROGRESS additions=700 step=284236/289595\nLRAT_STREAM_PROGRESS additions=800 step=284392/289595\nLRAT_STREAM_PROGRESS additions=900 step=284551/289595\nLRAT_STREAM_PROGRESS additions=1000 step=284711/289595\nLRAT_STREAM_PROGRESS additions=1100 step=284874/289595\nLRAT_STREAM_PROGRESS additions=1200 step=285039/289595\nLRAT_STREAM_PROGRESS additions=1300 step=285199/289595\nLRAT_STREAM_PROGRESS additions=1400 step=285360/289595\nLRAT_STREAM_PROGRESS additions=1500 step=285521/289595\nLRAT_STREAM_PROGRESS additions=1600 step=285681/289595\nLRAT_STREAM_PROGRESS additions=1700 step=285848/289595\nLRAT_STREAM_PROGRESS additions=1800 step=286013/289595\nLRAT_STREAM_PROGRESS additions=1900 step=286177/289595\nLRAT_STREAM_PROGRESS additions=2000 step=286341/289595\nLRAT_STREAM_PROGRESS additions=2100 step=286509/289595\nLRAT_STREAM_PROGRESS additions=2200 step=286683/289595\nLRAT_STREAM_PROGRESS additions=2300 step=286859/289595\nLRAT_STREAM_PROGRESS additions=2400 step=287032/289595\nLRAT_STREAM_PROGRESS additions=2500 step=287214/289595\nLRAT_STREAM_PROGRESS additions=2600 step=287383/289595\nLRAT_STREAM_PROGRESS additions=2700 step=287541/289595\nLRAT_STREAM_PROGRESS additions=2800 step=287695/289595\nLRAT_STREAM_PROGRESS additions=2900 step=287851/289595\nLRAT_STREAM_PROGRESS additions=3000 step=288007/289595\nLRAT_STREAM_PROGRESS additions=3100 step=288179/289595\nLRAT_STREAM_PROGRESS additions=3200 step=288343/289595\nLRAT_STREAM_PROGRESS additions=3300 step=288513/289595\nLRAT_STREAM_PROGRESS additions=3400 step=288679/289595\nLRAT_STREAM_PROGRESS additions=3500 step=288845/289595\nLRAT_STREAM_PROGRESS additions=3600 step=289018/289595\nLRAT_STREAM_PROGRESS additions=3700 step=289184/289595\nLRAT_STREAM_PROGRESS additions=3800 step=289340/289595\nLRAT_STREAM_PROGRESS additions=3900 step=289503/289595\n",
+        "seconds": 53.115
+      },
+      "modules_finished": 119
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "3ebe397089794eca9eb1c53406354c76",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": false,
+      "last": {
+        "module": "MathIsEasy.Minkowski14LRAT.Chunk040",
+        "exit_code": 0,
+        "log": "LRAT chunk progress: 1000 additions, source step 291190/298145\nLRAT chunk progress: 2000 additions, source step 292844/298145\nLRAT chunk progress: 3000 additions, source step 294808/298145\nLRAT chunk progress: 4000 additions, source step 296670/298145\nLRAT_STREAM_PROGRESS additions=100 step=289754/298145\nLRAT_STREAM_PROGRESS additions=200 step=289909/298145\nLRAT_STREAM_PROGRESS additions=300 step=290073/298145\nLRAT_STREAM_PROGRESS additions=400 step=290233/298145\nLRAT_STREAM_PROGRESS additions=500 step=290388/298145\nLRAT_STREAM_PROGRESS additions=600 step=290545/298145\nLRAT_STREAM_PROGRESS additions=700 step=290706/298145\nLRAT_STREAM_PROGRESS additions=800 step=290866/298145\nLRAT_STREAM_PROGRESS additions=900 step=291026/298145\nLRAT_STREAM_PROGRESS additions=1000 step=291190/298145\nLRAT_STREAM_PROGRESS additions=1100 step=291364/298145\nLRAT_STREAM_PROGRESS additions=1200 step=291533/298145\nLRAT_STREAM_PROGRESS additions=1300 step=291698/298145\nLRAT_STREAM_PROGRESS additions=1400 step=291858/298145\nLRAT_STREAM_PROGRESS additions=1500 step=292030/298145\nLRAT_STREAM_PROGRESS additions=1600 step=292196/298145\nLRAT_STREAM_PROGRESS additions=1700 step=292357/298145\nLRAT_STREAM_PROGRESS additions=1800 step=292522/298145\nLRAT_STREAM_PROGRESS additions=1900 step=292686/298145\nLRAT_STREAM_PROGRESS additions=2000 step=292844/298145\nLRAT_STREAM_PROGRESS additions=2100 step=293013/298145\nLRAT_STREAM_PROGRESS additions=2200 step=293208/298145\nLRAT_STREAM_PROGRESS additions=2300 step=293408/298145\nLRAT_STREAM_PROGRESS additions=2400 step=293608/298145\nLRAT_STREAM_PROGRESS additions=2500 step=293808/298145\nLRAT_STREAM_PROGRESS additions=2600 step=294008/298145\nLRAT_STREAM_PROGRESS additions=2700 step=294208/298145\nLRAT_STREAM_PROGRESS additions=2800 step=294408/298145\nLRAT_STREAM_PROGRESS additions=2900 step=294608/298145\nLRAT_STREAM_PROGRESS additions=3000 step=294808/298145\nLRAT_STREAM_PROGRESS additions=3100 step=295008/298145\nLRAT_STREAM_PROGRESS additions=3200 step=295208/298145\nLRAT_STREAM_PROGRESS additions=3300 step=295408/298145\nLRAT_STREAM_PROGRESS additions=3400 step=295608/298145\nLRAT_STREAM_PROGRESS additions=3500 step=295796/298145\nLRAT_STREAM_PROGRESS additions=3600 step=295967/298145\nLRAT_STREAM_PROGRESS additions=3700 step=296137/298145\nLRAT_STREAM_PROGRESS additions=3800 step=296311/298145\nLRAT_STREAM_PROGRESS additions=3900 step=296491/298145\nLRAT_STREAM_PROGRESS additions=4000 step=296670/298145\nLRAT_STREAM_PROGRESS additions=4100 step=296851/298145\nLRAT_STREAM_PROGRESS additions=4200 step=297027/298145\nLRAT_STREAM_PROGRESS additions=4300 step=297205/298145\nLRAT_STREAM_PROGRESS additions=4400 step=297372/298145\nLRAT_STREAM_PROGRESS additions=4500 step=297545/298145\nLRAT_STREAM_PROGRESS additions=4600 step=297705/298145\nLRAT_STREAM_PROGRESS additions=4700 step=297875/298145\nLRAT_STREAM_PROGRESS additions=4800 step=298033/298145\n",
+        "seconds": 53.66
+      },
+      "modules_finished": 120
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "38006717a026444ba2c12eaa3394d019",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": true,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphCertificate",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.155
+      },
+      "modules_finished": 123
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "7f72b18b9427447198df3d78473701b9",
+    "status": "FAIL",
+    "records": [
+      {
+        "module": "Final",
+        "exit_code": 134,
+        "log": "libc++abi: terminating due to uncaught exception of type lean::memory_exception: excessive memory consumption detected at 'interpreter' (potential solution: increase memory consumption threshold)\n",
+        "seconds": 12.038
+      }
+    ],
+    "sat": {
+      "complete": true,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphCertificate",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.155
+      },
+      "modules_finished": 123
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "828e98aed83b4839c72f5cdf0fc38d39e968388c035b50b190f37569d24ca3e2",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  },
+  {
+    "seq": "209443837adc418592b062008f73e957",
+    "status": "PASS",
+    "records": [],
+    "sat": {
+      "complete": true,
+      "last": {
+        "module": "MathIsEasy.Minkowski14.GraphCertificate",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.155
+      },
+      "modules_finished": 123
+    },
+    "source_sha256": {
+      "NegativeKernel.lean": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "ColouringTransfer.lean": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "Final.lean": "9da74ef537ed8a11947eae88fa63c536a9bcb3d31541418aa2c8653d854d6f17",
+      "Polygon.lean": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "NegativeControlSAT.lean": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "SafeLRAT.lean": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Plane.lean": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Embedding.lean": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "Algebra.lean": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "Coordinates.lean": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "NegativeControl.lean": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "PositiveControlSAT.lean": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "Facet.lean": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2"
+    }
+  }
+]

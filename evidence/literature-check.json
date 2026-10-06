@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-06",
+  "primary_sources": [
+    "https://arxiv.org/abs/2108.12861",
+    "https://arxiv.org/abs/2301.13695"
+  ],
+  "queries": [
+    "\"regular 14-gon\" \"chromatic\" Minkowski 2026",
+    "\"Minkowski\" \"14-gon\" site:github.com",
+    "\"14-gon\" site:vibemathed.com"
+  ],
+  "result": "No matching regular-fourteen-gon lower-bound result located in the screened results. The search is limited and establishes no priority."
+}

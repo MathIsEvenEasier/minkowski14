@@ -1,0 +1,1105 @@
+{
+  "status": "VERIFIED",
+  "job_id": "07e0d15a28854cab",
+  "lean": "4.34.0",
+  "mathlib": "5ed2965256430c3649e86755f9576b54eca72435",
+  "theorem": "Minkowski14.at_least_five_colours",
+  "meaning": "Every finite proper unit-distance colouring of the real two-dimensional plane whose unit ball is the convex hull of the 14th roots of unity uses at least five colours.",
+  "allowed_foundations": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "foundation_audit_log": "Foundation audit passed: Minkowski14.plane_unit_ball; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.plane_dimension; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.at_least_five_colours; axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.zeta_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rotated_side_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.Coordinate.eval_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.eval_sideCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.parameter_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.edges_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MathIsEasy.Minkowski14.FinalGraph.notFourColourable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_unit_ball' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]\nMinkowski14.plane_no_four_colouring (c : Minkowski14.Plane \u2192 Fin 4) : \u2203 x y, dist x y = 1 \u2227 c x = c y\nMinkowski14.plane_unit_ball (x : Minkowski14.Plane) :\n  \u2016x\u2016 \u2264 1 \u2194\n    (have this := x;\n      this) \u2208\n      (convexHull \u211d) {z | z ^ 14 = 1}\nMinkowski14.at_least_five_colours {n : \u2115} (c : Minkowski14.Plane \u2192 Fin n)\n  (proper : \u2200 (x y : Minkowski14.Plane), dist x y = 1 \u2192 c x \u2260 c y) : 5 \u2264 n\n",
+  "joined_proof_audit": {
+    "seq": "extended-final-audit",
+    "job_id": "07e0d15a28854cab",
+    "records": [
+      {
+        "module": "Final",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 2.194
+      },
+      {
+        "module": "FoundationAudit",
+        "exit_code": 0,
+        "log": "",
+        "seconds": 0.743
+      },
+      {
+        "module": "Audit",
+        "exit_code": 0,
+        "log": "Foundation audit passed: Minkowski14.plane_unit_ball; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.plane_dimension; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.at_least_five_colours; axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.zeta_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rotated_side_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.Coordinate.eval_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.eval_sideCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.parameter_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.edges_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MathIsEasy.Minkowski14.FinalGraph.notFourColourable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_unit_ball' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]\nMinkowski14.plane_no_four_colouring (c : Minkowski14.Plane \u2192 Fin 4) : \u2203 x y, dist x y = 1 \u2227 c x = c y\nMinkowski14.plane_unit_ball (x : Minkowski14.Plane) :\n  \u2016x\u2016 \u2264 1 \u2194\n    (have this := x;\n      this) \u2208\n      (convexHull \u211d) {z | z ^ 14 = 1}\nMinkowski14.at_least_five_colours {n : \u2115} (c : Minkowski14.Plane \u2192 Fin n)\n  (proper : \u2200 (x y : Minkowski14.Plane), dist x y = 1 \u2192 c x \u2260 c y) : 5 \u2264 n\n",
+        "seconds": 2.133
+      }
+    ],
+    "status": "PASS",
+    "source_sha256": {
+      "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "Final.lean": "9da74ef537ed8a11947eae88fa63c536a9bcb3d31541418aa2c8653d854d6f17"
+    },
+    "lean_memory_limit_mib": 18000,
+    "whole_cgroup_memory_limit_bytes": 25769803776,
+    "time_limit_seconds": 600
+  },
+  "modules_verified": 162,
+  "modules": [
+    {
+      "module": "Algebra",
+      "source_sha256": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "seconds": 7.656
+    },
+    {
+      "module": "Polygon",
+      "source_sha256": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "seconds": 2.511
+    },
+    {
+      "module": "Facet",
+      "source_sha256": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "seconds": 3.008
+    },
+    {
+      "module": "Coordinates",
+      "source_sha256": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "seconds": 2.349
+    },
+    {
+      "module": "Parameters",
+      "source_sha256": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "seconds": 6.583
+    },
+    {
+      "module": "Positions",
+      "source_sha256": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "seconds": 5.093
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.ColouringBridge",
+      "source_sha256": "5bcfdb252b3ae3aaf28c6a6f8a532c66a2ef5a2dee0b33f30e920edf4076bfa6",
+      "seconds": 2.264
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk001",
+      "source_sha256": "61c6b938b01272b8f3a65a517b621ce03cea6287334cf9cfaf37f29987e79feb",
+      "seconds": 2.577
+    },
+    {
+      "module": "Geometry.Chunk001",
+      "source_sha256": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb",
+      "seconds": 6.579
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk002",
+      "source_sha256": "15608273c7f56aaad2d89f8db22fa3638f010ddf10d593c8d8fe36936d29900e",
+      "seconds": 2.572
+    },
+    {
+      "module": "Geometry.Chunk002",
+      "source_sha256": "4c3ea6ce4361abd82eee22313649e99fde78d7de155b050c5cc453fdf0aaa99c",
+      "seconds": 6.53
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk003",
+      "source_sha256": "b139dbd934187de0c686f18eca7d259dff080d9fe40b6c9206813de51a8f3020",
+      "seconds": 2.346
+    },
+    {
+      "module": "Geometry.Chunk003",
+      "source_sha256": "3887b82fee669166c2bf694186ece29f543e577ccc16a64e5195cc91ba495c86",
+      "seconds": 6.542
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk004",
+      "source_sha256": "e2eddbe51ae1c7a1d3b3b16d41907ed2ce03efea3446890faf460476f551bdd6",
+      "seconds": 3.338
+    },
+    {
+      "module": "Geometry.Chunk004",
+      "source_sha256": "ca8f0d34d6058e4d67a6698737e68537c98a4e70fd1b4bda35041e5df2b91c00",
+      "seconds": 6.438
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk005",
+      "source_sha256": "ca3d9f467c3849d3a3f41a5e80f16c92e4e81082a7bd62b8cd6e98ae3d4e3e2a",
+      "seconds": 2.306
+    },
+    {
+      "module": "Geometry.Chunk005",
+      "source_sha256": "f092ffc7112bae06bcf02af6cd48cf735baed458181e550bea9f35f890c9d93e",
+      "seconds": 6.918
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk006",
+      "source_sha256": "4d9225bf7064e92003bd96f2b9d5d9b2748068f0610463bbf93b833479e71346",
+      "seconds": 2.268
+    },
+    {
+      "module": "Geometry.Chunk006",
+      "source_sha256": "a8f53f4bde187fafed06059b889bbdd7cf563c49da7916334c77d5873296d710",
+      "seconds": 6.456
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk007",
+      "source_sha256": "a04bc21f5a3b4f34ee3767aec89f97aa072a580cf0e441f38734918cd39629eb",
+      "seconds": 2.257
+    },
+    {
+      "module": "Geometry.Chunk007",
+      "source_sha256": "01a7d9ef9988cfad31d51d5f16d251fd357c5bc666cbe7f1f8958c11e3394c28",
+      "seconds": 6.395
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk008",
+      "source_sha256": "074c74ae25cb82cb9e2e6b39bbebd4413d232b12ff58448677dc4c1905143af9",
+      "seconds": 2.244
+    },
+    {
+      "module": "Geometry.Chunk008",
+      "source_sha256": "db9065874006f93a0cddb7a3cfe74819bc0b9eb2968f30c99891ddef42df4b4d",
+      "seconds": 6.448
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk009",
+      "source_sha256": "bf24c9072b7a457f627361d1126155483016077a2f15a03f7c493e8b75a1181a",
+      "seconds": 2.239
+    },
+    {
+      "module": "Geometry.Chunk009",
+      "source_sha256": "1142451e8c1e4cf9d1abb5509fd14d4e6e7a13bbc0bc4a7c2acbc39c13dfa058",
+      "seconds": 6.546
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk010",
+      "source_sha256": "118095d849d084744389486a998fff5a2b5a05e0da2872660fe8894199c4e51a",
+      "seconds": 2.246
+    },
+    {
+      "module": "Geometry.Chunk010",
+      "source_sha256": "106c8e8632d254b6e382d38170cf3d29f1af13d203d4ba14a87cfe19ca2738a4",
+      "seconds": 6.527
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk011",
+      "source_sha256": "33d9f49ccba17de1ccebbf29cf44ed2dec0f8748854fbb1c4b4bef42fba86795",
+      "seconds": 2.237
+    },
+    {
+      "module": "Geometry.Chunk011",
+      "source_sha256": "d59939c7f9e77e62a28a0b150832f2f850e9cfe34c7cfc7fe64a3bd12ae6af4b",
+      "seconds": 6.511
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk012",
+      "source_sha256": "342f5f03eac7540fa42b83aa2dc29d32b7aacf5266469004e6f24408ac87ad13",
+      "seconds": 2.239
+    },
+    {
+      "module": "Geometry.Chunk012",
+      "source_sha256": "39ca7c7643c93a9f51b2ddda8f9a72fbc00fcb02dc47682bb8f7d63427fabfb1",
+      "seconds": 6.498
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk013",
+      "source_sha256": "b9b13bdb317de8c8498f5c5c1c696d1bd956ea175eda49733e5b4ffdbc5cb69b",
+      "seconds": 2.237
+    },
+    {
+      "module": "Geometry.Chunk013",
+      "source_sha256": "b27dec9e108c60d3f9bb7cdf2b04ad51cb54aba22cf427dc5c3b889169f7086e",
+      "seconds": 6.794
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk014",
+      "source_sha256": "f290010c07dc0315e294ada9d0b07916ca51e8b6393259fd168b0ffa40f966f4",
+      "seconds": 2.232
+    },
+    {
+      "module": "Geometry.Chunk014",
+      "source_sha256": "c263509ab18bd3c1fb73c1c04da44f18bf27f65503b4ef55762c8ba878b29744",
+      "seconds": 6.493
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk015",
+      "source_sha256": "1bbab8bf7afc4505a829fbb087ab38374feaf09fa4a9ed8402aba5d88423a589",
+      "seconds": 2.255
+    },
+    {
+      "module": "Geometry.Chunk015",
+      "source_sha256": "5326cb7d9d3f856d5c8a225d7a0087c70e2a04022990c61f1c29932404b87f8b",
+      "seconds": 6.36
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk016",
+      "source_sha256": "1acf6981fb4e19984723c6df96f719134a51de7b057a66012a20791438614243",
+      "seconds": 2.233
+    },
+    {
+      "module": "Geometry.Chunk016",
+      "source_sha256": "165f60a260894f5b6735fea14de020a6ff212901027b11a4b0ebf6efa303525b",
+      "seconds": 6.312
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk017",
+      "source_sha256": "6d87c563c8c403053dfb802ffc2d5db1e50fb2d5a5e070bdb5c0833a6d3746ac",
+      "seconds": 2.242
+    },
+    {
+      "module": "Geometry.Chunk017",
+      "source_sha256": "b4809f99488511eff01391bf3028ea9bd25450540622b3b8c2cf1543fccf45dd",
+      "seconds": 6.584
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk018",
+      "source_sha256": "18c97061a43007b04cfe6536427b84112acdb73cb72bfa1769ac3f13e79bafb2",
+      "seconds": 2.241
+    },
+    {
+      "module": "Geometry.Chunk018",
+      "source_sha256": "18e1f8cfebccd1fa109c8162e4d7322ae2ea5399ae6913b2d0349b099b023d9e",
+      "seconds": 6.521
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk019",
+      "source_sha256": "78167c25c0405997863561d4e0d2cb09e0cb75de5b1b162dc8ba9a90f469daad",
+      "seconds": 2.249
+    },
+    {
+      "module": "Geometry.Chunk019",
+      "source_sha256": "2665dbee1f3364f6abe59372f28369dd2d092e7aea7c0568924a14f752f5e516",
+      "seconds": 6.587
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk020",
+      "source_sha256": "6dd571d4d731154afc451f0f9263c42aff4e4d4cf9eee15d4c60e483449bad22",
+      "seconds": 2.245
+    },
+    {
+      "module": "Geometry.Chunk020",
+      "source_sha256": "5d534417359d8863dd0babea0bc35dbef044cb4e3344b7c546e6f754b8fa9076",
+      "seconds": 6.494
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk021",
+      "source_sha256": "c54969d2c16716644e9a514b58298222a6b07eb8cf9eddd40323efd9c6ab2164",
+      "seconds": 2.243
+    },
+    {
+      "module": "Geometry.Chunk021",
+      "source_sha256": "43c0a8bcc6804368e0735e752a9e776e4d6648e3bbdff8f24854196ac6a53080",
+      "seconds": 6.773
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk022",
+      "source_sha256": "94b5755b012439cf4a6e52b024bfcb44e8f7755aaef14b38a31e5bf7f511b6a7",
+      "seconds": 2.247
+    },
+    {
+      "module": "Geometry.Chunk022",
+      "source_sha256": "f49b458f6ae7b676b989f9397afc0e79dc059bd4eab5e44d435626eb271314d0",
+      "seconds": 6.587
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk023",
+      "source_sha256": "21bbc05347b399a9fc654b2092e7c3a61d764f13501be503a19ff4332d42391e",
+      "seconds": 2.249
+    },
+    {
+      "module": "Geometry.Chunk023",
+      "source_sha256": "37b9bd3dd0d70a198947398e25b5f3cc76bfea531501e3edaba67fa100f860d4",
+      "seconds": 6.348
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk024",
+      "source_sha256": "aa870ce31b716bdca0194c0f68ea3b460424f6b49ec4cdaa183bea6f0ddc916f",
+      "seconds": 2.27
+    },
+    {
+      "module": "Geometry.Chunk024",
+      "source_sha256": "a1e8f6b49d8bb36bc2f383b08f4d36ed660495551ac63f2df9f3ff7467b992a2",
+      "seconds": 6.453
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk025",
+      "source_sha256": "6fd51204b3076c1575e08c07d8642103d369ade256d2bca843592607d99d7cfe",
+      "seconds": 2.245
+    },
+    {
+      "module": "Geometry.Chunk025",
+      "source_sha256": "d5b7f6c759a618d12e5509fef12362a654cac4d325595230f484ca27e83cae74",
+      "seconds": 6.526
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk026",
+      "source_sha256": "ed57bb34bd59d654fa87dde0e85606e743e967aa961beb2c4d809e27a8de4c1b",
+      "seconds": 2.228
+    },
+    {
+      "module": "Geometry.Chunk026",
+      "source_sha256": "db7a78e9d4dd8c0bf3f13972b4def7174997dfdddcc4c4c00400c9796712ecae",
+      "seconds": 6.582
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk027",
+      "source_sha256": "445f6263e8b9bb55aa0a242b3ce4e3eaca18cc02dbadcbe7c74b1ca1db43afcc",
+      "seconds": 2.228
+    },
+    {
+      "module": "Geometry.Chunk027",
+      "source_sha256": "3e1e1766b1a23ea255d4c71fbdb8a627e9a1fbc49d3962d0049f4ac6f6d9ca01",
+      "seconds": 6.576
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk028",
+      "source_sha256": "579c5b2eeb8e615a7594daf885caf8371421374db8d8c142dace0436c1fb260d",
+      "seconds": 2.075
+    },
+    {
+      "module": "Geometry.Chunk028",
+      "source_sha256": "ba28ef90d7aaa67eea8103a11de0080b39f6b8e158aabbbe49c21870c9658f9b",
+      "seconds": 4.275
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData",
+      "source_sha256": "05f308d7da059b225b81dfbb24a1d50bf79e772680a0fc86c187ed6855119899",
+      "seconds": 3.311
+    },
+    {
+      "module": "Embedding",
+      "source_sha256": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "seconds": 2.083
+    },
+    {
+      "module": "Plane",
+      "source_sha256": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "seconds": 2.247
+    },
+    {
+      "module": "ColouringTransfer",
+      "source_sha256": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "seconds": 2.029
+    },
+    {
+      "module": "MathIsEasy.Tactic.Sat.FromLRATStream",
+      "source_sha256": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "seconds": 1.162
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Base",
+      "source_sha256": "7838a74afb5b962902eff5eb47378726d6317759dfae2d99dfb8583377788f90",
+      "seconds": 24.51
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex001",
+      "source_sha256": "9f6c2b7b7238b622daacf3853d29774537641bd9f5dbc9ec234fc5840c4b8885",
+      "seconds": 2.803
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex002",
+      "source_sha256": "ecda0a9dc431b17f51b04f22c8522d76b7ff50805b2ea67fafc19c5e1fdacda4",
+      "seconds": 2.851
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex003",
+      "source_sha256": "c1094d530cce743c273086ca714dae00fbc1a39971f0aa30a267816dc0fdc3d2",
+      "seconds": 2.846
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex004",
+      "source_sha256": "c9b96b89f02993c45cbe6f935fa30e20702aeb3d22906c1c48122081969e6253",
+      "seconds": 2.832
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex005",
+      "source_sha256": "cac6a9210acd8e048175713821524fa6fd0f263a7bd4a4f7e1ae474277d36768",
+      "seconds": 2.808
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex006",
+      "source_sha256": "b5710517fc9a9ce8e51764c1a4dadcfa832e76e0d2833ac36019dc67b784ea38",
+      "seconds": 2.787
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex007",
+      "source_sha256": "a181520185d2f25d51467135fd5b5773bb04a0f1f7d0c3d3465f6c7e1abdc03a",
+      "seconds": 2.795
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex008",
+      "source_sha256": "a838dcbc54445d9150a6356514e43bf2276ca58118ada65492df5c1b4c332fce",
+      "seconds": 2.793
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex009",
+      "source_sha256": "698c6bb5179c7994395055297a07928325504855127c6c3de3dcc298dccbcc27",
+      "seconds": 2.821
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex010",
+      "source_sha256": "6ccda034405a3988edb0d815e357d045827b7ed9afcfb094f4f594fd0f81588a",
+      "seconds": 2.832
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex011",
+      "source_sha256": "9d4bcaebff6d8a08560e7ddec67e80dad775b5b63036425b7aa1562290e8c50d",
+      "seconds": 2.789
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex012",
+      "source_sha256": "1447aa3325d63c570ae062c68e0f3dfa35bee2650a688cdffcd85b8b7b0936ee",
+      "seconds": 2.814
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex013",
+      "source_sha256": "3e1e22a7eb846e100c9f6cdf9115920f974eadcecc28a69b1e53c659e61b76d2",
+      "seconds": 2.814
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex014",
+      "source_sha256": "34cc1f614ec423416220dbc7ee6cc768d657b660b7da0983c266177d0faa3cfa",
+      "seconds": 2.832
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex015",
+      "source_sha256": "cecee0cabc00a02c8420f275ad3ef4d8f93fa417e6dae6cef57d89ad916c2505",
+      "seconds": 2.816
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex016",
+      "source_sha256": "061afcbadcc2f52e09a12ea8e2e2b3b34758aa70a0dc1faf62e5fad144bac514",
+      "seconds": 2.273
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge001",
+      "source_sha256": "9827439996da3bcf1d2934a2f7524127e4e64b6deea85ba4fd0a8a1ffac360c1",
+      "seconds": 4.619
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge002",
+      "source_sha256": "fbd4ae7cacbb62d7183706b44db4f212c31c54183bb4eb42ee86dec8b48a7b84",
+      "seconds": 4.652
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge003",
+      "source_sha256": "2893faae9bb972be49566cfab21c2ce1e6acbda6eace1971c71ccd8f71bd6561",
+      "seconds": 4.658
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge004",
+      "source_sha256": "fdd8078eec21a0b9b9f3cd1b6561f03c48e635b294610c1c793f907eded902af",
+      "seconds": 4.906
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge005",
+      "source_sha256": "d9d2ee0b28742712b77e612a2075a2de49cf097a1e5be6d04d88c20005a2db43",
+      "seconds": 4.927
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge006",
+      "source_sha256": "e4933ef2b917e9ab42840814a2d235a8e81c7e874ee61b0c77e2937b112e473d",
+      "seconds": 5.062
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge007",
+      "source_sha256": "164d47a1c7e6ad4e2cd1589217ee4269948221e0ba705f6a15754e7737b0e7c7",
+      "seconds": 4.968
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge008",
+      "source_sha256": "869bf699b5692d2008b721e0b57fd51652f86abcf586917537a3272a180fc655",
+      "seconds": 4.817
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge009",
+      "source_sha256": "a0b5832e26bfdfa9a7594e8ea54ba63113ac54b263d6b52ae4293266fdd15da3",
+      "seconds": 4.779
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge010",
+      "source_sha256": "ddbf79509fccbf76609eb673b99a8147dfa5dfbdcd63cd65d87a76e1a3ee22ba",
+      "seconds": 5.121
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge011",
+      "source_sha256": "2d552a538fd4545f8260201e9273386f221cae813176c91d59dd1ab36eb60a40",
+      "seconds": 4.863
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge012",
+      "source_sha256": "bddb47ab2ddd36327946d4ee474c1b9a3417677bea6df3665e05529dbca3045a",
+      "seconds": 4.672
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge013",
+      "source_sha256": "b79a0df957be5b3ce59df2051346512825208c008a5879fb4a3cdc180590c213",
+      "seconds": 4.678
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge014",
+      "source_sha256": "bdc99b75c7da5842b6ea3b12ecc4370c99ab12e8f7fe3a00242036c19d108116",
+      "seconds": 4.67
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge015",
+      "source_sha256": "d89c3bb978abb24ec5409f87ce7bd872709526faf7d17d9b000daecb94b7d398",
+      "seconds": 4.657
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge016",
+      "source_sha256": "b972810ed95507dd5f5943390067cce3d5e933270b0e64f603010834c6c22e3a",
+      "seconds": 4.598
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge017",
+      "source_sha256": "4813b0e6279cf69db79e1e2a04c994f3b720a7d704208dc99ef73ae3ce86c7de",
+      "seconds": 4.628
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge018",
+      "source_sha256": "274987d25f9ef80e989271f95169732398eacbac738e4011d70cee94b9b0f335",
+      "seconds": 4.623
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge019",
+      "source_sha256": "a9825a087a23400b842c7f236a982f662d1e017118f433d44de703eccec0065c",
+      "seconds": 4.612
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge020",
+      "source_sha256": "165c02ad1fd4ab2bc5353a7171a4501de785de7d80567c32a3547cee3ae26ab3",
+      "seconds": 4.649
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge021",
+      "source_sha256": "3167c30c315b9235edf9965d257d73895da2d53a9b4418bb80b8b8c327b45ed0",
+      "seconds": 4.599
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge022",
+      "source_sha256": "91e5696ae03c38872bbcf27474dfb58d4dae9c3a7d3e2241d50b9861cd4e681d",
+      "seconds": 4.594
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge023",
+      "source_sha256": "af69807d6100b976bfbccded30e7ec92ac84f1ae44675d1e94e5f24ff48735ff",
+      "seconds": 4.574
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge024",
+      "source_sha256": "8ef5f74a3d0cf7aebbe5c774b1a4596524acca01a886eb44866c4d6b5a012b72",
+      "seconds": 4.561
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge025",
+      "source_sha256": "e5e71ce7e86a673a0cbf4fb3bed73ced78e4339efc4932a210669c25590e3ed8",
+      "seconds": 4.545
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge026",
+      "source_sha256": "162a8de98893c552bf5d05125e1bcbb31b0665e24b2216f64062b4a6240c798b",
+      "seconds": 4.457
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge027",
+      "source_sha256": "6ff2431b7697cb5f0612646e0afa3a43f542751aa185264c0e820808f360bb38",
+      "seconds": 4.422
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge028",
+      "source_sha256": "2b689ab2dc9fd3e2731cbc5dc1d39aa847d744da8803f2463acfd9373d3d00d2",
+      "seconds": 3.107
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Root",
+      "source_sha256": "65a62409f8403f2e61e02a9893c9e659f4e5979264d31f766ce7fe354716c148",
+      "seconds": 1.961
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding",
+      "source_sha256": "e16ad3d2e8954b89db0843cf7f8e8f4488ea6061873a4268dab16205b2d220e7",
+      "seconds": 42.426
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk001",
+      "source_sha256": "05723641ff08c1622195690cb82288eaa8a846a8333a42902a9e37829c0048c8",
+      "seconds": 64.642
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk002",
+      "source_sha256": "9ea7c4b7cc01514f9bbb4a6d3974500910e3e7793ce4b4f4d6c24029a2592d14",
+      "seconds": 52.825
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk003",
+      "source_sha256": "e97a44dde80f938913013271e71ce4ec9cedf84fb55d0be7c2a3441382728a6c",
+      "seconds": 53.268
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk004",
+      "source_sha256": "63c5cda7c020ee69e4719d8ceea259623b53e96d103d9553341be862d537723b",
+      "seconds": 53.827
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk005",
+      "source_sha256": "133c30bdb933108361a44c692f4b8f1819b372cd916c4a48fcaec74e3b063fe9",
+      "seconds": 51.02
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk006",
+      "source_sha256": "aca38427839a1f9c9f7c12d57b9e94bd3000850aed11482c300178b2211f4c70",
+      "seconds": 52.482
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk007",
+      "source_sha256": "ea00e0f2eb857c429158f423043448f5156a8674a86549c93e2ac9657646ea7c",
+      "seconds": 52.446
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk008",
+      "source_sha256": "9a1913ac3681140edae7d4a83e3f7ccdcb2b199ff3bdab1bd66cecb82a88ef67",
+      "seconds": 53.139
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk009",
+      "source_sha256": "1548b42f01a471d66cde6d67d90262d87e28ed9f7c02a9a1e8022160c95dc17d",
+      "seconds": 50.535
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk010",
+      "source_sha256": "2457fc2f48d7e5455901ce4072d9d318a4eac0b1cf9b093a57c98dd862562237",
+      "seconds": 51.574
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk011",
+      "source_sha256": "906e4544309c21c5b6bbaed840307ddb8ee155436140424b437971eead7b414d",
+      "seconds": 51.154
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk012",
+      "source_sha256": "008c666a010b7551cd87d4c627d978e1d1734b86f7af635c59713ed8dd39cb05",
+      "seconds": 52.444
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk013",
+      "source_sha256": "ecf7f745b37ea2d87bbd1c6a415c1af108904b042e67c3243c7bfa8398239f02",
+      "seconds": 54.078
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk014",
+      "source_sha256": "fc2c7c22d7d31fbedf13e373200acb53f54e6436fd6e68e7bd88ef681aa9e4b5",
+      "seconds": 51.816
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk015",
+      "source_sha256": "f7264772d5a094cfd69dfdabb23be0bfeb9c099baf0ce2a195c0670d675250ab",
+      "seconds": 50.568
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk016",
+      "source_sha256": "1f4cd30f5886ce6d1be3521a11fa80e31689388acd4914455ad5f150752e5ef2",
+      "seconds": 50.221
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk017",
+      "source_sha256": "b754a87d7396be843a43d22f11a2400ff0fb518f9753c317b30f7758dff7f8e5",
+      "seconds": 53.563
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk018",
+      "source_sha256": "ab9433b53752d6da9fc19504439bd134d589ad2bd43c10b4d8fa896242d520c7",
+      "seconds": 53.933
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk019",
+      "source_sha256": "74474d475ceb60e9490553484ec22b2bb5cb37a11385b7106f09a94a91b66253",
+      "seconds": 53.963
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk020",
+      "source_sha256": "5db3ab1666d652fb54784eae2d6f49feacfddb7fbb817b66c92be29e68aea034",
+      "seconds": 55.528
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk021",
+      "source_sha256": "b4103e3e071034a48983285c04d5bba8a72c6185abc27060f17d990dea6c793a",
+      "seconds": 51.81
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk022",
+      "source_sha256": "c487d006d8b887a948564f339bad0df1f56cd054f861562ea05254f447a89c44",
+      "seconds": 51.396
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk023",
+      "source_sha256": "f1f546dd365ca135d8908a6932911e567b044444a08b4293d2dd40cf63891a6d",
+      "seconds": 51.212
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk024",
+      "source_sha256": "1ada36fe550012daff36a63f46c52cddd2cd89af3c47824dd48fe9bc8d6a343f",
+      "seconds": 55.817
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk025",
+      "source_sha256": "896435ff9305db3822622e3ee3c2b91eb3deef87f94b0fdb2a31c16ddfcc1551",
+      "seconds": 55.864
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk026",
+      "source_sha256": "49ba08c1bc010166255bc9615a1400a869ec0f9829844713515b2ce7bd5fb99f",
+      "seconds": 52.433
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk027",
+      "source_sha256": "48e49cb29ff7425e6b8bb969e29041703a53f884ee92b7f828695951af203306",
+      "seconds": 52.183
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk028",
+      "source_sha256": "6958d76c62b5e9b8a0059b02b80cfe3def3f24f773bb29d500408ecb6bb6c35a",
+      "seconds": 52.198
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk029",
+      "source_sha256": "c07af462ea5a9ac396107e817f0acb1ea3b7f35660a3d837880c957669fe8708",
+      "seconds": 53.438
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk030",
+      "source_sha256": "62a697ea4e586829e575410bffd8dde9513cfb126aff8d94c2daafec9034f01d",
+      "seconds": 51.021
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk031",
+      "source_sha256": "0e0a241ca8b27251dfd2f78a383e61133c963df90eb4f7689cf0c98ea26181d3",
+      "seconds": 51.546
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk032",
+      "source_sha256": "3aecde56f5f621406d304eb0197f70350b69bdbb099d99e0013db59e6fb36eb2",
+      "seconds": 51.119
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk033",
+      "source_sha256": "eb3a9ccf1c36808206749fbb6a1d791414c4422973e2a2cb826dd4c7d2c06f19",
+      "seconds": 50.723
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk034",
+      "source_sha256": "2217506ca0264c065a27886180e2e29b02fae2b5c20f3bc4f0b6eeb9a97b8aef",
+      "seconds": 51.583
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk035",
+      "source_sha256": "97a2459ffcad6716926cdab1e66a7a54c244a688dbf2aafcd050b3e20f3cb54b",
+      "seconds": 54.377
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk036",
+      "source_sha256": "19b75a38cc0cf7c6178f24b30d135b7cf9d511da3bc1c41472ffcf1e961b6eea",
+      "seconds": 53.962
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk037",
+      "source_sha256": "00214580d1981e4da63d6cefe93788c30d3c267474bc0afc4eff40e97b65816e",
+      "seconds": 54.413
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk038",
+      "source_sha256": "b291a1efd930850e7e56d0c1852413bd45b3ae17a047f8f0cdaca3293e7b8fdf",
+      "seconds": 52.722
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk039",
+      "source_sha256": "8f84e02842ecdebbb7950d8bae8b46761685e79e9dead0e5894f1a5c0c8bfa41",
+      "seconds": 53.115
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk040",
+      "source_sha256": "d104787d6cb0e2ccb22e6625e11d559cdbfdb803eaf71520d82e9eadb9d23608",
+      "seconds": 53.66
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk041",
+      "source_sha256": "c479cb9ab39230a0b839c32ec2b8c8503c2cde90d2c79bbc2cb9eba66f0728c5",
+      "seconds": 53.468
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk042",
+      "source_sha256": "55d2f564429e94472f308549300c2439690122c7dbf6fd3b47370bfa8d917a54",
+      "seconds": 24.824
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphCertificate",
+      "source_sha256": "d83eee4fe4e3fab32fb7954629a8e3a79c52a19147f3f245b000eb96b0e8f780",
+      "seconds": 2.155
+    },
+    {
+      "module": "Final",
+      "source_sha256": "9da74ef537ed8a11947eae88fa63c536a9bcb3d31541418aa2c8653d854d6f17",
+      "seconds": 2.194
+    },
+    {
+      "module": "FoundationAudit",
+      "source_sha256": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "seconds": 0.743
+    },
+    {
+      "module": "Audit",
+      "source_sha256": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "seconds": 2.133
+    },
+    {
+      "module": "PositiveControlSAT",
+      "source_sha256": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "seconds": 0.885
+    }
+  ],
+  "negative_controls": [
+    {
+      "module": "NegativeControl",
+      "rejected": true,
+      "source_sha256": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "log": "NegativeControl.lean:6:2: error: Tactic `decide` proved that the proposition\n  { a0 := 1, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }.sub\n      { a0 := 0, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 } =\n    { a0 := 2, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }\nis false\n"
+    },
+    {
+      "module": "NegativeControlSAT",
+      "rejected": true,
+      "source_sha256": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "log": "NegativeControlSAT.lean:12:0: error: LRAT step 0, clause 2: no refutation: #[], #[1], [(-1, 1)]\n"
+    },
+    {
+      "module": "NegativeKernel",
+      "rejected": true,
+      "source_sha256": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "log": "NegativeKernel.lean:6:0: error: (kernel) declaration type mismatch, 'Minkowski14RejectedKernelControl' has type\n  True\nbut it is expected to have type\n  False\n"
+    }
+  ],
+  "generation_reproduction": {
+    "generator_sha256": "ca2a33d3a521c77e9bd980f993a5bbab17f8c18c3b96f44775ebf900e743500c",
+    "exit_code": 0,
+    "files": {
+      "Parameters.lean": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "Positions.lean": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "geometry-generation.json": "f28a7c77d0831f4b6564358326eead3aaca4777d01c399f50fd36e32512e6a76",
+      "Geometry/Chunk001.lean": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb",
+      "Geometry/Chunk002.lean": "4c3ea6ce4361abd82eee22313649e99fde78d7de155b050c5cc453fdf0aaa99c",
+      "Geometry/Chunk003.lean": "3887b82fee669166c2bf694186ece29f543e577ccc16a64e5195cc91ba495c86",
+      "Geometry/Chunk004.lean": "ca8f0d34d6058e4d67a6698737e68537c98a4e70fd1b4bda35041e5df2b91c00",
+      "Geometry/Chunk005.lean": "f092ffc7112bae06bcf02af6cd48cf735baed458181e550bea9f35f890c9d93e",
+      "Geometry/Chunk006.lean": "a8f53f4bde187fafed06059b889bbdd7cf563c49da7916334c77d5873296d710",
+      "Geometry/Chunk007.lean": "01a7d9ef9988cfad31d51d5f16d251fd357c5bc666cbe7f1f8958c11e3394c28",
+      "Geometry/Chunk008.lean": "db9065874006f93a0cddb7a3cfe74819bc0b9eb2968f30c99891ddef42df4b4d",
+      "Geometry/Chunk009.lean": "1142451e8c1e4cf9d1abb5509fd14d4e6e7a13bbc0bc4a7c2acbc39c13dfa058",
+      "Geometry/Chunk010.lean": "106c8e8632d254b6e382d38170cf3d29f1af13d203d4ba14a87cfe19ca2738a4",
+      "Geometry/Chunk011.lean": "d59939c7f9e77e62a28a0b150832f2f850e9cfe34c7cfc7fe64a3bd12ae6af4b",
+      "Geometry/Chunk012.lean": "39ca7c7643c93a9f51b2ddda8f9a72fbc00fcb02dc47682bb8f7d63427fabfb1",
+      "Geometry/Chunk013.lean": "b27dec9e108c60d3f9bb7cdf2b04ad51cb54aba22cf427dc5c3b889169f7086e",
+      "Geometry/Chunk014.lean": "c263509ab18bd3c1fb73c1c04da44f18bf27f65503b4ef55762c8ba878b29744",
+      "Geometry/Chunk015.lean": "5326cb7d9d3f856d5c8a225d7a0087c70e2a04022990c61f1c29932404b87f8b",
+      "Geometry/Chunk016.lean": "165f60a260894f5b6735fea14de020a6ff212901027b11a4b0ebf6efa303525b",
+      "Geometry/Chunk017.lean": "b4809f99488511eff01391bf3028ea9bd25450540622b3b8c2cf1543fccf45dd",
+      "Geometry/Chunk018.lean": "18e1f8cfebccd1fa109c8162e4d7322ae2ea5399ae6913b2d0349b099b023d9e",
+      "Geometry/Chunk019.lean": "2665dbee1f3364f6abe59372f28369dd2d092e7aea7c0568924a14f752f5e516",
+      "Geometry/Chunk020.lean": "5d534417359d8863dd0babea0bc35dbef044cb4e3344b7c546e6f754b8fa9076",
+      "Geometry/Chunk021.lean": "43c0a8bcc6804368e0735e752a9e776e4d6648e3bbdff8f24854196ac6a53080",
+      "Geometry/Chunk022.lean": "f49b458f6ae7b676b989f9397afc0e79dc059bd4eab5e44d435626eb271314d0",
+      "Geometry/Chunk023.lean": "37b9bd3dd0d70a198947398e25b5f3cc76bfea531501e3edaba67fa100f860d4",
+      "Geometry/Chunk024.lean": "a1e8f6b49d8bb36bc2f383b08f4d36ed660495551ac63f2df9f3ff7467b992a2",
+      "Geometry/Chunk025.lean": "d5b7f6c759a618d12e5509fef12362a654cac4d325595230f484ca27e83cae74",
+      "Geometry/Chunk026.lean": "db7a78e9d4dd8c0bf3f13972b4def7174997dfdddcc4c4c00400c9796712ecae",
+      "Geometry/Chunk027.lean": "3e1e1766b1a23ea255d4c71fbdb8a627e9a1fbc49d3962d0049f4ac6f6d9ca01",
+      "Geometry/Chunk028.lean": "ba28ef90d7aaa67eea8103a11de0080b39f6b8e158aabbbe49c21870c9658f9b"
+    },
+    "matches": true,
+    "job_id": "07e0d15a28854cab"
+  },
+  "source_bundle_input_sha256": "b138090d16123a7f5209645a636550d077cfae4d47beb094954bd9ba98f1d757",
+  "returned_artifacts_sha256": "a349a922553cc47d39d7861c24ace5f2317dd1e6747f28c8fc7307c8da459950",
+  "azure_results_sha256": "1237b32d09353a4b87fa473dc667764d07546dc6616e92bcaa736fe208da93e3",
+  "cleanup": {
+    "checked_at": "2026-10-06T12:12:18Z",
+    "group_exists": {
+      "compute": false,
+      "control": false
+    },
+    "resource_ids": [],
+    "all_deleted": true
+  },
+  "geometry_development_cleanup": {
+    "job_id": "18aad1d45df24ba6",
+    "checked_at": "2026-10-06T11:13:35Z",
+    "group_exists": {
+      "compute": false,
+      "control": false
+    },
+    "resource_ids": [],
+    "all_deleted": true
+  },
+  "azure_runtime_limits": {
+    "job_id": "07e0d15a28854cab",
+    "observed_at_utc": "2026-10-06T11:55:48Z",
+    "source": "systemctl show mathiseasy-worker.service on the job VM",
+    "memory_max_bytes": 25769803776,
+    "memory_swap_max_bytes": 0,
+    "runtime_max_seconds": 6900,
+    "memory_peak_at_snapshot_bytes": 21351337984,
+    "active_state_at_snapshot": "active",
+    "independent_compute_deletion_deadline_utc": "2026-10-06T13:18:14Z"
+  },
+  "geometry": {
+    "vertices": 1540,
+    "edges": 13755,
+    "unique_directions": 194,
+    "parameters": [
+      [
+        -4,
+        0,
+        3
+      ],
+      [
+        -4,
+        1,
+        2
+      ],
+      [
+        -3,
+        -1,
+        3
+      ],
+      [
+        -3,
+        0,
+        2
+      ],
+      [
+        -2,
+        -3,
+        4
+      ],
+      [
+        -2,
+        -2,
+        3
+      ],
+      [
+        -2,
+        1,
+        1
+      ],
+      [
+        -2,
+        2,
+        0
+      ],
+      [
+        -1,
+        -1,
+        2
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        -2,
+        2
+      ],
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        2,
+        -1
+      ],
+      [
+        0,
+        3,
+        -2
+      ],
+      [
+        1,
+        -3,
+        2
+      ],
+      [
+        1,
+        -2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        2,
+        -2
+      ],
+      [
+        2,
+        -1,
+        0
+      ],
+      [
+        2,
+        0,
+        -1
+      ],
+      [
+        2,
+        1,
+        -2
+      ],
+      [
+        3,
+        -1,
+        -1
+      ],
+      [
+        3,
+        2,
+        -3
+      ],
+      [
+        3,
+        3,
+        -4
+      ],
+      [
+        4,
+        0,
+        -2
+      ],
+      [
+        4,
+        1,
+        -3
+      ],
+      [
+        4,
+        2,
+        -4
+      ]
+    ]
+  },
+  "scope": "Lower bound five; no upper-bound or global coordinate-injectivity claim."
+}

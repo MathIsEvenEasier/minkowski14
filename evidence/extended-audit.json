@@ -1,0 +1,33 @@
+{
+  "seq": "extended-final-audit",
+  "job_id": "07e0d15a28854cab",
+  "records": [
+    {
+      "module": "Final",
+      "exit_code": 0,
+      "log": "",
+      "seconds": 2.194
+    },
+    {
+      "module": "FoundationAudit",
+      "exit_code": 0,
+      "log": "",
+      "seconds": 0.743
+    },
+    {
+      "module": "Audit",
+      "exit_code": 0,
+      "log": "Foundation audit passed: Minkowski14.plane_unit_ball; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.plane_dimension; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.at_least_five_colours; axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.zeta_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rotated_side_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.Coordinate.eval_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.eval_sideCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.parameter_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.edges_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MathIsEasy.Minkowski14.FinalGraph.notFourColourable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_unit_ball' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]\nMinkowski14.plane_no_four_colouring (c : Minkowski14.Plane \u2192 Fin 4) : \u2203 x y, dist x y = 1 \u2227 c x = c y\nMinkowski14.plane_unit_ball (x : Minkowski14.Plane) :\n  \u2016x\u2016 \u2264 1 \u2194\n    (have this := x;\n      this) \u2208\n      (convexHull \u211d) {z | z ^ 14 = 1}\nMinkowski14.at_least_five_colours {n : \u2115} (c : Minkowski14.Plane \u2192 Fin n)\n  (proper : \u2200 (x y : Minkowski14.Plane), dist x y = 1 \u2192 c x \u2260 c y) : 5 \u2264 n\n",
+      "seconds": 2.133
+    }
+  ],
+  "status": "PASS",
+  "source_sha256": {
+    "FoundationAudit.lean": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+    "Audit.lean": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+    "Final.lean": "9da74ef537ed8a11947eae88fa63c536a9bcb3d31541418aa2c8653d854d6f17"
+  },
+  "lean_memory_limit_mib": 18000,
+  "whole_cgroup_memory_limit_bytes": 25769803776,
+  "time_limit_seconds": 600
+}

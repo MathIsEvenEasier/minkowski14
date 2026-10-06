@@ -1,0 +1,10 @@
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+*.trace
+.lake/
+__pycache__/
+.DS_Store
+formal/artifacts/*.lrat
+rebuild-report.json
