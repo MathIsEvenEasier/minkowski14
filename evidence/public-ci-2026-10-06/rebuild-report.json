@@ -1,0 +1,1328 @@
+{
+  "status": "VERIFIED",
+  "lean": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "mathlib": "5ed2965256430c3649e86755f9576b54eca72435",
+  "seconds": 2801.01,
+  "records": [
+    {
+      "module": "Algebra",
+      "source_sha256": "0f640d84ccf5ff34fa0d12e44b6d3e518f251989d4a96f5401029727070b1f97",
+      "exit_code": 0,
+      "seconds": 6.345,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Polygon",
+      "source_sha256": "bd18d4a5cbcfaf293598dc162c3da2f8b008fe52aa41ac4a134bad25ff3fce8b",
+      "exit_code": 0,
+      "seconds": 2.763,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Facet",
+      "source_sha256": "38c1987c27ac2060606de6f252d3347037a42a794bc3140850c7807a5470b0a2",
+      "exit_code": 0,
+      "seconds": 3.229,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Coordinates",
+      "source_sha256": "251cbb3e7a0c811145c8af837f30f4f3876ef1e3ff9b2fb66b1cdd23822aa916",
+      "exit_code": 0,
+      "seconds": 2.554,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Parameters",
+      "source_sha256": "df3d323f14179ccdf020c426b04f16dbea02ed9533c34890a61620a8f859df23",
+      "exit_code": 0,
+      "seconds": 7.171,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Positions",
+      "source_sha256": "96480300bdc50f723cec424bc1790b07d718b2623b4d0fbb25d6bb405207701e",
+      "exit_code": 0,
+      "seconds": 5.554,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.ColouringBridge",
+      "source_sha256": "5bcfdb252b3ae3aaf28c6a6f8a532c66a2ef5a2dee0b33f30e920edf4076bfa6",
+      "exit_code": 0,
+      "seconds": 2.471,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk001",
+      "source_sha256": "61c6b938b01272b8f3a65a517b621ce03cea6287334cf9cfaf37f29987e79feb",
+      "exit_code": 0,
+      "seconds": 2.823,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk001",
+      "source_sha256": "704b6ef1d5d474c8e9b44d948600be051b74af16ce4226d8dcca50e0d930b2fb",
+      "exit_code": 0,
+      "seconds": 7.267,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk002",
+      "source_sha256": "15608273c7f56aaad2d89f8db22fa3638f010ddf10d593c8d8fe36936d29900e",
+      "exit_code": 0,
+      "seconds": 2.471,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk002",
+      "source_sha256": "4c3ea6ce4361abd82eee22313649e99fde78d7de155b050c5cc453fdf0aaa99c",
+      "exit_code": 0,
+      "seconds": 7.106,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk003",
+      "source_sha256": "b139dbd934187de0c686f18eca7d259dff080d9fe40b6c9206813de51a8f3020",
+      "exit_code": 0,
+      "seconds": 2.427,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk003",
+      "source_sha256": "3887b82fee669166c2bf694186ece29f543e577ccc16a64e5195cc91ba495c86",
+      "exit_code": 0,
+      "seconds": 6.824,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk004",
+      "source_sha256": "e2eddbe51ae1c7a1d3b3b16d41907ed2ce03efea3446890faf460476f551bdd6",
+      "exit_code": 0,
+      "seconds": 3.055,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk004",
+      "source_sha256": "ca8f0d34d6058e4d67a6698737e68537c98a4e70fd1b4bda35041e5df2b91c00",
+      "exit_code": 0,
+      "seconds": 6.85,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk005",
+      "source_sha256": "ca3d9f467c3849d3a3f41a5e80f16c92e4e81082a7bd62b8cd6e98ae3d4e3e2a",
+      "exit_code": 0,
+      "seconds": 2.431,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk005",
+      "source_sha256": "f092ffc7112bae06bcf02af6cd48cf735baed458181e550bea9f35f890c9d93e",
+      "exit_code": 0,
+      "seconds": 7.189,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk006",
+      "source_sha256": "4d9225bf7064e92003bd96f2b9d5d9b2748068f0610463bbf93b833479e71346",
+      "exit_code": 0,
+      "seconds": 2.467,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk006",
+      "source_sha256": "a8f53f4bde187fafed06059b889bbdd7cf563c49da7916334c77d5873296d710",
+      "exit_code": 0,
+      "seconds": 7.07,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk007",
+      "source_sha256": "a04bc21f5a3b4f34ee3767aec89f97aa072a580cf0e441f38734918cd39629eb",
+      "exit_code": 0,
+      "seconds": 2.399,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk007",
+      "source_sha256": "01a7d9ef9988cfad31d51d5f16d251fd357c5bc666cbe7f1f8958c11e3394c28",
+      "exit_code": 0,
+      "seconds": 7.079,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk008",
+      "source_sha256": "074c74ae25cb82cb9e2e6b39bbebd4413d232b12ff58448677dc4c1905143af9",
+      "exit_code": 0,
+      "seconds": 2.438,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk008",
+      "source_sha256": "db9065874006f93a0cddb7a3cfe74819bc0b9eb2968f30c99891ddef42df4b4d",
+      "exit_code": 0,
+      "seconds": 6.841,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk009",
+      "source_sha256": "bf24c9072b7a457f627361d1126155483016077a2f15a03f7c493e8b75a1181a",
+      "exit_code": 0,
+      "seconds": 2.446,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk009",
+      "source_sha256": "1142451e8c1e4cf9d1abb5509fd14d4e6e7a13bbc0bc4a7c2acbc39c13dfa058",
+      "exit_code": 0,
+      "seconds": 6.889,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk010",
+      "source_sha256": "118095d849d084744389486a998fff5a2b5a05e0da2872660fe8894199c4e51a",
+      "exit_code": 0,
+      "seconds": 2.405,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk010",
+      "source_sha256": "106c8e8632d254b6e382d38170cf3d29f1af13d203d4ba14a87cfe19ca2738a4",
+      "exit_code": 0,
+      "seconds": 6.913,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk011",
+      "source_sha256": "33d9f49ccba17de1ccebbf29cf44ed2dec0f8748854fbb1c4b4bef42fba86795",
+      "exit_code": 0,
+      "seconds": 2.383,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk011",
+      "source_sha256": "d59939c7f9e77e62a28a0b150832f2f850e9cfe34c7cfc7fe64a3bd12ae6af4b",
+      "exit_code": 0,
+      "seconds": 6.808,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk012",
+      "source_sha256": "342f5f03eac7540fa42b83aa2dc29d32b7aacf5266469004e6f24408ac87ad13",
+      "exit_code": 0,
+      "seconds": 2.34,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk012",
+      "source_sha256": "39ca7c7643c93a9f51b2ddda8f9a72fbc00fcb02dc47682bb8f7d63427fabfb1",
+      "exit_code": 0,
+      "seconds": 6.764,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk013",
+      "source_sha256": "b9b13bdb317de8c8498f5c5c1c696d1bd956ea175eda49733e5b4ffdbc5cb69b",
+      "exit_code": 0,
+      "seconds": 2.376,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk013",
+      "source_sha256": "b27dec9e108c60d3f9bb7cdf2b04ad51cb54aba22cf427dc5c3b889169f7086e",
+      "exit_code": 0,
+      "seconds": 6.754,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk014",
+      "source_sha256": "f290010c07dc0315e294ada9d0b07916ca51e8b6393259fd168b0ffa40f966f4",
+      "exit_code": 0,
+      "seconds": 2.416,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk014",
+      "source_sha256": "c263509ab18bd3c1fb73c1c04da44f18bf27f65503b4ef55762c8ba878b29744",
+      "exit_code": 0,
+      "seconds": 6.936,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk015",
+      "source_sha256": "1bbab8bf7afc4505a829fbb087ab38374feaf09fa4a9ed8402aba5d88423a589",
+      "exit_code": 0,
+      "seconds": 2.451,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk015",
+      "source_sha256": "5326cb7d9d3f856d5c8a225d7a0087c70e2a04022990c61f1c29932404b87f8b",
+      "exit_code": 0,
+      "seconds": 6.89,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk016",
+      "source_sha256": "1acf6981fb4e19984723c6df96f719134a51de7b057a66012a20791438614243",
+      "exit_code": 0,
+      "seconds": 2.343,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk016",
+      "source_sha256": "165f60a260894f5b6735fea14de020a6ff212901027b11a4b0ebf6efa303525b",
+      "exit_code": 0,
+      "seconds": 6.801,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk017",
+      "source_sha256": "6d87c563c8c403053dfb802ffc2d5db1e50fb2d5a5e070bdb5c0833a6d3746ac",
+      "exit_code": 0,
+      "seconds": 2.392,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk017",
+      "source_sha256": "b4809f99488511eff01391bf3028ea9bd25450540622b3b8c2cf1543fccf45dd",
+      "exit_code": 0,
+      "seconds": 6.966,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk018",
+      "source_sha256": "18c97061a43007b04cfe6536427b84112acdb73cb72bfa1769ac3f13e79bafb2",
+      "exit_code": 0,
+      "seconds": 2.376,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk018",
+      "source_sha256": "18e1f8cfebccd1fa109c8162e4d7322ae2ea5399ae6913b2d0349b099b023d9e",
+      "exit_code": 0,
+      "seconds": 6.872,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk019",
+      "source_sha256": "78167c25c0405997863561d4e0d2cb09e0cb75de5b1b162dc8ba9a90f469daad",
+      "exit_code": 0,
+      "seconds": 2.359,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk019",
+      "source_sha256": "2665dbee1f3364f6abe59372f28369dd2d092e7aea7c0568924a14f752f5e516",
+      "exit_code": 0,
+      "seconds": 6.821,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk020",
+      "source_sha256": "6dd571d4d731154afc451f0f9263c42aff4e4d4cf9eee15d4c60e483449bad22",
+      "exit_code": 0,
+      "seconds": 2.372,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk020",
+      "source_sha256": "5d534417359d8863dd0babea0bc35dbef044cb4e3344b7c546e6f754b8fa9076",
+      "exit_code": 0,
+      "seconds": 6.865,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk021",
+      "source_sha256": "c54969d2c16716644e9a514b58298222a6b07eb8cf9eddd40323efd9c6ab2164",
+      "exit_code": 0,
+      "seconds": 2.334,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk021",
+      "source_sha256": "43c0a8bcc6804368e0735e752a9e776e4d6648e3bbdff8f24854196ac6a53080",
+      "exit_code": 0,
+      "seconds": 6.716,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk022",
+      "source_sha256": "94b5755b012439cf4a6e52b024bfcb44e8f7755aaef14b38a31e5bf7f511b6a7",
+      "exit_code": 0,
+      "seconds": 2.397,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk022",
+      "source_sha256": "f49b458f6ae7b676b989f9397afc0e79dc059bd4eab5e44d435626eb271314d0",
+      "exit_code": 0,
+      "seconds": 7.058,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk023",
+      "source_sha256": "21bbc05347b399a9fc654b2092e7c3a61d764f13501be503a19ff4332d42391e",
+      "exit_code": 0,
+      "seconds": 2.427,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk023",
+      "source_sha256": "37b9bd3dd0d70a198947398e25b5f3cc76bfea531501e3edaba67fa100f860d4",
+      "exit_code": 0,
+      "seconds": 6.797,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk024",
+      "source_sha256": "aa870ce31b716bdca0194c0f68ea3b460424f6b49ec4cdaa183bea6f0ddc916f",
+      "exit_code": 0,
+      "seconds": 2.359,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk024",
+      "source_sha256": "a1e8f6b49d8bb36bc2f383b08f4d36ed660495551ac63f2df9f3ff7467b992a2",
+      "exit_code": 0,
+      "seconds": 6.725,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk025",
+      "source_sha256": "6fd51204b3076c1575e08c07d8642103d369ade256d2bca843592607d99d7cfe",
+      "exit_code": 0,
+      "seconds": 2.343,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk025",
+      "source_sha256": "d5b7f6c759a618d12e5509fef12362a654cac4d325595230f484ca27e83cae74",
+      "exit_code": 0,
+      "seconds": 6.858,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk026",
+      "source_sha256": "ed57bb34bd59d654fa87dde0e85606e743e967aa961beb2c4d809e27a8de4c1b",
+      "exit_code": 0,
+      "seconds": 2.345,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk026",
+      "source_sha256": "db7a78e9d4dd8c0bf3f13972b4def7174997dfdddcc4c4c00400c9796712ecae",
+      "exit_code": 0,
+      "seconds": 6.782,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk027",
+      "source_sha256": "445f6263e8b9bb55aa0a242b3ce4e3eaca18cc02dbadcbe7c74b1ca1db43afcc",
+      "exit_code": 0,
+      "seconds": 2.362,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk027",
+      "source_sha256": "3e1e1766b1a23ea255d4c71fbdb8a627e9a1fbc49d3962d0049f4ac6f6d9ca01",
+      "exit_code": 0,
+      "seconds": 6.898,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData.Chunk028",
+      "source_sha256": "579c5b2eeb8e615a7594daf885caf8371421374db8d8c142dace0436c1fb260d",
+      "exit_code": 0,
+      "seconds": 2.229,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Geometry.Chunk028",
+      "source_sha256": "ba28ef90d7aaa67eea8103a11de0080b39f6b8e158aabbbe49c21870c9658f9b",
+      "exit_code": 0,
+      "seconds": 4.462,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphData",
+      "source_sha256": "05f308d7da059b225b81dfbb24a1d50bf79e772680a0fc86c187ed6855119899",
+      "exit_code": 0,
+      "seconds": 3.458,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Embedding",
+      "source_sha256": "8c0eb27b8f72bdc62183c458bab1fd6680b1c3dfddcbbeac33756c0575af328d",
+      "exit_code": 0,
+      "seconds": 2.118,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Plane",
+      "source_sha256": "f9d2bc7c592b7fc1c15958dbc854c224ed4e2a156e307a576b91e5a7369be257",
+      "exit_code": 0,
+      "seconds": 2.251,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "ColouringTransfer",
+      "source_sha256": "4d6a8f572d74c4ea72b4ed5a3ced2e90527fb0ca42eabe0a5bb1dbf5c3ccca8a",
+      "exit_code": 0,
+      "seconds": 2.091,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Tactic.Sat.FromLRATStream",
+      "source_sha256": "5251622f36dc13264eb4d41a069ae2eaa244e59f1607d90c7ae1c0d3f8e3e534",
+      "exit_code": 0,
+      "seconds": 1.222,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Base",
+      "source_sha256": "7838a74afb5b962902eff5eb47378726d6317759dfae2d99dfb8583377788f90",
+      "exit_code": 0,
+      "seconds": 25.753,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex001",
+      "source_sha256": "9f6c2b7b7238b622daacf3853d29774537641bd9f5dbc9ec234fc5840c4b8885",
+      "exit_code": 0,
+      "seconds": 2.927,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex002",
+      "source_sha256": "ecda0a9dc431b17f51b04f22c8522d76b7ff50805b2ea67fafc19c5e1fdacda4",
+      "exit_code": 0,
+      "seconds": 2.918,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex003",
+      "source_sha256": "c1094d530cce743c273086ca714dae00fbc1a39971f0aa30a267816dc0fdc3d2",
+      "exit_code": 0,
+      "seconds": 2.931,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex004",
+      "source_sha256": "c9b96b89f02993c45cbe6f935fa30e20702aeb3d22906c1c48122081969e6253",
+      "exit_code": 0,
+      "seconds": 2.99,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex005",
+      "source_sha256": "cac6a9210acd8e048175713821524fa6fd0f263a7bd4a4f7e1ae474277d36768",
+      "exit_code": 0,
+      "seconds": 2.935,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex006",
+      "source_sha256": "b5710517fc9a9ce8e51764c1a4dadcfa832e76e0d2833ac36019dc67b784ea38",
+      "exit_code": 0,
+      "seconds": 2.952,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex007",
+      "source_sha256": "a181520185d2f25d51467135fd5b5773bb04a0f1f7d0c3d3465f6c7e1abdc03a",
+      "exit_code": 0,
+      "seconds": 2.941,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex008",
+      "source_sha256": "a838dcbc54445d9150a6356514e43bf2276ca58118ada65492df5c1b4c332fce",
+      "exit_code": 0,
+      "seconds": 2.989,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex009",
+      "source_sha256": "698c6bb5179c7994395055297a07928325504855127c6c3de3dcc298dccbcc27",
+      "exit_code": 0,
+      "seconds": 2.951,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex010",
+      "source_sha256": "6ccda034405a3988edb0d815e357d045827b7ed9afcfb094f4f594fd0f81588a",
+      "exit_code": 0,
+      "seconds": 2.917,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex011",
+      "source_sha256": "9d4bcaebff6d8a08560e7ddec67e80dad775b5b63036425b7aa1562290e8c50d",
+      "exit_code": 0,
+      "seconds": 2.926,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex012",
+      "source_sha256": "1447aa3325d63c570ae062c68e0f3dfa35bee2650a688cdffcd85b8b7b0936ee",
+      "exit_code": 0,
+      "seconds": 2.933,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex013",
+      "source_sha256": "3e1e22a7eb846e100c9f6cdf9115920f974eadcecc28a69b1e53c659e61b76d2",
+      "exit_code": 0,
+      "seconds": 2.914,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex014",
+      "source_sha256": "34cc1f614ec423416220dbc7ee6cc768d657b660b7da0983c266177d0faa3cfa",
+      "exit_code": 0,
+      "seconds": 2.953,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex015",
+      "source_sha256": "cecee0cabc00a02c8420f275ad3ef4d8f93fa417e6dae6cef57d89ad916c2505",
+      "exit_code": 0,
+      "seconds": 2.938,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Vertex016",
+      "source_sha256": "061afcbadcc2f52e09a12ea8e2e2b3b34758aa70a0dc1faf62e5fad144bac514",
+      "exit_code": 0,
+      "seconds": 2.363,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge001",
+      "source_sha256": "9827439996da3bcf1d2934a2f7524127e4e64b6deea85ba4fd0a8a1ffac360c1",
+      "exit_code": 0,
+      "seconds": 4.951,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge002",
+      "source_sha256": "fbd4ae7cacbb62d7183706b44db4f212c31c54183bb4eb42ee86dec8b48a7b84",
+      "exit_code": 0,
+      "seconds": 4.971,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge003",
+      "source_sha256": "2893faae9bb972be49566cfab21c2ce1e6acbda6eace1971c71ccd8f71bd6561",
+      "exit_code": 0,
+      "seconds": 5.098,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge004",
+      "source_sha256": "fdd8078eec21a0b9b9f3cd1b6561f03c48e635b294610c1c793f907eded902af",
+      "exit_code": 0,
+      "seconds": 5.022,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge005",
+      "source_sha256": "d9d2ee0b28742712b77e612a2075a2de49cf097a1e5be6d04d88c20005a2db43",
+      "exit_code": 0,
+      "seconds": 5.05,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge006",
+      "source_sha256": "e4933ef2b917e9ab42840814a2d235a8e81c7e874ee61b0c77e2937b112e473d",
+      "exit_code": 0,
+      "seconds": 5.011,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge007",
+      "source_sha256": "164d47a1c7e6ad4e2cd1589217ee4269948221e0ba705f6a15754e7737b0e7c7",
+      "exit_code": 0,
+      "seconds": 5.338,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge008",
+      "source_sha256": "869bf699b5692d2008b721e0b57fd51652f86abcf586917537a3272a180fc655",
+      "exit_code": 0,
+      "seconds": 5.075,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge009",
+      "source_sha256": "a0b5832e26bfdfa9a7594e8ea54ba63113ac54b263d6b52ae4293266fdd15da3",
+      "exit_code": 0,
+      "seconds": 5.059,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge010",
+      "source_sha256": "ddbf79509fccbf76609eb673b99a8147dfa5dfbdcd63cd65d87a76e1a3ee22ba",
+      "exit_code": 0,
+      "seconds": 5.135,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge011",
+      "source_sha256": "2d552a538fd4545f8260201e9273386f221cae813176c91d59dd1ab36eb60a40",
+      "exit_code": 0,
+      "seconds": 5.029,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge012",
+      "source_sha256": "bddb47ab2ddd36327946d4ee474c1b9a3417677bea6df3665e05529dbca3045a",
+      "exit_code": 0,
+      "seconds": 5.113,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge013",
+      "source_sha256": "b79a0df957be5b3ce59df2051346512825208c008a5879fb4a3cdc180590c213",
+      "exit_code": 0,
+      "seconds": 5.18,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge014",
+      "source_sha256": "bdc99b75c7da5842b6ea3b12ecc4370c99ab12e8f7fe3a00242036c19d108116",
+      "exit_code": 0,
+      "seconds": 5.13,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge015",
+      "source_sha256": "d89c3bb978abb24ec5409f87ce7bd872709526faf7d17d9b000daecb94b7d398",
+      "exit_code": 0,
+      "seconds": 5.222,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge016",
+      "source_sha256": "b972810ed95507dd5f5943390067cce3d5e933270b0e64f603010834c6c22e3a",
+      "exit_code": 0,
+      "seconds": 5.083,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge017",
+      "source_sha256": "4813b0e6279cf69db79e1e2a04c994f3b720a7d704208dc99ef73ae3ce86c7de",
+      "exit_code": 0,
+      "seconds": 5.152,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge018",
+      "source_sha256": "274987d25f9ef80e989271f95169732398eacbac738e4011d70cee94b9b0f335",
+      "exit_code": 0,
+      "seconds": 5.129,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge019",
+      "source_sha256": "a9825a087a23400b842c7f236a982f662d1e017118f433d44de703eccec0065c",
+      "exit_code": 0,
+      "seconds": 5.147,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge020",
+      "source_sha256": "165c02ad1fd4ab2bc5353a7171a4501de785de7d80567c32a3547cee3ae26ab3",
+      "exit_code": 0,
+      "seconds": 5.259,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge021",
+      "source_sha256": "3167c30c315b9235edf9965d257d73895da2d53a9b4418bb80b8b8c327b45ed0",
+      "exit_code": 0,
+      "seconds": 5.146,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge022",
+      "source_sha256": "91e5696ae03c38872bbcf27474dfb58d4dae9c3a7d3e2241d50b9861cd4e681d",
+      "exit_code": 0,
+      "seconds": 5.226,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge023",
+      "source_sha256": "af69807d6100b976bfbccded30e7ec92ac84f1ae44675d1e94e5f24ff48735ff",
+      "exit_code": 0,
+      "seconds": 5.574,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge024",
+      "source_sha256": "8ef5f74a3d0cf7aebbe5c774b1a4596524acca01a886eb44866c4d6b5a012b72",
+      "exit_code": 0,
+      "seconds": 5.413,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge025",
+      "source_sha256": "e5e71ce7e86a673a0cbf4fb3bed73ced78e4339efc4932a210669c25590e3ed8",
+      "exit_code": 0,
+      "seconds": 5.072,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge026",
+      "source_sha256": "162a8de98893c552bf5d05125e1bcbb31b0665e24b2216f64062b4a6240c798b",
+      "exit_code": 0,
+      "seconds": 4.988,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge027",
+      "source_sha256": "6ff2431b7697cb5f0612646e0afa3a43f542751aa185264c0e820808f360bb38",
+      "exit_code": 0,
+      "seconds": 5.006,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Edge028",
+      "source_sha256": "2b689ab2dc9fd3e2731cbc5dc1d39aa847d744da8803f2463acfd9373d3d00d2",
+      "exit_code": 0,
+      "seconds": 3.381,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding.Root",
+      "source_sha256": "65a62409f8403f2e61e02a9893c9e659f4e5979264d31f766ce7fe354716c148",
+      "exit_code": 0,
+      "seconds": 2.072,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphEncoding",
+      "source_sha256": "e16ad3d2e8954b89db0843cf7f8e8f4488ea6061873a4268dab16205b2d220e7",
+      "exit_code": 0,
+      "seconds": 44.158,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk001",
+      "source_sha256": "05723641ff08c1622195690cb82288eaa8a846a8333a42902a9e37829c0048c8",
+      "exit_code": 0,
+      "seconds": 64.874,
+      "log": "LRAT chunk progress: 1000 additions, source step 1973/43970\nLRAT chunk progress: 2000 additions, source step 3973/43970\nLRAT chunk progress: 3000 additions, source step 5973/43970\nLRAT chunk progress: 4000 additions, source step 7973/43970\nLRAT chunk progress: 5000 additions, source step 9973/43970\nLRAT chunk progress: 6000 additions, source step 11973/43970\nLRAT chunk progress: 7000 additions, source step 13973/43970\nLRAT chunk progress: 8000 additions, source step 15973/43970\nLRAT chunk progress: 9000 additions, source step 17973/43970\nLRAT chunk progress: 10000 additions, source step 19973/43970\nLRAT chunk progress: 11000 additions, source step 21973/43970\nLRAT chunk progress: 12000 additions, source step 23973/43970\nLRAT chunk progress: 13000 additions, source step 25973/43970\nLRAT chunk progress: 14000 additions, source step 27973/43970\nLRAT chunk progress: 15000 additions, source step 29973/43970\nLRAT chunk progress: 16000 additions, source step 31973/43970\nLRAT chunk progress: 17000 additions, source step 33973/43970\nLRAT chunk progress: 18000 additions, source step 35973/43970\nLRAT chunk progress: 19000 additions, source step 37973/43970\nLRAT chunk progress: 20000 additions, source step 39602/43970\nLRAT chunk progress: 21000 additions, source step 41077/43970\nLRAT chunk progress: 22000 additions, source step 42543/43970\nLRAT_STREAM_PROGRESS additions=100 step=178/43970\nLRAT_STREAM_PROGRESS additions=200 step=373/43970\nLRAT_STREAM_PROGRESS additions=300 step=573/43970\nLRAT_STREAM_PROGRESS additions=400 step=773/43970\nLRAT_STREAM_PROGRESS additions=500 step=973/43970\nLRAT_STREAM_PROGRESS additions=600 step=1173/43970\nLRAT_STREAM_PROGRESS additions=700 step=1373/43970\nLRAT_STREAM_PROGRESS additions=800 step=1573/43970\nLRAT_STREAM_PROGRESS additions=900 step=1773/43970\nLRAT_STREAM_PROGRESS additions=1000 step=1973/43970\nLRAT_STREAM_PROGRESS additions=1100 step=2173/43970\nLRAT_STREAM_PROGRESS additions=1200 step=2373/43970\nLRAT_STREAM_PROGRESS additions=1300 step=2573/43970\nLRAT_STREAM_PROGRESS additions=1400 step=2773/43970\nLRAT_STREAM_PROGRESS additions=1500 step=2973/43970\nLRAT_STREAM_PROGRESS additions=1600 step=3173/43970\nLRAT_STREAM_PROGRESS additions=1700 step=3373/43970\nLRAT_STREAM_PROGRESS additions=1800 step=3573/43970\nLRAT_STREAM_PROGRESS additions=1900 step=3773/43970\nLRAT_STREAM_PROGRESS additions=2000 step=3973/43970\nLRAT_STREAM_PROGRESS additions=2100 step=4173/43970\nLRAT_STREAM_PROGRESS additions=2200 step=4373/43970\nLRAT_STREAM_PROGRESS additions=2300 step=4573/43970\nLRAT_STREAM_PROGRESS additions=2400 step=4773/43970\nLRAT_STREAM_PROGRESS additions=2500 step=4973/43970\nLRAT_STREAM_PROGRESS additions=2600 step=5173/43970\nLRAT_STREAM_PROGRESS additions=2700 step=5373/43970\nLRAT_STREAM_PROGRESS additions=2800 step=5573/43970\nLRAT_STREAM_PROGRESS additions=2900 step=5773/43970\nLRAT_STREAM_PROGRESS additions=3000 step=5973/43970\nLRAT_STREAM_PROGRESS additions=3100 step=6173/43970\nLRAT_STREAM_PROGRESS additions=3200 step=6373/43970\nLRAT_STREAM_PROGRESS additions=3300 step=6573/43970\nLRAT_STREAM_PROGRESS additions=3400 step=6773/43970\nLRAT_STREAM_PROGRESS additions=3500 step=6973/43970\nLRAT_STREAM_PROGRESS additions=3600 step=7173/43970\nLRAT_STREAM_PROGRESS additions=3700 step=7373/43970\nLRAT_STREAM_PROGRESS additions=3800 step=7573/43970\nLRAT_STREAM_PROGRESS additions=3900 step=7773/43970\nLRAT_STREAM_PROGRESS additions=4000 step=7973/43970\nLRAT_STREAM_PROGRESS additions=4100 step=8173/43970\nLRAT_STREAM_PROGRESS additions=4200 step=8373/43970\nLRAT_STREAM_PROGRESS additions=4300 step=8573/43970\nLRAT_STREAM_PROGRESS additions=4400 step=8773/43970\nLRAT_STREAM_PROGRESS additions=4500 step=8973/43970\nLRAT_STREAM_PROGRESS additions=4600 step=9173/43970\nLRAT_STREAM_PROGRESS additions=4700 step=9373/43970\nLRAT_STREAM_PROGRESS additions=4800 step=9573/43970\nLRAT_STREAM_PROGRESS additions=4900 step=9773/43970\nLRAT_STREAM_PROGRESS additions=5000 step=9973/43970\nLRAT_STREAM_PROGRESS additions=5100 step=10173/43970\nLRAT_STREAM_PROGRESS additions=5200 step=10373/43970\nLRAT_STREAM_PROGRESS additions=5300 step=10573/43970\nLRAT_STREAM_PROGRESS additions=5400 step=10773/43970\nLRAT_STREAM_PROGRESS additions=5500 step=10973/43970\nLRAT_STREAM_PROGRESS additions=5600 step=11173/43970\nLRAT_STREAM_PROGRESS additions=5700 step=11373/43970\nLRAT_STREAM_PROGRESS additions=5800 step=11573/43970\nLRAT_STREAM_PROGRESS additions=5900 step=11773/43970\nLRAT_STREAM_PROGRESS additions=6000 step=11973/43970\nLRAT_STREAM_PROGRESS additions=6100 step=12173/43970\nLRAT_STREAM_PROGRESS additions=6200 step=12373/43970\nLRAT_STREAM_PROGRESS additions=6300 step=12573/43970\nLRAT_STREAM_PROGRESS additions=6400 step=12773/43970\nLRAT_STREAM_PROGRESS additions=6500 step=12973/43970\nLRAT_STREAM_PROGRESS additions=6600 step=13173/43970\nLRAT_STREAM_PROGRESS additions=6700 step=13373/43970\nLRAT_STREAM_PROGRESS additions=6800 step=13573/43970\nLRAT_STREAM_PROGRESS additions=6900 step=13773/43970\nLRAT_STREAM_PROGRESS additions=7000 step=13973/43970\nLRAT_STREAM_PROGRESS additions=7100 step=14173/43970\nLRAT_STREAM_PROGRESS additions=7200 step=14373/43970\nLRAT_STREAM_PROGRESS additions=7300 step=14573/43970\nLRAT_STREAM_PROGRESS additions=7400 step=14773/43970\nLRAT_STREAM_PROGRESS additions=7500 step=14973/43970\nLRAT_STREAM_PROGRESS additions=7600 step=15173/43970\nLRAT_STREAM_PROGRESS additions=7700 step=15373/43970\nLRAT_STREAM_PROGRESS additions=7800 step=15573/43970\nLRAT_STREAM_PROGRESS additions=7900 step=15773/43970\nLRAT_STREAM_PROGRESS additions=8000 step=15973/43970\nLRAT_STREAM_PROGRESS additions=8100 step=16173/43970\nLRAT_STREAM_PROGRESS additions=8200 step=16373/43970\nLRAT_STREAM_PROGRESS additions=8300 step=16573/43970\nLRAT_STREAM_PROGRESS additions=8400 step=16773/43970\nLRAT_STREAM_PROGRESS additions=8500 step=16973/43970\nLRAT_STREAM_PROGRESS additions=8600 step=17173/43970\nLRAT_STREAM_PROGRESS additions=8700 step=17373/43970\nLRAT_STREAM_PROGRESS additions=8800 step=17573/43970\nLRAT_STREAM_PROGRESS additions=8900 step=17773/43970\nLRAT_STREAM_PROGRESS additions=9000 step=17973/43970\nLRAT_STREAM_PROGRESS additions=9100 step=18173/43970\nLRAT_STREAM_PROGRESS additions=9200 step=18373/43970\nLRAT_STREAM_PROGRESS additions=9300 step=18573/43970\nLRAT_STREAM_PROGRESS additions=9400 step=18773/43970\nLRAT_STREAM_PROGRESS additions=9500 step=18973/43970\nLRAT_STREAM_PROGRESS additions=9600 step=19173/43970\nLRAT_STREAM_PROGRESS additions=9700 step=19373/43970\nLRAT_STREAM_PROGRESS additions=9800 step=19573/43970\nLRAT_STREAM_PROGRESS additions=9900 step=19773/43970\nLRAT_STREAM_PROGRESS additions=10000 step=19973/43970\nLRAT_STREAM_PROGRESS additions=10100 step=20173/43970\nLRAT_STREAM_PROGRESS additions=10200 step=20373/43970\nLRAT_STREAM_PROGRESS additions=10300 step=20573/43970\nLRAT_STREAM_PROGRESS additions=10400 step=20773/43970\nLRAT_STREAM_PROGRESS additions=10500 step=20973/43970\nLRAT_STREAM_PROGRESS additions=10600 step=21173/43970\nLRAT_STREAM_PROGRESS additions=10700 step=21373/43970\nLRAT_STREAM_PROGRESS additions=10800 step=21573/43970\nLRAT_STREAM_PROGRESS additions=10900 step=21773/43970\nLRAT_STREAM_PROGRESS additions=11000 step=21973/43970\nLRAT_STREAM_PROGRESS additions=11100 step=22173/43970\nLRAT_STREAM_PROGRESS additions=11200 step=22373/43970\nLRAT_STREAM_PROGRESS additions=11300 step=22573/43970\nLRAT_STREAM_PROGRESS additions=11400 step=22773/43970\nLRAT_STREAM_PROGRESS additions=11500 step=22973/43970\nLRAT_STREAM_PROGRESS additions=11600 step=23173/43970\nLRAT_STREAM_PROGRESS additions=11700 step=23373/43970\nLRAT_STREAM_PROGRESS additions=11800 step=23573/43970\nLRAT_STREAM_PROGRESS additions=11900 step=23773/43970\nLRAT_STREAM_PROGRESS additions=12000 step=23973/43970\nLRAT_STREAM_PROGRESS additions=12100 step=24173/43970\nLRAT_STREAM_PROGRESS additions=12200 step=24373/43970\nLRAT_STREAM_PROGRESS additions=12300 step=24573/43970\nLRAT_STREAM_PROGRESS additions=12400 step=24773/43970\nLRAT_STREAM_PROGRESS additions=12500 step=24973/43970\nLRAT_STREAM_PROGRESS additions=12600 step=25173/43970\nLRAT_STREAM_PROGRESS additions=12700 step=25373/43970\nLRAT_STREAM_PROGRESS additions=12800 step=25573/43970\nLRAT_STREAM_PROGRESS additions=12900 step=25773/43970\nLRAT_STREAM_PROGRESS additions=13000 step=25973/43970\nLRAT_STREAM_PROGRESS additions=13100 step=26173/43970\nLRAT_STREAM_PROGRESS additions=13200 step=26373/43970\nLRAT_STREAM_PROGRESS additions=13300 step=26573/43970\nLRAT_STREAM_PROGRESS additions=13400 step=26773/43970\nLRAT_STREAM_PROGRESS additions=13500 step=26973/43970\nLRAT_STREAM_PROGRESS additions=13600 step=27173/43970\nLRAT_STREAM_PROGRESS additions=13700 step=27373/43970\nLRAT_STREAM_PROGRESS additions=13800 step=27573/43970\nLRAT_STREAM_PROGRESS additions=13900 step=27773/43970\nLRAT_STREAM_PROGRESS additions=14000 step=27973/43970\nLRAT_STREAM_PROGRESS additions=14100 step=28173/43970\nLRAT_STREAM_PROGRESS additions=14200 step=28373/43970\nLRAT_STREAM_PROGRESS additions=14300 step=28573/43970\nLRAT_STREAM_PROGRESS additions=14400 step=28773/43970\nLRAT_STREAM_PROGRESS additions=14500 step=28973/43970\nLRAT_STREAM_PROGRESS additions=14600 step=29173/43970\nLRAT_STREAM_PROGRESS additions=14700 step=29373/43970\nLRAT_STREAM_PROGRESS additions=14800 step=29573/43970\nLRAT_STREAM_PROGRESS additions=14900 step=29773/43970\nLRAT_STREAM_PROGRESS additions=15000 step=29973/43970\nLRAT_STREAM_PROGRESS additions=15100 step=30173/43970\nLRAT_STREAM_PROGRESS additions=15200 step=30373/43970\nLRAT_STREAM_PROGRESS additions=15300 step=30573/43970\nLRAT_STREAM_PROGRESS additions=15400 step=30773/43970\nLRAT_STREAM_PROGRESS additions=15500 step=30973/43970\nLRAT_STREAM_PROGRESS additions=15600 step=31173/43970\nLRAT_STREAM_PROGRESS additions=15700 step=31373/43970\nLRAT_STREAM_PROGRESS additions=15800 step=31573/43970\nLRAT_STREAM_PROGRESS additions=15900 step=31773/43970\nLRAT_STREAM_PROGRESS additions=16000 step=31973/43970\nLRAT_STREAM_PROGRESS additions=16100 step=32173/43970\nLRAT_STREAM_PROGRESS additions=16200 step=32373/43970\nLRAT_STREAM_PROGRESS additions=16300 step=32573/43970\nLRAT_STREAM_PROGRESS additions=16400 step=32773/43970\nLRAT_STREAM_PROGRESS additions=16500 step=32973/43970\nLRAT_STREAM_PROGRESS additions=16600 step=33173/43970\nLRAT_STREAM_PROGRESS additions=16700 step=33373/43970\nLRAT_STREAM_PROGRESS additions=16800 step=33573/43970\nLRAT_STREAM_PROGRESS additions=16900 step=33773/43970\nLRAT_STREAM_PROGRESS additions=17000 step=33973/43970\nLRAT_STREAM_PROGRESS additions=17100 step=34173/43970\nLRAT_STREAM_PROGRESS additions=17200 step=34373/43970\nLRAT_STREAM_PROGRESS additions=17300 step=34573/43970\nLRAT_STREAM_PROGRESS additions=17400 step=34773/43970\nLRAT_STREAM_PROGRESS additions=17500 step=34973/43970\nLRAT_STREAM_PROGRESS additions=17600 step=35173/43970\nLRAT_STREAM_PROGRESS additions=17700 step=35373/43970\nLRAT_STREAM_PROGRESS additions=17800 step=35573/43970\nLRAT_STREAM_PROGRESS additions=17900 step=35773/43970\nLRAT_STREAM_PROGRESS additions=18000 step=35973/43970\nLRAT_STREAM_PROGRESS additions=18100 step=36173/43970\nLRAT_STREAM_PROGRESS additions=18200 step=36373/43970\nLRAT_STREAM_PROGRESS additions=18300 step=36573/43970\nLRAT_STREAM_PROGRESS additions=18400 step=36773/43970\nLRAT_STREAM_PROGRESS additions=18500 step=36973/43970\nLRAT_STREAM_PROGRESS additions=18600 step=37173/43970\nLRAT_STREAM_PROGRESS additions=18700 step=37373/43970\nLRAT_STREAM_PROGRESS additions=18800 step=37573/43970\nLRAT_STREAM_PROGRESS additions=18900 step=37773/43970\nLRAT_STREAM_PROGRESS additions=19000 step=37973/43970\nLRAT_STREAM_PROGRESS additions=19100 step=38173/43970\nLRAT_STREAM_PROGRESS additions=19200 step=38373/43970\nLRAT_STREAM_PROGRESS additions=19300 step=38573/43970\nLRAT_STREAM_PROGRESS additions=19400 step=38719/43970\nLRAT_STREAM_PROGRESS additions=19500 step=38866/43970\nLRAT_STREAM_PROGRESS additions=19600 step=39012/43970\nLRAT_STREAM_PROGRESS additions=19700 step=39156/43970\nLRAT_STREAM_PROGRESS additions=19800 step=39306/43970\nLRAT_STREAM_PROGRESS additions=19900 step=39454/43970\nLRAT_STREAM_PROGRESS additions=20000 step=39602/43970\nLRAT_STREAM_PROGRESS additions=20100 step=39742/43970\nLRAT_STREAM_PROGRESS additions=20200 step=39885/43970\nLRAT_STREAM_PROGRESS additions=20300 step=40032/43970\nLRAT_STREAM_PROGRESS additions=20400 step=40176/43970\nLRAT_STREAM_PROGRESS additions=20500 step=40328/43970\nLRAT_STREAM_PROGRESS additions=20600 step=40477/43970\nLRAT_STREAM_PROGRESS additions=20700 step=40629/43970\nLRAT_STREAM_PROGRESS additions=20800 step=40774/43970\nLRAT_STREAM_PROGRESS additions=20900 step=40921/43970\nLRAT_STREAM_PROGRESS additions=21000 step=41077/43970\nLRAT_STREAM_PROGRESS additions=21100 step=41224/43970\nLRAT_STREAM_PROGRESS additions=21200 step=41374/43970\nLRAT_STREAM_PROGRESS additions=21300 step=41518/43970\nLRAT_STREAM_PROGRESS additions=21400 step=41661/43970\nLRAT_STREAM_PROGRESS additions=21500 step=41806/43970\nLRAT_STREAM_PROGRESS additions=21600 step=41953/43970\nLRAT_STREAM_PROGRESS additions=21700 step=42098/43970\nLRAT_STREAM_PROGRESS additions=21800 step=42244/43970\nLRAT_STREAM_PROGRESS additions=21900 step=42394/43970\nLRAT_STREAM_PROGRESS additions=22000 step=42543/43970\nLRAT_STREAM_PROGRESS additions=22100 step=42691/43970\nLRAT_STREAM_PROGRESS additions=22200 step=42837/43970\nLRAT_STREAM_PROGRESS additions=22300 step=42987/43970\nLRAT_STREAM_PROGRESS additions=22400 step=43133/43970\nLRAT_STREAM_PROGRESS additions=22500 step=43288/43970\nLRAT_STREAM_PROGRESS additions=22600 step=43433/43970\nLRAT_STREAM_PROGRESS additions=22700 step=43582/43970\nLRAT_STREAM_PROGRESS additions=22800 step=43727/43970\nLRAT_STREAM_PROGRESS additions=22900 step=43874/43970\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk002",
+      "source_sha256": "9ea7c4b7cc01514f9bbb4a6d3974500910e3e7793ce4b4f4d6c24029a2592d14",
+      "exit_code": 0,
+      "seconds": 52.486,
+      "log": "LRAT chunk progress: 1000 additions, source step 45470/50926\nLRAT chunk progress: 2000 additions, source step 46968/50926\nLRAT chunk progress: 3000 additions, source step 48478/50926\nLRAT chunk progress: 4000 additions, source step 49974/50926\nLRAT_STREAM_PROGRESS additions=100 step=44121/50926\nLRAT_STREAM_PROGRESS additions=200 step=44273/50926\nLRAT_STREAM_PROGRESS additions=300 step=44425/50926\nLRAT_STREAM_PROGRESS additions=400 step=44570/50926\nLRAT_STREAM_PROGRESS additions=500 step=44717/50926\nLRAT_STREAM_PROGRESS additions=600 step=44870/50926\nLRAT_STREAM_PROGRESS additions=700 step=45027/50926\nLRAT_STREAM_PROGRESS additions=800 step=45176/50926\nLRAT_STREAM_PROGRESS additions=900 step=45323/50926\nLRAT_STREAM_PROGRESS additions=1000 step=45470/50926\nLRAT_STREAM_PROGRESS additions=1100 step=45622/50926\nLRAT_STREAM_PROGRESS additions=1200 step=45769/50926\nLRAT_STREAM_PROGRESS additions=1300 step=45930/50926\nLRAT_STREAM_PROGRESS additions=1400 step=46079/50926\nLRAT_STREAM_PROGRESS additions=1500 step=46228/50926\nLRAT_STREAM_PROGRESS additions=1600 step=46376/50926\nLRAT_STREAM_PROGRESS additions=1700 step=46517/50926\nLRAT_STREAM_PROGRESS additions=1800 step=46672/50926\nLRAT_STREAM_PROGRESS additions=1900 step=46822/50926\nLRAT_STREAM_PROGRESS additions=2000 step=46968/50926\nLRAT_STREAM_PROGRESS additions=2100 step=47117/50926\nLRAT_STREAM_PROGRESS additions=2200 step=47269/50926\nLRAT_STREAM_PROGRESS additions=2300 step=47424/50926\nLRAT_STREAM_PROGRESS additions=2400 step=47577/50926\nLRAT_STREAM_PROGRESS additions=2500 step=47726/50926\nLRAT_STREAM_PROGRESS additions=2600 step=47881/50926\nLRAT_STREAM_PROGRESS additions=2700 step=48038/50926\nLRAT_STREAM_PROGRESS additions=2800 step=48181/50926\nLRAT_STREAM_PROGRESS additions=2900 step=48331/50926\nLRAT_STREAM_PROGRESS additions=3000 step=48478/50926\nLRAT_STREAM_PROGRESS additions=3100 step=48624/50926\nLRAT_STREAM_PROGRESS additions=3200 step=48776/50926\nLRAT_STREAM_PROGRESS additions=3300 step=48929/50926\nLRAT_STREAM_PROGRESS additions=3400 step=49078/50926\nLRAT_STREAM_PROGRESS additions=3500 step=49229/50926\nLRAT_STREAM_PROGRESS additions=3600 step=49378/50926\nLRAT_STREAM_PROGRESS additions=3700 step=49522/50926\nLRAT_STREAM_PROGRESS additions=3800 step=49670/50926\nLRAT_STREAM_PROGRESS additions=3900 step=49819/50926\nLRAT_STREAM_PROGRESS additions=4000 step=49974/50926\nLRAT_STREAM_PROGRESS additions=4100 step=50118/50926\nLRAT_STREAM_PROGRESS additions=4200 step=50265/50926\nLRAT_STREAM_PROGRESS additions=4300 step=50417/50926\nLRAT_STREAM_PROGRESS additions=4400 step=50568/50926\nLRAT_STREAM_PROGRESS additions=4500 step=50729/50926\nLRAT_STREAM_PROGRESS additions=4600 step=50882/50926\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk003",
+      "source_sha256": "e97a44dde80f938913013271e71ce4ec9cedf84fb55d0be7c2a3441382728a6c",
+      "exit_code": 0,
+      "seconds": 52.066,
+      "log": "LRAT chunk progress: 1000 additions, source step 52408/58112\nLRAT chunk progress: 2000 additions, source step 53879/58112\nLRAT chunk progress: 3000 additions, source step 55352/58112\nLRAT chunk progress: 4000 additions, source step 56851/58112\nLRAT_STREAM_PROGRESS additions=100 step=51075/58112\nLRAT_STREAM_PROGRESS additions=200 step=51225/58112\nLRAT_STREAM_PROGRESS additions=300 step=51369/58112\nLRAT_STREAM_PROGRESS additions=400 step=51522/58112\nLRAT_STREAM_PROGRESS additions=500 step=51668/58112\nLRAT_STREAM_PROGRESS additions=600 step=51820/58112\nLRAT_STREAM_PROGRESS additions=700 step=51970/58112\nLRAT_STREAM_PROGRESS additions=800 step=52115/58112\nLRAT_STREAM_PROGRESS additions=900 step=52264/58112\nLRAT_STREAM_PROGRESS additions=1000 step=52408/58112\nLRAT_STREAM_PROGRESS additions=1100 step=52556/58112\nLRAT_STREAM_PROGRESS additions=1200 step=52704/58112\nLRAT_STREAM_PROGRESS additions=1300 step=52849/58112\nLRAT_STREAM_PROGRESS additions=1400 step=52999/58112\nLRAT_STREAM_PROGRESS additions=1500 step=53144/58112\nLRAT_STREAM_PROGRESS additions=1600 step=53289/58112\nLRAT_STREAM_PROGRESS additions=1700 step=53439/58112\nLRAT_STREAM_PROGRESS additions=1800 step=53585/58112\nLRAT_STREAM_PROGRESS additions=1900 step=53731/58112\nLRAT_STREAM_PROGRESS additions=2000 step=53879/58112\nLRAT_STREAM_PROGRESS additions=2100 step=54032/58112\nLRAT_STREAM_PROGRESS additions=2200 step=54182/58112\nLRAT_STREAM_PROGRESS additions=2300 step=54333/58112\nLRAT_STREAM_PROGRESS additions=2400 step=54476/58112\nLRAT_STREAM_PROGRESS additions=2500 step=54623/58112\nLRAT_STREAM_PROGRESS additions=2600 step=54768/58112\nLRAT_STREAM_PROGRESS additions=2700 step=54910/58112\nLRAT_STREAM_PROGRESS additions=2800 step=55057/58112\nLRAT_STREAM_PROGRESS additions=2900 step=55205/58112\nLRAT_STREAM_PROGRESS additions=3000 step=55352/58112\nLRAT_STREAM_PROGRESS additions=3100 step=55498/58112\nLRAT_STREAM_PROGRESS additions=3200 step=55651/58112\nLRAT_STREAM_PROGRESS additions=3300 step=55804/58112\nLRAT_STREAM_PROGRESS additions=3400 step=55955/58112\nLRAT_STREAM_PROGRESS additions=3500 step=56108/58112\nLRAT_STREAM_PROGRESS additions=3600 step=56256/58112\nLRAT_STREAM_PROGRESS additions=3700 step=56401/58112\nLRAT_STREAM_PROGRESS additions=3800 step=56552/58112\nLRAT_STREAM_PROGRESS additions=3900 step=56697/58112\nLRAT_STREAM_PROGRESS additions=4000 step=56851/58112\nLRAT_STREAM_PROGRESS additions=4100 step=57000/58112\nLRAT_STREAM_PROGRESS additions=4200 step=57153/58112\nLRAT_STREAM_PROGRESS additions=4300 step=57306/58112\nLRAT_STREAM_PROGRESS additions=4400 step=57464/58112\nLRAT_STREAM_PROGRESS additions=4500 step=57615/58112\nLRAT_STREAM_PROGRESS additions=4600 step=57767/58112\nLRAT_STREAM_PROGRESS additions=4700 step=57914/58112\nLRAT_STREAM_PROGRESS additions=4800 step=58062/58112\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk004",
+      "source_sha256": "63c5cda7c020ee69e4719d8ceea259623b53e96d103d9553341be862d537723b",
+      "exit_code": 0,
+      "seconds": 52.495,
+      "log": "LRAT chunk progress: 1000 additions, source step 59640/64181\nLRAT chunk progress: 2000 additions, source step 61135/64181\nLRAT chunk progress: 3000 additions, source step 62657/64181\nLRAT_STREAM_PROGRESS additions=100 step=58260/64181\nLRAT_STREAM_PROGRESS additions=200 step=58407/64181\nLRAT_STREAM_PROGRESS additions=300 step=58555/64181\nLRAT_STREAM_PROGRESS additions=400 step=58712/64181\nLRAT_STREAM_PROGRESS additions=500 step=58869/64181\nLRAT_STREAM_PROGRESS additions=600 step=59023/64181\nLRAT_STREAM_PROGRESS additions=700 step=59181/64181\nLRAT_STREAM_PROGRESS additions=800 step=59341/64181\nLRAT_STREAM_PROGRESS additions=900 step=59492/64181\nLRAT_STREAM_PROGRESS additions=1000 step=59640/64181\nLRAT_STREAM_PROGRESS additions=1100 step=59798/64181\nLRAT_STREAM_PROGRESS additions=1200 step=59951/64181\nLRAT_STREAM_PROGRESS additions=1300 step=60100/64181\nLRAT_STREAM_PROGRESS additions=1400 step=60244/64181\nLRAT_STREAM_PROGRESS additions=1500 step=60404/64181\nLRAT_STREAM_PROGRESS additions=1600 step=60549/64181\nLRAT_STREAM_PROGRESS additions=1700 step=60696/64181\nLRAT_STREAM_PROGRESS additions=1800 step=60841/64181\nLRAT_STREAM_PROGRESS additions=1900 step=60988/64181\nLRAT_STREAM_PROGRESS additions=2000 step=61135/64181\nLRAT_STREAM_PROGRESS additions=2100 step=61287/64181\nLRAT_STREAM_PROGRESS additions=2200 step=61438/64181\nLRAT_STREAM_PROGRESS additions=2300 step=61596/64181\nLRAT_STREAM_PROGRESS additions=2400 step=61743/64181\nLRAT_STREAM_PROGRESS additions=2500 step=61900/64181\nLRAT_STREAM_PROGRESS additions=2600 step=62049/64181\nLRAT_STREAM_PROGRESS additions=2700 step=62202/64181\nLRAT_STREAM_PROGRESS additions=2800 step=62350/64181\nLRAT_STREAM_PROGRESS additions=2900 step=62507/64181\nLRAT_STREAM_PROGRESS additions=3000 step=62657/64181\nLRAT_STREAM_PROGRESS additions=3100 step=62812/64181\nLRAT_STREAM_PROGRESS additions=3200 step=62968/64181\nLRAT_STREAM_PROGRESS additions=3300 step=63116/64181\nLRAT_STREAM_PROGRESS additions=3400 step=63268/64181\nLRAT_STREAM_PROGRESS additions=3500 step=63419/64181\nLRAT_STREAM_PROGRESS additions=3600 step=63569/64181\nLRAT_STREAM_PROGRESS additions=3700 step=63723/64181\nLRAT_STREAM_PROGRESS additions=3800 step=63879/64181\nLRAT_STREAM_PROGRESS additions=3900 step=64034/64181\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk005",
+      "source_sha256": "133c30bdb933108361a44c692f4b8f1819b372cd916c4a48fcaec74e3b063fe9",
+      "exit_code": 0,
+      "seconds": 50.818,
+      "log": "LRAT chunk progress: 1000 additions, source step 65714/71090\nLRAT chunk progress: 2000 additions, source step 67220/71090\nLRAT chunk progress: 3000 additions, source step 68677/71090\nLRAT chunk progress: 4000 additions, source step 70154/71090\nLRAT_STREAM_PROGRESS additions=100 step=64334/71090\nLRAT_STREAM_PROGRESS additions=200 step=64493/71090\nLRAT_STREAM_PROGRESS additions=300 step=64656/71090\nLRAT_STREAM_PROGRESS additions=400 step=64811/71090\nLRAT_STREAM_PROGRESS additions=500 step=64964/71090\nLRAT_STREAM_PROGRESS additions=600 step=65109/71090\nLRAT_STREAM_PROGRESS additions=700 step=65262/71090\nLRAT_STREAM_PROGRESS additions=800 step=65412/71090\nLRAT_STREAM_PROGRESS additions=900 step=65560/71090\nLRAT_STREAM_PROGRESS additions=1000 step=65714/71090\nLRAT_STREAM_PROGRESS additions=1100 step=65863/71090\nLRAT_STREAM_PROGRESS additions=1200 step=66021/71090\nLRAT_STREAM_PROGRESS additions=1300 step=66168/71090\nLRAT_STREAM_PROGRESS additions=1400 step=66320/71090\nLRAT_STREAM_PROGRESS additions=1500 step=66477/71090\nLRAT_STREAM_PROGRESS additions=1600 step=66632/71090\nLRAT_STREAM_PROGRESS additions=1700 step=66778/71090\nLRAT_STREAM_PROGRESS additions=1800 step=66923/71090\nLRAT_STREAM_PROGRESS additions=1900 step=67070/71090\nLRAT_STREAM_PROGRESS additions=2000 step=67220/71090\nLRAT_STREAM_PROGRESS additions=2100 step=67365/71090\nLRAT_STREAM_PROGRESS additions=2200 step=67507/71090\nLRAT_STREAM_PROGRESS additions=2300 step=67652/71090\nLRAT_STREAM_PROGRESS additions=2400 step=67800/71090\nLRAT_STREAM_PROGRESS additions=2500 step=67943/71090\nLRAT_STREAM_PROGRESS additions=2600 step=68093/71090\nLRAT_STREAM_PROGRESS additions=2700 step=68237/71090\nLRAT_STREAM_PROGRESS additions=2800 step=68386/71090\nLRAT_STREAM_PROGRESS additions=2900 step=68532/71090\nLRAT_STREAM_PROGRESS additions=3000 step=68677/71090\nLRAT_STREAM_PROGRESS additions=3100 step=68828/71090\nLRAT_STREAM_PROGRESS additions=3200 step=68976/71090\nLRAT_STREAM_PROGRESS additions=3300 step=69121/71090\nLRAT_STREAM_PROGRESS additions=3400 step=69263/71090\nLRAT_STREAM_PROGRESS additions=3500 step=69413/71090\nLRAT_STREAM_PROGRESS additions=3600 step=69565/71090\nLRAT_STREAM_PROGRESS additions=3700 step=69711/71090\nLRAT_STREAM_PROGRESS additions=3800 step=69858/71090\nLRAT_STREAM_PROGRESS additions=3900 step=70005/71090\nLRAT_STREAM_PROGRESS additions=4000 step=70154/71090\nLRAT_STREAM_PROGRESS additions=4100 step=70300/71090\nLRAT_STREAM_PROGRESS additions=4200 step=70453/71090\nLRAT_STREAM_PROGRESS additions=4300 step=70604/71090\nLRAT_STREAM_PROGRESS additions=4400 step=70755/71090\nLRAT_STREAM_PROGRESS additions=4500 step=70906/71090\nLRAT_STREAM_PROGRESS additions=4600 step=71050/71090\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk006",
+      "source_sha256": "aca38427839a1f9c9f7c12d57b9e94bd3000850aed11482c300178b2211f4c70",
+      "exit_code": 0,
+      "seconds": 52.261,
+      "log": "LRAT chunk progress: 1000 additions, source step 72614/78107\nLRAT chunk progress: 2000 additions, source step 74102/78107\nLRAT chunk progress: 3000 additions, source step 75547/78107\nLRAT chunk progress: 4000 additions, source step 77072/78107\nLRAT_STREAM_PROGRESS additions=100 step=71241/78107\nLRAT_STREAM_PROGRESS additions=200 step=71387/78107\nLRAT_STREAM_PROGRESS additions=300 step=71532/78107\nLRAT_STREAM_PROGRESS additions=400 step=71677/78107\nLRAT_STREAM_PROGRESS additions=500 step=71832/78107\nLRAT_STREAM_PROGRESS additions=600 step=72011/78107\nLRAT_STREAM_PROGRESS additions=700 step=72161/78107\nLRAT_STREAM_PROGRESS additions=800 step=72303/78107\nLRAT_STREAM_PROGRESS additions=900 step=72461/78107\nLRAT_STREAM_PROGRESS additions=1000 step=72614/78107\nLRAT_STREAM_PROGRESS additions=1100 step=72764/78107\nLRAT_STREAM_PROGRESS additions=1200 step=72915/78107\nLRAT_STREAM_PROGRESS additions=1300 step=73066/78107\nLRAT_STREAM_PROGRESS additions=1400 step=73211/78107\nLRAT_STREAM_PROGRESS additions=1500 step=73360/78107\nLRAT_STREAM_PROGRESS additions=1600 step=73510/78107\nLRAT_STREAM_PROGRESS additions=1700 step=73663/78107\nLRAT_STREAM_PROGRESS additions=1800 step=73806/78107\nLRAT_STREAM_PROGRESS additions=1900 step=73954/78107\nLRAT_STREAM_PROGRESS additions=2000 step=74102/78107\nLRAT_STREAM_PROGRESS additions=2100 step=74245/78107\nLRAT_STREAM_PROGRESS additions=2200 step=74390/78107\nLRAT_STREAM_PROGRESS additions=2300 step=74529/78107\nLRAT_STREAM_PROGRESS additions=2400 step=74674/78107\nLRAT_STREAM_PROGRESS additions=2500 step=74818/78107\nLRAT_STREAM_PROGRESS additions=2600 step=74962/78107\nLRAT_STREAM_PROGRESS additions=2700 step=75110/78107\nLRAT_STREAM_PROGRESS additions=2800 step=75248/78107\nLRAT_STREAM_PROGRESS additions=2900 step=75400/78107\nLRAT_STREAM_PROGRESS additions=3000 step=75547/78107\nLRAT_STREAM_PROGRESS additions=3100 step=75700/78107\nLRAT_STREAM_PROGRESS additions=3200 step=75855/78107\nLRAT_STREAM_PROGRESS additions=3300 step=76005/78107\nLRAT_STREAM_PROGRESS additions=3400 step=76153/78107\nLRAT_STREAM_PROGRESS additions=3500 step=76300/78107\nLRAT_STREAM_PROGRESS additions=3600 step=76449/78107\nLRAT_STREAM_PROGRESS additions=3700 step=76607/78107\nLRAT_STREAM_PROGRESS additions=3800 step=76761/78107\nLRAT_STREAM_PROGRESS additions=3900 step=76915/78107\nLRAT_STREAM_PROGRESS additions=4000 step=77072/78107\nLRAT_STREAM_PROGRESS additions=4100 step=77230/78107\nLRAT_STREAM_PROGRESS additions=4200 step=77379/78107\nLRAT_STREAM_PROGRESS additions=4300 step=77525/78107\nLRAT_STREAM_PROGRESS additions=4400 step=77677/78107\nLRAT_STREAM_PROGRESS additions=4500 step=77839/78107\nLRAT_STREAM_PROGRESS additions=4600 step=77996/78107\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk007",
+      "source_sha256": "ea00e0f2eb857c429158f423043448f5156a8674a86549c93e2ac9657646ea7c",
+      "exit_code": 0,
+      "seconds": 52.632,
+      "log": "LRAT chunk progress: 1000 additions, source step 79620/83990\nLRAT chunk progress: 2000 additions, source step 81124/83990\nLRAT chunk progress: 3000 additions, source step 82631/83990\nLRAT_STREAM_PROGRESS additions=100 step=78265/83990\nLRAT_STREAM_PROGRESS additions=200 step=78421/83990\nLRAT_STREAM_PROGRESS additions=300 step=78569/83990\nLRAT_STREAM_PROGRESS additions=400 step=78712/83990\nLRAT_STREAM_PROGRESS additions=500 step=78862/83990\nLRAT_STREAM_PROGRESS additions=600 step=79009/83990\nLRAT_STREAM_PROGRESS additions=700 step=79159/83990\nLRAT_STREAM_PROGRESS additions=800 step=79313/83990\nLRAT_STREAM_PROGRESS additions=900 step=79465/83990\nLRAT_STREAM_PROGRESS additions=1000 step=79620/83990\nLRAT_STREAM_PROGRESS additions=1100 step=79770/83990\nLRAT_STREAM_PROGRESS additions=1200 step=79920/83990\nLRAT_STREAM_PROGRESS additions=1300 step=80073/83990\nLRAT_STREAM_PROGRESS additions=1400 step=80222/83990\nLRAT_STREAM_PROGRESS additions=1500 step=80376/83990\nLRAT_STREAM_PROGRESS additions=1600 step=80525/83990\nLRAT_STREAM_PROGRESS additions=1700 step=80670/83990\nLRAT_STREAM_PROGRESS additions=1800 step=80813/83990\nLRAT_STREAM_PROGRESS additions=1900 step=80970/83990\nLRAT_STREAM_PROGRESS additions=2000 step=81124/83990\nLRAT_STREAM_PROGRESS additions=2100 step=81274/83990\nLRAT_STREAM_PROGRESS additions=2200 step=81428/83990\nLRAT_STREAM_PROGRESS additions=2300 step=81578/83990\nLRAT_STREAM_PROGRESS additions=2400 step=81730/83990\nLRAT_STREAM_PROGRESS additions=2500 step=81871/83990\nLRAT_STREAM_PROGRESS additions=2600 step=82022/83990\nLRAT_STREAM_PROGRESS additions=2700 step=82176/83990\nLRAT_STREAM_PROGRESS additions=2800 step=82323/83990\nLRAT_STREAM_PROGRESS additions=2900 step=82476/83990\nLRAT_STREAM_PROGRESS additions=3000 step=82631/83990\nLRAT_STREAM_PROGRESS additions=3100 step=82780/83990\nLRAT_STREAM_PROGRESS additions=3200 step=82942/83990\nLRAT_STREAM_PROGRESS additions=3300 step=83093/83990\nLRAT_STREAM_PROGRESS additions=3400 step=83246/83990\nLRAT_STREAM_PROGRESS additions=3500 step=83395/83990\nLRAT_STREAM_PROGRESS additions=3600 step=83545/83990\nLRAT_STREAM_PROGRESS additions=3700 step=83700/83990\nLRAT_STREAM_PROGRESS additions=3800 step=83851/83990\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk008",
+      "source_sha256": "9a1913ac3681140edae7d4a83e3f7ccdcb2b199ff3bdab1bd66cecb82a88ef67",
+      "exit_code": 0,
+      "seconds": 53.568,
+      "log": "LRAT chunk progress: 1000 additions, source step 85478/89688\nLRAT chunk progress: 2000 additions, source step 86995/89688\nLRAT chunk progress: 3000 additions, source step 88499/89688\nLRAT_STREAM_PROGRESS additions=100 step=84151/89688\nLRAT_STREAM_PROGRESS additions=200 step=84296/89688\nLRAT_STREAM_PROGRESS additions=300 step=84450/89688\nLRAT_STREAM_PROGRESS additions=400 step=84602/89688\nLRAT_STREAM_PROGRESS additions=500 step=84750/89688\nLRAT_STREAM_PROGRESS additions=600 step=84897/89688\nLRAT_STREAM_PROGRESS additions=700 step=85041/89688\nLRAT_STREAM_PROGRESS additions=800 step=85186/89688\nLRAT_STREAM_PROGRESS additions=900 step=85330/89688\nLRAT_STREAM_PROGRESS additions=1000 step=85478/89688\nLRAT_STREAM_PROGRESS additions=1100 step=85641/89688\nLRAT_STREAM_PROGRESS additions=1200 step=85787/89688\nLRAT_STREAM_PROGRESS additions=1300 step=85945/89688\nLRAT_STREAM_PROGRESS additions=1400 step=86089/89688\nLRAT_STREAM_PROGRESS additions=1500 step=86242/89688\nLRAT_STREAM_PROGRESS additions=1600 step=86391/89688\nLRAT_STREAM_PROGRESS additions=1700 step=86546/89688\nLRAT_STREAM_PROGRESS additions=1800 step=86694/89688\nLRAT_STREAM_PROGRESS additions=1900 step=86847/89688\nLRAT_STREAM_PROGRESS additions=2000 step=86995/89688\nLRAT_STREAM_PROGRESS additions=2100 step=87144/89688\nLRAT_STREAM_PROGRESS additions=2200 step=87286/89688\nLRAT_STREAM_PROGRESS additions=2300 step=87433/89688\nLRAT_STREAM_PROGRESS additions=2400 step=87584/89688\nLRAT_STREAM_PROGRESS additions=2500 step=87734/89688\nLRAT_STREAM_PROGRESS additions=2600 step=87884/89688\nLRAT_STREAM_PROGRESS additions=2700 step=88040/89688\nLRAT_STREAM_PROGRESS additions=2800 step=88197/89688\nLRAT_STREAM_PROGRESS additions=2900 step=88349/89688\nLRAT_STREAM_PROGRESS additions=3000 step=88499/89688\nLRAT_STREAM_PROGRESS additions=3100 step=88646/89688\nLRAT_STREAM_PROGRESS additions=3200 step=88805/89688\nLRAT_STREAM_PROGRESS additions=3300 step=88959/89688\nLRAT_STREAM_PROGRESS additions=3400 step=89111/89688\nLRAT_STREAM_PROGRESS additions=3500 step=89267/89688\nLRAT_STREAM_PROGRESS additions=3600 step=89412/89688\nLRAT_STREAM_PROGRESS additions=3700 step=89557/89688\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk009",
+      "source_sha256": "1548b42f01a471d66cde6d67d90262d87e28ed9f7c02a9a1e8022160c95dc17d",
+      "exit_code": 0,
+      "seconds": 51.972,
+      "log": "LRAT chunk progress: 1000 additions, source step 91185/96229\nLRAT chunk progress: 2000 additions, source step 92672/96229\nLRAT chunk progress: 3000 additions, source step 94165/96229\nLRAT chunk progress: 4000 additions, source step 95635/96229\nLRAT_STREAM_PROGRESS additions=100 step=89844/96229\nLRAT_STREAM_PROGRESS additions=200 step=90001/96229\nLRAT_STREAM_PROGRESS additions=300 step=90149/96229\nLRAT_STREAM_PROGRESS additions=400 step=90299/96229\nLRAT_STREAM_PROGRESS additions=500 step=90442/96229\nLRAT_STREAM_PROGRESS additions=600 step=90592/96229\nLRAT_STREAM_PROGRESS additions=700 step=90738/96229\nLRAT_STREAM_PROGRESS additions=800 step=90886/96229\nLRAT_STREAM_PROGRESS additions=900 step=91032/96229\nLRAT_STREAM_PROGRESS additions=1000 step=91185/96229\nLRAT_STREAM_PROGRESS additions=1100 step=91335/96229\nLRAT_STREAM_PROGRESS additions=1200 step=91483/96229\nLRAT_STREAM_PROGRESS additions=1300 step=91626/96229\nLRAT_STREAM_PROGRESS additions=1400 step=91770/96229\nLRAT_STREAM_PROGRESS additions=1500 step=91916/96229\nLRAT_STREAM_PROGRESS additions=1600 step=92068/96229\nLRAT_STREAM_PROGRESS additions=1700 step=92220/96229\nLRAT_STREAM_PROGRESS additions=1800 step=92370/96229\nLRAT_STREAM_PROGRESS additions=1900 step=92522/96229\nLRAT_STREAM_PROGRESS additions=2000 step=92672/96229\nLRAT_STREAM_PROGRESS additions=2100 step=92823/96229\nLRAT_STREAM_PROGRESS additions=2200 step=92973/96229\nLRAT_STREAM_PROGRESS additions=2300 step=93115/96229\nLRAT_STREAM_PROGRESS additions=2400 step=93268/96229\nLRAT_STREAM_PROGRESS additions=2500 step=93418/96229\nLRAT_STREAM_PROGRESS additions=2600 step=93566/96229\nLRAT_STREAM_PROGRESS additions=2700 step=93717/96229\nLRAT_STREAM_PROGRESS additions=2800 step=93866/96229\nLRAT_STREAM_PROGRESS additions=2900 step=94017/96229\nLRAT_STREAM_PROGRESS additions=3000 step=94165/96229\nLRAT_STREAM_PROGRESS additions=3100 step=94309/96229\nLRAT_STREAM_PROGRESS additions=3200 step=94463/96229\nLRAT_STREAM_PROGRESS additions=3300 step=94611/96229\nLRAT_STREAM_PROGRESS additions=3400 step=94752/96229\nLRAT_STREAM_PROGRESS additions=3500 step=94899/96229\nLRAT_STREAM_PROGRESS additions=3600 step=95047/96229\nLRAT_STREAM_PROGRESS additions=3700 step=95193/96229\nLRAT_STREAM_PROGRESS additions=3800 step=95339/96229\nLRAT_STREAM_PROGRESS additions=3900 step=95486/96229\nLRAT_STREAM_PROGRESS additions=4000 step=95635/96229\nLRAT_STREAM_PROGRESS additions=4100 step=95787/96229\nLRAT_STREAM_PROGRESS additions=4200 step=95935/96229\nLRAT_STREAM_PROGRESS additions=4300 step=96083/96229\nLRAT_STREAM_PROGRESS additions=4400 step=96228/96229\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk010",
+      "source_sha256": "2457fc2f48d7e5455901ce4072d9d318a4eac0b1cf9b093a57c98dd862562237",
+      "exit_code": 0,
+      "seconds": 52.444,
+      "log": "LRAT chunk progress: 1000 additions, source step 97709/102980\nLRAT chunk progress: 2000 additions, source step 99204/102980\nLRAT chunk progress: 3000 additions, source step 100687/102980\nLRAT chunk progress: 4000 additions, source step 102193/102980\nLRAT_STREAM_PROGRESS additions=100 step=96378/102980\nLRAT_STREAM_PROGRESS additions=200 step=96525/102980\nLRAT_STREAM_PROGRESS additions=300 step=96668/102980\nLRAT_STREAM_PROGRESS additions=400 step=96821/102980\nLRAT_STREAM_PROGRESS additions=500 step=96972/102980\nLRAT_STREAM_PROGRESS additions=600 step=97116/102980\nLRAT_STREAM_PROGRESS additions=700 step=97265/102980\nLRAT_STREAM_PROGRESS additions=800 step=97409/102980\nLRAT_STREAM_PROGRESS additions=900 step=97557/102980\nLRAT_STREAM_PROGRESS additions=1000 step=97709/102980\nLRAT_STREAM_PROGRESS additions=1100 step=97858/102980\nLRAT_STREAM_PROGRESS additions=1200 step=98005/102980\nLRAT_STREAM_PROGRESS additions=1300 step=98161/102980\nLRAT_STREAM_PROGRESS additions=1400 step=98309/102980\nLRAT_STREAM_PROGRESS additions=1500 step=98453/102980\nLRAT_STREAM_PROGRESS additions=1600 step=98601/102980\nLRAT_STREAM_PROGRESS additions=1700 step=98754/102980\nLRAT_STREAM_PROGRESS additions=1800 step=98901/102980\nLRAT_STREAM_PROGRESS additions=1900 step=99051/102980\nLRAT_STREAM_PROGRESS additions=2000 step=99204/102980\nLRAT_STREAM_PROGRESS additions=2100 step=99353/102980\nLRAT_STREAM_PROGRESS additions=2200 step=99502/102980\nLRAT_STREAM_PROGRESS additions=2300 step=99649/102980\nLRAT_STREAM_PROGRESS additions=2400 step=99800/102980\nLRAT_STREAM_PROGRESS additions=2500 step=99956/102980\nLRAT_STREAM_PROGRESS additions=2600 step=100103/102980\nLRAT_STREAM_PROGRESS additions=2700 step=100241/102980\nLRAT_STREAM_PROGRESS additions=2800 step=100387/102980\nLRAT_STREAM_PROGRESS additions=2900 step=100537/102980\nLRAT_STREAM_PROGRESS additions=3000 step=100687/102980\nLRAT_STREAM_PROGRESS additions=3100 step=100833/102980\nLRAT_STREAM_PROGRESS additions=3200 step=100989/102980\nLRAT_STREAM_PROGRESS additions=3300 step=101141/102980\nLRAT_STREAM_PROGRESS additions=3400 step=101290/102980\nLRAT_STREAM_PROGRESS additions=3500 step=101438/102980\nLRAT_STREAM_PROGRESS additions=3600 step=101589/102980\nLRAT_STREAM_PROGRESS additions=3700 step=101743/102980\nLRAT_STREAM_PROGRESS additions=3800 step=101892/102980\nLRAT_STREAM_PROGRESS additions=3900 step=102038/102980\nLRAT_STREAM_PROGRESS additions=4000 step=102193/102980\nLRAT_STREAM_PROGRESS additions=4100 step=102341/102980\nLRAT_STREAM_PROGRESS additions=4200 step=102488/102980\nLRAT_STREAM_PROGRESS additions=4300 step=102649/102980\nLRAT_STREAM_PROGRESS additions=4400 step=102805/102980\nLRAT_STREAM_PROGRESS additions=4500 step=102963/102980\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk011",
+      "source_sha256": "906e4544309c21c5b6bbaed840307ddb8ee155436140424b437971eead7b414d",
+      "exit_code": 0,
+      "seconds": 50.661,
+      "log": "LRAT chunk progress: 1000 additions, source step 104485/108727\nLRAT chunk progress: 2000 additions, source step 105986/108727\nLRAT chunk progress: 3000 additions, source step 107507/108727\nLRAT_STREAM_PROGRESS additions=100 step=103129/108727\nLRAT_STREAM_PROGRESS additions=200 step=103283/108727\nLRAT_STREAM_PROGRESS additions=300 step=103433/108727\nLRAT_STREAM_PROGRESS additions=400 step=103588/108727\nLRAT_STREAM_PROGRESS additions=500 step=103749/108727\nLRAT_STREAM_PROGRESS additions=600 step=103896/108727\nLRAT_STREAM_PROGRESS additions=700 step=104046/108727\nLRAT_STREAM_PROGRESS additions=800 step=104196/108727\nLRAT_STREAM_PROGRESS additions=900 step=104339/108727\nLRAT_STREAM_PROGRESS additions=1000 step=104485/108727\nLRAT_STREAM_PROGRESS additions=1100 step=104637/108727\nLRAT_STREAM_PROGRESS additions=1200 step=104781/108727\nLRAT_STREAM_PROGRESS additions=1300 step=104932/108727\nLRAT_STREAM_PROGRESS additions=1400 step=105077/108727\nLRAT_STREAM_PROGRESS additions=1500 step=105226/108727\nLRAT_STREAM_PROGRESS additions=1600 step=105369/108727\nLRAT_STREAM_PROGRESS additions=1700 step=105516/108727\nLRAT_STREAM_PROGRESS additions=1800 step=105679/108727\nLRAT_STREAM_PROGRESS additions=1900 step=105829/108727\nLRAT_STREAM_PROGRESS additions=2000 step=105986/108727\nLRAT_STREAM_PROGRESS additions=2100 step=106137/108727\nLRAT_STREAM_PROGRESS additions=2200 step=106285/108727\nLRAT_STREAM_PROGRESS additions=2300 step=106434/108727\nLRAT_STREAM_PROGRESS additions=2400 step=106589/108727\nLRAT_STREAM_PROGRESS additions=2500 step=106736/108727\nLRAT_STREAM_PROGRESS additions=2600 step=106889/108727\nLRAT_STREAM_PROGRESS additions=2700 step=107047/108727\nLRAT_STREAM_PROGRESS additions=2800 step=107205/108727\nLRAT_STREAM_PROGRESS additions=2900 step=107355/108727\nLRAT_STREAM_PROGRESS additions=3000 step=107507/108727\nLRAT_STREAM_PROGRESS additions=3100 step=107667/108727\nLRAT_STREAM_PROGRESS additions=3200 step=107832/108727\nLRAT_STREAM_PROGRESS additions=3300 step=107992/108727\nLRAT_STREAM_PROGRESS additions=3400 step=108142/108727\nLRAT_STREAM_PROGRESS additions=3500 step=108296/108727\nLRAT_STREAM_PROGRESS additions=3600 step=108451/108727\nLRAT_STREAM_PROGRESS additions=3700 step=108596/108727\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk012",
+      "source_sha256": "008c666a010b7551cd87d4c627d978e1d1734b86f7af635c59713ed8dd39cb05",
+      "exit_code": 0,
+      "seconds": 52.787,
+      "log": "LRAT chunk progress: 1000 additions, source step 110226/115139\nLRAT chunk progress: 2000 additions, source step 111719/115139\nLRAT chunk progress: 3000 additions, source step 113256/115139\nLRAT chunk progress: 4000 additions, source step 114777/115139\nLRAT_STREAM_PROGRESS additions=100 step=108879/115139\nLRAT_STREAM_PROGRESS additions=200 step=109034/115139\nLRAT_STREAM_PROGRESS additions=300 step=109190/115139\nLRAT_STREAM_PROGRESS additions=400 step=109338/115139\nLRAT_STREAM_PROGRESS additions=500 step=109486/115139\nLRAT_STREAM_PROGRESS additions=600 step=109633/115139\nLRAT_STREAM_PROGRESS additions=700 step=109777/115139\nLRAT_STREAM_PROGRESS additions=800 step=109924/115139\nLRAT_STREAM_PROGRESS additions=900 step=110078/115139\nLRAT_STREAM_PROGRESS additions=1000 step=110226/115139\nLRAT_STREAM_PROGRESS additions=1100 step=110373/115139\nLRAT_STREAM_PROGRESS additions=1200 step=110521/115139\nLRAT_STREAM_PROGRESS additions=1300 step=110674/115139\nLRAT_STREAM_PROGRESS additions=1400 step=110821/115139\nLRAT_STREAM_PROGRESS additions=1500 step=110978/115139\nLRAT_STREAM_PROGRESS additions=1600 step=111124/115139\nLRAT_STREAM_PROGRESS additions=1700 step=111267/115139\nLRAT_STREAM_PROGRESS additions=1800 step=111416/115139\nLRAT_STREAM_PROGRESS additions=1900 step=111569/115139\nLRAT_STREAM_PROGRESS additions=2000 step=111719/115139\nLRAT_STREAM_PROGRESS additions=2100 step=111874/115139\nLRAT_STREAM_PROGRESS additions=2200 step=112024/115139\nLRAT_STREAM_PROGRESS additions=2300 step=112188/115139\nLRAT_STREAM_PROGRESS additions=2400 step=112347/115139\nLRAT_STREAM_PROGRESS additions=2500 step=112495/115139\nLRAT_STREAM_PROGRESS additions=2600 step=112648/115139\nLRAT_STREAM_PROGRESS additions=2700 step=112801/115139\nLRAT_STREAM_PROGRESS additions=2800 step=112963/115139\nLRAT_STREAM_PROGRESS additions=2900 step=113111/115139\nLRAT_STREAM_PROGRESS additions=3000 step=113256/115139\nLRAT_STREAM_PROGRESS additions=3100 step=113414/115139\nLRAT_STREAM_PROGRESS additions=3200 step=113565/115139\nLRAT_STREAM_PROGRESS additions=3300 step=113715/115139\nLRAT_STREAM_PROGRESS additions=3400 step=113867/115139\nLRAT_STREAM_PROGRESS additions=3500 step=114020/115139\nLRAT_STREAM_PROGRESS additions=3600 step=114172/115139\nLRAT_STREAM_PROGRESS additions=3700 step=114319/115139\nLRAT_STREAM_PROGRESS additions=3800 step=114471/115139\nLRAT_STREAM_PROGRESS additions=3900 step=114621/115139\nLRAT_STREAM_PROGRESS additions=4000 step=114777/115139\nLRAT_STREAM_PROGRESS additions=4100 step=114937/115139\nLRAT_STREAM_PROGRESS additions=4200 step=115088/115139\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk013",
+      "source_sha256": "ecf7f745b37ea2d87bbd1c6a415c1af108904b042e67c3243c7bfa8398239f02",
+      "exit_code": 0,
+      "seconds": 54.078,
+      "log": "LRAT chunk progress: 1000 additions, source step 116603/121601\nLRAT chunk progress: 2000 additions, source step 118115/121601\nLRAT chunk progress: 3000 additions, source step 119646/121601\nLRAT chunk progress: 4000 additions, source step 121155/121601\nLRAT_STREAM_PROGRESS additions=100 step=115294/121601\nLRAT_STREAM_PROGRESS additions=200 step=115440/121601\nLRAT_STREAM_PROGRESS additions=300 step=115578/121601\nLRAT_STREAM_PROGRESS additions=400 step=115720/121601\nLRAT_STREAM_PROGRESS additions=500 step=115859/121601\nLRAT_STREAM_PROGRESS additions=600 step=116005/121601\nLRAT_STREAM_PROGRESS additions=700 step=116160/121601\nLRAT_STREAM_PROGRESS additions=800 step=116313/121601\nLRAT_STREAM_PROGRESS additions=900 step=116461/121601\nLRAT_STREAM_PROGRESS additions=1000 step=116603/121601\nLRAT_STREAM_PROGRESS additions=1100 step=116748/121601\nLRAT_STREAM_PROGRESS additions=1200 step=116905/121601\nLRAT_STREAM_PROGRESS additions=1300 step=117062/121601\nLRAT_STREAM_PROGRESS additions=1400 step=117215/121601\nLRAT_STREAM_PROGRESS additions=1500 step=117361/121601\nLRAT_STREAM_PROGRESS additions=1600 step=117515/121601\nLRAT_STREAM_PROGRESS additions=1700 step=117669/121601\nLRAT_STREAM_PROGRESS additions=1800 step=117814/121601\nLRAT_STREAM_PROGRESS additions=1900 step=117967/121601\nLRAT_STREAM_PROGRESS additions=2000 step=118115/121601\nLRAT_STREAM_PROGRESS additions=2100 step=118269/121601\nLRAT_STREAM_PROGRESS additions=2200 step=118424/121601\nLRAT_STREAM_PROGRESS additions=2300 step=118579/121601\nLRAT_STREAM_PROGRESS additions=2400 step=118728/121601\nLRAT_STREAM_PROGRESS additions=2500 step=118885/121601\nLRAT_STREAM_PROGRESS additions=2600 step=119038/121601\nLRAT_STREAM_PROGRESS additions=2700 step=119187/121601\nLRAT_STREAM_PROGRESS additions=2800 step=119343/121601\nLRAT_STREAM_PROGRESS additions=2900 step=119491/121601\nLRAT_STREAM_PROGRESS additions=3000 step=119646/121601\nLRAT_STREAM_PROGRESS additions=3100 step=119796/121601\nLRAT_STREAM_PROGRESS additions=3200 step=119948/121601\nLRAT_STREAM_PROGRESS additions=3300 step=120102/121601\nLRAT_STREAM_PROGRESS additions=3400 step=120253/121601\nLRAT_STREAM_PROGRESS additions=3500 step=120404/121601\nLRAT_STREAM_PROGRESS additions=3600 step=120562/121601\nLRAT_STREAM_PROGRESS additions=3700 step=120708/121601\nLRAT_STREAM_PROGRESS additions=3800 step=120859/121601\nLRAT_STREAM_PROGRESS additions=3900 step=121011/121601\nLRAT_STREAM_PROGRESS additions=4000 step=121155/121601\nLRAT_STREAM_PROGRESS additions=4100 step=121300/121601\nLRAT_STREAM_PROGRESS additions=4200 step=121449/121601\nLRAT_STREAM_PROGRESS additions=4300 step=121593/121601\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk014",
+      "source_sha256": "fc2c7c22d7d31fbedf13e373200acb53f54e6436fd6e68e7bd88ef681aa9e4b5",
+      "exit_code": 0,
+      "seconds": 51.36,
+      "log": "LRAT chunk progress: 1000 additions, source step 123115/128604\nLRAT chunk progress: 2000 additions, source step 124617/128604\nLRAT chunk progress: 3000 additions, source step 126131/128604\nLRAT chunk progress: 4000 additions, source step 127626/128604\nLRAT_STREAM_PROGRESS additions=100 step=121755/128604\nLRAT_STREAM_PROGRESS additions=200 step=121909/128604\nLRAT_STREAM_PROGRESS additions=300 step=122064/128604\nLRAT_STREAM_PROGRESS additions=400 step=122217/128604\nLRAT_STREAM_PROGRESS additions=500 step=122376/128604\nLRAT_STREAM_PROGRESS additions=600 step=122520/128604\nLRAT_STREAM_PROGRESS additions=700 step=122672/128604\nLRAT_STREAM_PROGRESS additions=800 step=122828/128604\nLRAT_STREAM_PROGRESS additions=900 step=122971/128604\nLRAT_STREAM_PROGRESS additions=1000 step=123115/128604\nLRAT_STREAM_PROGRESS additions=1100 step=123265/128604\nLRAT_STREAM_PROGRESS additions=1200 step=123420/128604\nLRAT_STREAM_PROGRESS additions=1300 step=123566/128604\nLRAT_STREAM_PROGRESS additions=1400 step=123711/128604\nLRAT_STREAM_PROGRESS additions=1500 step=123862/128604\nLRAT_STREAM_PROGRESS additions=1600 step=124009/128604\nLRAT_STREAM_PROGRESS additions=1700 step=124162/128604\nLRAT_STREAM_PROGRESS additions=1800 step=124311/128604\nLRAT_STREAM_PROGRESS additions=1900 step=124470/128604\nLRAT_STREAM_PROGRESS additions=2000 step=124617/128604\nLRAT_STREAM_PROGRESS additions=2100 step=124765/128604\nLRAT_STREAM_PROGRESS additions=2200 step=124917/128604\nLRAT_STREAM_PROGRESS additions=2300 step=125070/128604\nLRAT_STREAM_PROGRESS additions=2400 step=125222/128604\nLRAT_STREAM_PROGRESS additions=2500 step=125370/128604\nLRAT_STREAM_PROGRESS additions=2600 step=125516/128604\nLRAT_STREAM_PROGRESS additions=2700 step=125675/128604\nLRAT_STREAM_PROGRESS additions=2800 step=125831/128604\nLRAT_STREAM_PROGRESS additions=2900 step=125980/128604\nLRAT_STREAM_PROGRESS additions=3000 step=126131/128604\nLRAT_STREAM_PROGRESS additions=3100 step=126287/128604\nLRAT_STREAM_PROGRESS additions=3200 step=126433/128604\nLRAT_STREAM_PROGRESS additions=3300 step=126582/128604\nLRAT_STREAM_PROGRESS additions=3400 step=126732/128604\nLRAT_STREAM_PROGRESS additions=3500 step=126883/128604\nLRAT_STREAM_PROGRESS additions=3600 step=127029/128604\nLRAT_STREAM_PROGRESS additions=3700 step=127174/128604\nLRAT_STREAM_PROGRESS additions=3800 step=127320/128604\nLRAT_STREAM_PROGRESS additions=3900 step=127472/128604\nLRAT_STREAM_PROGRESS additions=4000 step=127626/128604\nLRAT_STREAM_PROGRESS additions=4100 step=127774/128604\nLRAT_STREAM_PROGRESS additions=4200 step=127923/128604\nLRAT_STREAM_PROGRESS additions=4300 step=128072/128604\nLRAT_STREAM_PROGRESS additions=4400 step=128220/128604\nLRAT_STREAM_PROGRESS additions=4500 step=128372/128604\nLRAT_STREAM_PROGRESS additions=4600 step=128519/128604\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk015",
+      "source_sha256": "f7264772d5a094cfd69dfdabb23be0bfeb9c099baf0ce2a195c0670d675250ab",
+      "exit_code": 0,
+      "seconds": 51.081,
+      "log": "LRAT chunk progress: 1000 additions, source step 130093/135262\nLRAT chunk progress: 2000 additions, source step 131574/135262\nLRAT chunk progress: 3000 additions, source step 133052/135262\nLRAT chunk progress: 4000 additions, source step 134535/135262\nLRAT_STREAM_PROGRESS additions=100 step=128752/135262\nLRAT_STREAM_PROGRESS additions=200 step=128894/135262\nLRAT_STREAM_PROGRESS additions=300 step=129047/135262\nLRAT_STREAM_PROGRESS additions=400 step=129191/135262\nLRAT_STREAM_PROGRESS additions=500 step=129336/135262\nLRAT_STREAM_PROGRESS additions=600 step=129485/135262\nLRAT_STREAM_PROGRESS additions=700 step=129645/135262\nLRAT_STREAM_PROGRESS additions=800 step=129797/135262\nLRAT_STREAM_PROGRESS additions=900 step=129947/135262\nLRAT_STREAM_PROGRESS additions=1000 step=130093/135262\nLRAT_STREAM_PROGRESS additions=1100 step=130248/135262\nLRAT_STREAM_PROGRESS additions=1200 step=130399/135262\nLRAT_STREAM_PROGRESS additions=1300 step=130539/135262\nLRAT_STREAM_PROGRESS additions=1400 step=130684/135262\nLRAT_STREAM_PROGRESS additions=1500 step=130826/135262\nLRAT_STREAM_PROGRESS additions=1600 step=130981/135262\nLRAT_STREAM_PROGRESS additions=1700 step=131134/135262\nLRAT_STREAM_PROGRESS additions=1800 step=131285/135262\nLRAT_STREAM_PROGRESS additions=1900 step=131427/135262\nLRAT_STREAM_PROGRESS additions=2000 step=131574/135262\nLRAT_STREAM_PROGRESS additions=2100 step=131725/135262\nLRAT_STREAM_PROGRESS additions=2200 step=131876/135262\nLRAT_STREAM_PROGRESS additions=2300 step=132024/135262\nLRAT_STREAM_PROGRESS additions=2400 step=132175/135262\nLRAT_STREAM_PROGRESS additions=2500 step=132318/135262\nLRAT_STREAM_PROGRESS additions=2600 step=132461/135262\nLRAT_STREAM_PROGRESS additions=2700 step=132607/135262\nLRAT_STREAM_PROGRESS additions=2800 step=132756/135262\nLRAT_STREAM_PROGRESS additions=2900 step=132903/135262\nLRAT_STREAM_PROGRESS additions=3000 step=133052/135262\nLRAT_STREAM_PROGRESS additions=3100 step=133195/135262\nLRAT_STREAM_PROGRESS additions=3200 step=133338/135262\nLRAT_STREAM_PROGRESS additions=3300 step=133480/135262\nLRAT_STREAM_PROGRESS additions=3400 step=133631/135262\nLRAT_STREAM_PROGRESS additions=3500 step=133778/135262\nLRAT_STREAM_PROGRESS additions=3600 step=133923/135262\nLRAT_STREAM_PROGRESS additions=3700 step=134073/135262\nLRAT_STREAM_PROGRESS additions=3800 step=134225/135262\nLRAT_STREAM_PROGRESS additions=3900 step=134379/135262\nLRAT_STREAM_PROGRESS additions=4000 step=134535/135262\nLRAT_STREAM_PROGRESS additions=4100 step=134683/135262\nLRAT_STREAM_PROGRESS additions=4200 step=134832/135262\nLRAT_STREAM_PROGRESS additions=4300 step=134977/135262\nLRAT_STREAM_PROGRESS additions=4400 step=135127/135262\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk016",
+      "source_sha256": "1f4cd30f5886ce6d1be3521a11fa80e31689388acd4914455ad5f150752e5ef2",
+      "exit_code": 0,
+      "seconds": 51.919,
+      "log": "LRAT chunk progress: 1000 additions, source step 136788/141663\nLRAT chunk progress: 2000 additions, source step 138294/141663\nLRAT chunk progress: 3000 additions, source step 139867/141663\nLRAT chunk progress: 4000 additions, source step 141352/141663\nLRAT_STREAM_PROGRESS additions=100 step=135415/141663\nLRAT_STREAM_PROGRESS additions=200 step=135561/141663\nLRAT_STREAM_PROGRESS additions=300 step=135711/141663\nLRAT_STREAM_PROGRESS additions=400 step=135859/141663\nLRAT_STREAM_PROGRESS additions=500 step=136011/141663\nLRAT_STREAM_PROGRESS additions=600 step=136170/141663\nLRAT_STREAM_PROGRESS additions=700 step=136318/141663\nLRAT_STREAM_PROGRESS additions=800 step=136474/141663\nLRAT_STREAM_PROGRESS additions=900 step=136629/141663\nLRAT_STREAM_PROGRESS additions=1000 step=136788/141663\nLRAT_STREAM_PROGRESS additions=1100 step=136935/141663\nLRAT_STREAM_PROGRESS additions=1200 step=137093/141663\nLRAT_STREAM_PROGRESS additions=1300 step=137244/141663\nLRAT_STREAM_PROGRESS additions=1400 step=137393/141663\nLRAT_STREAM_PROGRESS additions=1500 step=137540/141663\nLRAT_STREAM_PROGRESS additions=1600 step=137690/141663\nLRAT_STREAM_PROGRESS additions=1700 step=137843/141663\nLRAT_STREAM_PROGRESS additions=1800 step=137991/141663\nLRAT_STREAM_PROGRESS additions=1900 step=138141/141663\nLRAT_STREAM_PROGRESS additions=2000 step=138294/141663\nLRAT_STREAM_PROGRESS additions=2100 step=138454/141663\nLRAT_STREAM_PROGRESS additions=2200 step=138653/141663\nLRAT_STREAM_PROGRESS additions=2300 step=138824/141663\nLRAT_STREAM_PROGRESS additions=2400 step=138967/141663\nLRAT_STREAM_PROGRESS additions=2500 step=139117/141663\nLRAT_STREAM_PROGRESS additions=2600 step=139261/141663\nLRAT_STREAM_PROGRESS additions=2700 step=139410/141663\nLRAT_STREAM_PROGRESS additions=2800 step=139562/141663\nLRAT_STREAM_PROGRESS additions=2900 step=139713/141663\nLRAT_STREAM_PROGRESS additions=3000 step=139867/141663\nLRAT_STREAM_PROGRESS additions=3100 step=140019/141663\nLRAT_STREAM_PROGRESS additions=3200 step=140168/141663\nLRAT_STREAM_PROGRESS additions=3300 step=140318/141663\nLRAT_STREAM_PROGRESS additions=3400 step=140460/141663\nLRAT_STREAM_PROGRESS additions=3500 step=140602/141663\nLRAT_STREAM_PROGRESS additions=3600 step=140756/141663\nLRAT_STREAM_PROGRESS additions=3700 step=140903/141663\nLRAT_STREAM_PROGRESS additions=3800 step=141053/141663\nLRAT_STREAM_PROGRESS additions=3900 step=141200/141663\nLRAT_STREAM_PROGRESS additions=4000 step=141352/141663\nLRAT_STREAM_PROGRESS additions=4100 step=141500/141663\nLRAT_STREAM_PROGRESS additions=4200 step=141647/141663\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk017",
+      "source_sha256": "b754a87d7396be843a43d22f11a2400ff0fb518f9753c317b30f7758dff7f8e5",
+      "exit_code": 0,
+      "seconds": 55.645,
+      "log": "LRAT chunk progress: 1000 additions, source step 143227/148025\nLRAT chunk progress: 2000 additions, source step 144729/148025\nLRAT chunk progress: 3000 additions, source step 146293/148025\nLRAT chunk progress: 4000 additions, source step 147847/148025\nLRAT_STREAM_PROGRESS additions=100 step=141817/148025\nLRAT_STREAM_PROGRESS additions=200 step=142001/148025\nLRAT_STREAM_PROGRESS additions=300 step=142159/148025\nLRAT_STREAM_PROGRESS additions=400 step=142311/148025\nLRAT_STREAM_PROGRESS additions=500 step=142463/148025\nLRAT_STREAM_PROGRESS additions=600 step=142614/148025\nLRAT_STREAM_PROGRESS additions=700 step=142770/148025\nLRAT_STREAM_PROGRESS additions=800 step=142920/148025\nLRAT_STREAM_PROGRESS additions=900 step=143071/148025\nLRAT_STREAM_PROGRESS additions=1000 step=143227/148025\nLRAT_STREAM_PROGRESS additions=1100 step=143371/148025\nLRAT_STREAM_PROGRESS additions=1200 step=143524/148025\nLRAT_STREAM_PROGRESS additions=1300 step=143679/148025\nLRAT_STREAM_PROGRESS additions=1400 step=143831/148025\nLRAT_STREAM_PROGRESS additions=1500 step=143978/148025\nLRAT_STREAM_PROGRESS additions=1600 step=144134/148025\nLRAT_STREAM_PROGRESS additions=1700 step=144282/148025\nLRAT_STREAM_PROGRESS additions=1800 step=144429/148025\nLRAT_STREAM_PROGRESS additions=1900 step=144582/148025\nLRAT_STREAM_PROGRESS additions=2000 step=144729/148025\nLRAT_STREAM_PROGRESS additions=2100 step=144879/148025\nLRAT_STREAM_PROGRESS additions=2200 step=145035/148025\nLRAT_STREAM_PROGRESS additions=2300 step=145199/148025\nLRAT_STREAM_PROGRESS additions=2400 step=145353/148025\nLRAT_STREAM_PROGRESS additions=2500 step=145502/148025\nLRAT_STREAM_PROGRESS additions=2600 step=145666/148025\nLRAT_STREAM_PROGRESS additions=2700 step=145822/148025\nLRAT_STREAM_PROGRESS additions=2800 step=145977/148025\nLRAT_STREAM_PROGRESS additions=2900 step=146130/148025\nLRAT_STREAM_PROGRESS additions=3000 step=146293/148025\nLRAT_STREAM_PROGRESS additions=3100 step=146457/148025\nLRAT_STREAM_PROGRESS additions=3200 step=146614/148025\nLRAT_STREAM_PROGRESS additions=3300 step=146773/148025\nLRAT_STREAM_PROGRESS additions=3400 step=146930/148025\nLRAT_STREAM_PROGRESS additions=3500 step=147096/148025\nLRAT_STREAM_PROGRESS additions=3600 step=147243/148025\nLRAT_STREAM_PROGRESS additions=3700 step=147402/148025\nLRAT_STREAM_PROGRESS additions=3800 step=147552/148025\nLRAT_STREAM_PROGRESS additions=3900 step=147698/148025\nLRAT_STREAM_PROGRESS additions=4000 step=147847/148025\nLRAT_STREAM_PROGRESS additions=4100 step=148002/148025\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk018",
+      "source_sha256": "ab9433b53752d6da9fc19504439bd134d589ad2bd43c10b4d8fa896242d520c7",
+      "exit_code": 0,
+      "seconds": 55.106,
+      "log": "LRAT chunk progress: 1000 additions, source step 149559/154603\nLRAT chunk progress: 2000 additions, source step 151069/154603\nLRAT chunk progress: 3000 additions, source step 152579/154603\nLRAT chunk progress: 4000 additions, source step 154098/154603\nLRAT_STREAM_PROGRESS additions=100 step=148185/154603\nLRAT_STREAM_PROGRESS additions=200 step=148340/154603\nLRAT_STREAM_PROGRESS additions=300 step=148492/154603\nLRAT_STREAM_PROGRESS additions=400 step=148635/154603\nLRAT_STREAM_PROGRESS additions=500 step=148795/154603\nLRAT_STREAM_PROGRESS additions=600 step=148949/154603\nLRAT_STREAM_PROGRESS additions=700 step=149108/154603\nLRAT_STREAM_PROGRESS additions=800 step=149257/154603\nLRAT_STREAM_PROGRESS additions=900 step=149407/154603\nLRAT_STREAM_PROGRESS additions=1000 step=149559/154603\nLRAT_STREAM_PROGRESS additions=1100 step=149715/154603\nLRAT_STREAM_PROGRESS additions=1200 step=149872/154603\nLRAT_STREAM_PROGRESS additions=1300 step=150020/154603\nLRAT_STREAM_PROGRESS additions=1400 step=150175/154603\nLRAT_STREAM_PROGRESS additions=1500 step=150321/154603\nLRAT_STREAM_PROGRESS additions=1600 step=150475/154603\nLRAT_STREAM_PROGRESS additions=1700 step=150624/154603\nLRAT_STREAM_PROGRESS additions=1800 step=150765/154603\nLRAT_STREAM_PROGRESS additions=1900 step=150917/154603\nLRAT_STREAM_PROGRESS additions=2000 step=151069/154603\nLRAT_STREAM_PROGRESS additions=2100 step=151217/154603\nLRAT_STREAM_PROGRESS additions=2200 step=151372/154603\nLRAT_STREAM_PROGRESS additions=2300 step=151526/154603\nLRAT_STREAM_PROGRESS additions=2400 step=151677/154603\nLRAT_STREAM_PROGRESS additions=2500 step=151827/154603\nLRAT_STREAM_PROGRESS additions=2600 step=151979/154603\nLRAT_STREAM_PROGRESS additions=2700 step=152132/154603\nLRAT_STREAM_PROGRESS additions=2800 step=152279/154603\nLRAT_STREAM_PROGRESS additions=2900 step=152424/154603\nLRAT_STREAM_PROGRESS additions=3000 step=152579/154603\nLRAT_STREAM_PROGRESS additions=3100 step=152735/154603\nLRAT_STREAM_PROGRESS additions=3200 step=152891/154603\nLRAT_STREAM_PROGRESS additions=3300 step=153052/154603\nLRAT_STREAM_PROGRESS additions=3400 step=153208/154603\nLRAT_STREAM_PROGRESS additions=3500 step=153355/154603\nLRAT_STREAM_PROGRESS additions=3600 step=153511/154603\nLRAT_STREAM_PROGRESS additions=3700 step=153658/154603\nLRAT_STREAM_PROGRESS additions=3800 step=153802/154603\nLRAT_STREAM_PROGRESS additions=3900 step=153947/154603\nLRAT_STREAM_PROGRESS additions=4000 step=154098/154603\nLRAT_STREAM_PROGRESS additions=4100 step=154247/154603\nLRAT_STREAM_PROGRESS additions=4200 step=154404/154603\nLRAT_STREAM_PROGRESS additions=4300 step=154553/154603\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk019",
+      "source_sha256": "74474d475ceb60e9490553484ec22b2bb5cb37a11385b7106f09a94a91b66253",
+      "exit_code": 0,
+      "seconds": 54.165,
+      "log": "LRAT chunk progress: 1000 additions, source step 156099/161660\nLRAT chunk progress: 2000 additions, source step 157570/161660\nLRAT chunk progress: 3000 additions, source step 159065/161660\nLRAT chunk progress: 4000 additions, source step 160563/161660\nLRAT_STREAM_PROGRESS additions=100 step=154750/161660\nLRAT_STREAM_PROGRESS additions=200 step=154904/161660\nLRAT_STREAM_PROGRESS additions=300 step=155050/161660\nLRAT_STREAM_PROGRESS additions=400 step=155202/161660\nLRAT_STREAM_PROGRESS additions=500 step=155351/161660\nLRAT_STREAM_PROGRESS additions=600 step=155511/161660\nLRAT_STREAM_PROGRESS additions=700 step=155662/161660\nLRAT_STREAM_PROGRESS additions=800 step=155807/161660\nLRAT_STREAM_PROGRESS additions=900 step=155955/161660\nLRAT_STREAM_PROGRESS additions=1000 step=156099/161660\nLRAT_STREAM_PROGRESS additions=1100 step=156255/161660\nLRAT_STREAM_PROGRESS additions=1200 step=156406/161660\nLRAT_STREAM_PROGRESS additions=1300 step=156544/161660\nLRAT_STREAM_PROGRESS additions=1400 step=156688/161660\nLRAT_STREAM_PROGRESS additions=1500 step=156836/161660\nLRAT_STREAM_PROGRESS additions=1600 step=156977/161660\nLRAT_STREAM_PROGRESS additions=1700 step=157118/161660\nLRAT_STREAM_PROGRESS additions=1800 step=157269/161660\nLRAT_STREAM_PROGRESS additions=1900 step=157422/161660\nLRAT_STREAM_PROGRESS additions=2000 step=157570/161660\nLRAT_STREAM_PROGRESS additions=2100 step=157727/161660\nLRAT_STREAM_PROGRESS additions=2200 step=157874/161660\nLRAT_STREAM_PROGRESS additions=2300 step=158029/161660\nLRAT_STREAM_PROGRESS additions=2400 step=158181/161660\nLRAT_STREAM_PROGRESS additions=2500 step=158324/161660\nLRAT_STREAM_PROGRESS additions=2600 step=158471/161660\nLRAT_STREAM_PROGRESS additions=2700 step=158623/161660\nLRAT_STREAM_PROGRESS additions=2800 step=158772/161660\nLRAT_STREAM_PROGRESS additions=2900 step=158918/161660\nLRAT_STREAM_PROGRESS additions=3000 step=159065/161660\nLRAT_STREAM_PROGRESS additions=3100 step=159214/161660\nLRAT_STREAM_PROGRESS additions=3200 step=159364/161660\nLRAT_STREAM_PROGRESS additions=3300 step=159515/161660\nLRAT_STREAM_PROGRESS additions=3400 step=159667/161660\nLRAT_STREAM_PROGRESS additions=3500 step=159822/161660\nLRAT_STREAM_PROGRESS additions=3600 step=159970/161660\nLRAT_STREAM_PROGRESS additions=3700 step=160116/161660\nLRAT_STREAM_PROGRESS additions=3800 step=160265/161660\nLRAT_STREAM_PROGRESS additions=3900 step=160410/161660\nLRAT_STREAM_PROGRESS additions=4000 step=160563/161660\nLRAT_STREAM_PROGRESS additions=4100 step=160709/161660\nLRAT_STREAM_PROGRESS additions=4200 step=160859/161660\nLRAT_STREAM_PROGRESS additions=4300 step=161010/161660\nLRAT_STREAM_PROGRESS additions=4400 step=161157/161660\nLRAT_STREAM_PROGRESS additions=4500 step=161306/161660\nLRAT_STREAM_PROGRESS additions=4600 step=161450/161660\nLRAT_STREAM_PROGRESS additions=4700 step=161599/161660\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk020",
+      "source_sha256": "5db3ab1666d652fb54784eae2d6f49feacfddb7fbb817b66c92be29e68aea034",
+      "exit_code": 0,
+      "seconds": 57.475,
+      "log": "LRAT chunk progress: 1000 additions, source step 163140/169148\nLRAT chunk progress: 2000 additions, source step 164650/169148\nLRAT chunk progress: 3000 additions, source step 166182/169148\nLRAT chunk progress: 4000 additions, source step 167704/169148\nLRAT_STREAM_PROGRESS additions=100 step=161810/169148\nLRAT_STREAM_PROGRESS additions=200 step=161962/169148\nLRAT_STREAM_PROGRESS additions=300 step=162106/169148\nLRAT_STREAM_PROGRESS additions=400 step=162258/169148\nLRAT_STREAM_PROGRESS additions=500 step=162402/169148\nLRAT_STREAM_PROGRESS additions=600 step=162549/169148\nLRAT_STREAM_PROGRESS additions=700 step=162700/169148\nLRAT_STREAM_PROGRESS additions=800 step=162844/169148\nLRAT_STREAM_PROGRESS additions=900 step=162993/169148\nLRAT_STREAM_PROGRESS additions=1000 step=163140/169148\nLRAT_STREAM_PROGRESS additions=1100 step=163295/169148\nLRAT_STREAM_PROGRESS additions=1200 step=163443/169148\nLRAT_STREAM_PROGRESS additions=1300 step=163595/169148\nLRAT_STREAM_PROGRESS additions=1400 step=163744/169148\nLRAT_STREAM_PROGRESS additions=1500 step=163900/169148\nLRAT_STREAM_PROGRESS additions=1600 step=164046/169148\nLRAT_STREAM_PROGRESS additions=1700 step=164196/169148\nLRAT_STREAM_PROGRESS additions=1800 step=164353/169148\nLRAT_STREAM_PROGRESS additions=1900 step=164504/169148\nLRAT_STREAM_PROGRESS additions=2000 step=164650/169148\nLRAT_STREAM_PROGRESS additions=2100 step=164799/169148\nLRAT_STREAM_PROGRESS additions=2200 step=164953/169148\nLRAT_STREAM_PROGRESS additions=2300 step=165096/169148\nLRAT_STREAM_PROGRESS additions=2400 step=165249/169148\nLRAT_STREAM_PROGRESS additions=2500 step=165397/169148\nLRAT_STREAM_PROGRESS additions=2600 step=165554/169148\nLRAT_STREAM_PROGRESS additions=2700 step=165707/169148\nLRAT_STREAM_PROGRESS additions=2800 step=165862/169148\nLRAT_STREAM_PROGRESS additions=2900 step=166020/169148\nLRAT_STREAM_PROGRESS additions=3000 step=166182/169148\nLRAT_STREAM_PROGRESS additions=3100 step=166333/169148\nLRAT_STREAM_PROGRESS additions=3200 step=166492/169148\nLRAT_STREAM_PROGRESS additions=3300 step=166650/169148\nLRAT_STREAM_PROGRESS additions=3400 step=166798/169148\nLRAT_STREAM_PROGRESS additions=3500 step=166947/169148\nLRAT_STREAM_PROGRESS additions=3600 step=167099/169148\nLRAT_STREAM_PROGRESS additions=3700 step=167250/169148\nLRAT_STREAM_PROGRESS additions=3800 step=167403/169148\nLRAT_STREAM_PROGRESS additions=3900 step=167558/169148\nLRAT_STREAM_PROGRESS additions=4000 step=167704/169148\nLRAT_STREAM_PROGRESS additions=4100 step=167855/169148\nLRAT_STREAM_PROGRESS additions=4200 step=168001/169148\nLRAT_STREAM_PROGRESS additions=4300 step=168146/169148\nLRAT_STREAM_PROGRESS additions=4400 step=168296/169148\nLRAT_STREAM_PROGRESS additions=4500 step=168444/169148\nLRAT_STREAM_PROGRESS additions=4600 step=168594/169148\nLRAT_STREAM_PROGRESS additions=4700 step=168735/169148\nLRAT_STREAM_PROGRESS additions=4800 step=168877/169148\nLRAT_STREAM_PROGRESS additions=4900 step=169019/169148\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk021",
+      "source_sha256": "b4103e3e071034a48983285c04d5bba8a72c6185abc27060f17d990dea6c793a",
+      "exit_code": 0,
+      "seconds": 52.91,
+      "log": "LRAT chunk progress: 1000 additions, source step 170641/175872\nLRAT chunk progress: 2000 additions, source step 172139/175872\nLRAT chunk progress: 3000 additions, source step 173638/175872\nLRAT chunk progress: 4000 additions, source step 175136/175872\nLRAT_STREAM_PROGRESS additions=100 step=169294/175872\nLRAT_STREAM_PROGRESS additions=200 step=169450/175872\nLRAT_STREAM_PROGRESS additions=300 step=169595/175872\nLRAT_STREAM_PROGRESS additions=400 step=169745/175872\nLRAT_STREAM_PROGRESS additions=500 step=169893/175872\nLRAT_STREAM_PROGRESS additions=600 step=170043/175872\nLRAT_STREAM_PROGRESS additions=700 step=170196/175872\nLRAT_STREAM_PROGRESS additions=800 step=170344/175872\nLRAT_STREAM_PROGRESS additions=900 step=170495/175872\nLRAT_STREAM_PROGRESS additions=1000 step=170641/175872\nLRAT_STREAM_PROGRESS additions=1100 step=170794/175872\nLRAT_STREAM_PROGRESS additions=1200 step=170948/175872\nLRAT_STREAM_PROGRESS additions=1300 step=171097/175872\nLRAT_STREAM_PROGRESS additions=1400 step=171246/175872\nLRAT_STREAM_PROGRESS additions=1500 step=171396/175872\nLRAT_STREAM_PROGRESS additions=1600 step=171539/175872\nLRAT_STREAM_PROGRESS additions=1700 step=171688/175872\nLRAT_STREAM_PROGRESS additions=1800 step=171834/175872\nLRAT_STREAM_PROGRESS additions=1900 step=171986/175872\nLRAT_STREAM_PROGRESS additions=2000 step=172139/175872\nLRAT_STREAM_PROGRESS additions=2100 step=172288/175872\nLRAT_STREAM_PROGRESS additions=2200 step=172437/175872\nLRAT_STREAM_PROGRESS additions=2300 step=172591/175872\nLRAT_STREAM_PROGRESS additions=2400 step=172742/175872\nLRAT_STREAM_PROGRESS additions=2500 step=172889/175872\nLRAT_STREAM_PROGRESS additions=2600 step=173037/175872\nLRAT_STREAM_PROGRESS additions=2700 step=173194/175872\nLRAT_STREAM_PROGRESS additions=2800 step=173340/175872\nLRAT_STREAM_PROGRESS additions=2900 step=173487/175872\nLRAT_STREAM_PROGRESS additions=3000 step=173638/175872\nLRAT_STREAM_PROGRESS additions=3100 step=173790/175872\nLRAT_STREAM_PROGRESS additions=3200 step=173938/175872\nLRAT_STREAM_PROGRESS additions=3300 step=174088/175872\nLRAT_STREAM_PROGRESS additions=3400 step=174236/175872\nLRAT_STREAM_PROGRESS additions=3500 step=174391/175872\nLRAT_STREAM_PROGRESS additions=3600 step=174544/175872\nLRAT_STREAM_PROGRESS additions=3700 step=174691/175872\nLRAT_STREAM_PROGRESS additions=3800 step=174842/175872\nLRAT_STREAM_PROGRESS additions=3900 step=174992/175872\nLRAT_STREAM_PROGRESS additions=4000 step=175136/175872\nLRAT_STREAM_PROGRESS additions=4100 step=175282/175872\nLRAT_STREAM_PROGRESS additions=4200 step=175428/175872\nLRAT_STREAM_PROGRESS additions=4300 step=175578/175872\nLRAT_STREAM_PROGRESS additions=4400 step=175729/175872\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk022",
+      "source_sha256": "c487d006d8b887a948564f339bad0df1f56cd054f861562ea05254f447a89c44",
+      "exit_code": 0,
+      "seconds": 52.47,
+      "log": "LRAT chunk progress: 1000 additions, source step 177369/183176\nLRAT chunk progress: 2000 additions, source step 178931/183176\nLRAT chunk progress: 3000 additions, source step 180436/183176\nLRAT chunk progress: 4000 additions, source step 181939/183176\nLRAT_STREAM_PROGRESS additions=100 step=176026/183176\nLRAT_STREAM_PROGRESS additions=200 step=176179/183176\nLRAT_STREAM_PROGRESS additions=300 step=176330/183176\nLRAT_STREAM_PROGRESS additions=400 step=176473/183176\nLRAT_STREAM_PROGRESS additions=500 step=176626/183176\nLRAT_STREAM_PROGRESS additions=600 step=176772/183176\nLRAT_STREAM_PROGRESS additions=700 step=176925/183176\nLRAT_STREAM_PROGRESS additions=800 step=177075/183176\nLRAT_STREAM_PROGRESS additions=900 step=177224/183176\nLRAT_STREAM_PROGRESS additions=1000 step=177369/183176\nLRAT_STREAM_PROGRESS additions=1100 step=177512/183176\nLRAT_STREAM_PROGRESS additions=1200 step=177662/183176\nLRAT_STREAM_PROGRESS additions=1300 step=177815/183176\nLRAT_STREAM_PROGRESS additions=1400 step=177966/183176\nLRAT_STREAM_PROGRESS additions=1500 step=178119/183176\nLRAT_STREAM_PROGRESS additions=1600 step=178263/183176\nLRAT_STREAM_PROGRESS additions=1700 step=178413/183176\nLRAT_STREAM_PROGRESS additions=1800 step=178567/183176\nLRAT_STREAM_PROGRESS additions=1900 step=178767/183176\nLRAT_STREAM_PROGRESS additions=2000 step=178931/183176\nLRAT_STREAM_PROGRESS additions=2100 step=179081/183176\nLRAT_STREAM_PROGRESS additions=2200 step=179229/183176\nLRAT_STREAM_PROGRESS additions=2300 step=179382/183176\nLRAT_STREAM_PROGRESS additions=2400 step=179528/183176\nLRAT_STREAM_PROGRESS additions=2500 step=179677/183176\nLRAT_STREAM_PROGRESS additions=2600 step=179829/183176\nLRAT_STREAM_PROGRESS additions=2700 step=179978/183176\nLRAT_STREAM_PROGRESS additions=2800 step=180132/183176\nLRAT_STREAM_PROGRESS additions=2900 step=180284/183176\nLRAT_STREAM_PROGRESS additions=3000 step=180436/183176\nLRAT_STREAM_PROGRESS additions=3100 step=180588/183176\nLRAT_STREAM_PROGRESS additions=3200 step=180734/183176\nLRAT_STREAM_PROGRESS additions=3300 step=180889/183176\nLRAT_STREAM_PROGRESS additions=3400 step=181038/183176\nLRAT_STREAM_PROGRESS additions=3500 step=181191/183176\nLRAT_STREAM_PROGRESS additions=3600 step=181343/183176\nLRAT_STREAM_PROGRESS additions=3700 step=181493/183176\nLRAT_STREAM_PROGRESS additions=3800 step=181631/183176\nLRAT_STREAM_PROGRESS additions=3900 step=181788/183176\nLRAT_STREAM_PROGRESS additions=4000 step=181939/183176\nLRAT_STREAM_PROGRESS additions=4100 step=182087/183176\nLRAT_STREAM_PROGRESS additions=4200 step=182236/183176\nLRAT_STREAM_PROGRESS additions=4300 step=182382/183176\nLRAT_STREAM_PROGRESS additions=4400 step=182532/183176\nLRAT_STREAM_PROGRESS additions=4500 step=182686/183176\nLRAT_STREAM_PROGRESS additions=4600 step=182837/183176\nLRAT_STREAM_PROGRESS additions=4700 step=182984/183176\nLRAT_STREAM_PROGRESS additions=4800 step=183130/183176\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk023",
+      "source_sha256": "f1f546dd365ca135d8908a6932911e567b044444a08b4293d2dd40cf63891a6d",
+      "exit_code": 0,
+      "seconds": 51.686,
+      "log": "LRAT chunk progress: 1000 additions, source step 184683/189666\nLRAT chunk progress: 2000 additions, source step 186204/189666\nLRAT chunk progress: 3000 additions, source step 187729/189666\nLRAT chunk progress: 4000 additions, source step 189248/189666\nLRAT_STREAM_PROGRESS additions=100 step=183325/189666\nLRAT_STREAM_PROGRESS additions=200 step=183472/189666\nLRAT_STREAM_PROGRESS additions=300 step=183621/189666\nLRAT_STREAM_PROGRESS additions=400 step=183772/189666\nLRAT_STREAM_PROGRESS additions=500 step=183921/189666\nLRAT_STREAM_PROGRESS additions=600 step=184069/189666\nLRAT_STREAM_PROGRESS additions=700 step=184221/189666\nLRAT_STREAM_PROGRESS additions=800 step=184378/189666\nLRAT_STREAM_PROGRESS additions=900 step=184530/189666\nLRAT_STREAM_PROGRESS additions=1000 step=184683/189666\nLRAT_STREAM_PROGRESS additions=1100 step=184835/189666\nLRAT_STREAM_PROGRESS additions=1200 step=184985/189666\nLRAT_STREAM_PROGRESS additions=1300 step=185137/189666\nLRAT_STREAM_PROGRESS additions=1400 step=185295/189666\nLRAT_STREAM_PROGRESS additions=1500 step=185447/189666\nLRAT_STREAM_PROGRESS additions=1600 step=185595/189666\nLRAT_STREAM_PROGRESS additions=1700 step=185746/189666\nLRAT_STREAM_PROGRESS additions=1800 step=185893/189666\nLRAT_STREAM_PROGRESS additions=1900 step=186050/189666\nLRAT_STREAM_PROGRESS additions=2000 step=186204/189666\nLRAT_STREAM_PROGRESS additions=2100 step=186358/189666\nLRAT_STREAM_PROGRESS additions=2200 step=186512/189666\nLRAT_STREAM_PROGRESS additions=2300 step=186662/189666\nLRAT_STREAM_PROGRESS additions=2400 step=186819/189666\nLRAT_STREAM_PROGRESS additions=2500 step=186976/189666\nLRAT_STREAM_PROGRESS additions=2600 step=187129/189666\nLRAT_STREAM_PROGRESS additions=2700 step=187279/189666\nLRAT_STREAM_PROGRESS additions=2800 step=187425/189666\nLRAT_STREAM_PROGRESS additions=2900 step=187579/189666\nLRAT_STREAM_PROGRESS additions=3000 step=187729/189666\nLRAT_STREAM_PROGRESS additions=3100 step=187879/189666\nLRAT_STREAM_PROGRESS additions=3200 step=188037/189666\nLRAT_STREAM_PROGRESS additions=3300 step=188189/189666\nLRAT_STREAM_PROGRESS additions=3400 step=188344/189666\nLRAT_STREAM_PROGRESS additions=3500 step=188496/189666\nLRAT_STREAM_PROGRESS additions=3600 step=188647/189666\nLRAT_STREAM_PROGRESS additions=3700 step=188800/189666\nLRAT_STREAM_PROGRESS additions=3800 step=188949/189666\nLRAT_STREAM_PROGRESS additions=3900 step=189102/189666\nLRAT_STREAM_PROGRESS additions=4000 step=189248/189666\nLRAT_STREAM_PROGRESS additions=4100 step=189399/189666\nLRAT_STREAM_PROGRESS additions=4200 step=189558/189666\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk024",
+      "source_sha256": "1ada36fe550012daff36a63f46c52cddd2cd89af3c47824dd48fe9bc8d6a343f",
+      "exit_code": 0,
+      "seconds": 56.461,
+      "log": "LRAT chunk progress: 1000 additions, source step 191239/196582\nLRAT chunk progress: 2000 additions, source step 192780/196582\nLRAT chunk progress: 3000 additions, source step 194315/196582\nLRAT chunk progress: 4000 additions, source step 195827/196582\nLRAT_STREAM_PROGRESS additions=100 step=189819/196582\nLRAT_STREAM_PROGRESS additions=200 step=189970/196582\nLRAT_STREAM_PROGRESS additions=300 step=190126/196582\nLRAT_STREAM_PROGRESS additions=400 step=190285/196582\nLRAT_STREAM_PROGRESS additions=500 step=190444/196582\nLRAT_STREAM_PROGRESS additions=600 step=190606/196582\nLRAT_STREAM_PROGRESS additions=700 step=190763/196582\nLRAT_STREAM_PROGRESS additions=800 step=190922/196582\nLRAT_STREAM_PROGRESS additions=900 step=191082/196582\nLRAT_STREAM_PROGRESS additions=1000 step=191239/196582\nLRAT_STREAM_PROGRESS additions=1100 step=191391/196582\nLRAT_STREAM_PROGRESS additions=1200 step=191547/196582\nLRAT_STREAM_PROGRESS additions=1300 step=191706/196582\nLRAT_STREAM_PROGRESS additions=1400 step=191859/196582\nLRAT_STREAM_PROGRESS additions=1500 step=192013/196582\nLRAT_STREAM_PROGRESS additions=1600 step=192174/196582\nLRAT_STREAM_PROGRESS additions=1700 step=192325/196582\nLRAT_STREAM_PROGRESS additions=1800 step=192478/196582\nLRAT_STREAM_PROGRESS additions=1900 step=192626/196582\nLRAT_STREAM_PROGRESS additions=2000 step=192780/196582\nLRAT_STREAM_PROGRESS additions=2100 step=192936/196582\nLRAT_STREAM_PROGRESS additions=2200 step=193089/196582\nLRAT_STREAM_PROGRESS additions=2300 step=193247/196582\nLRAT_STREAM_PROGRESS additions=2400 step=193398/196582\nLRAT_STREAM_PROGRESS additions=2500 step=193557/196582\nLRAT_STREAM_PROGRESS additions=2600 step=193707/196582\nLRAT_STREAM_PROGRESS additions=2700 step=193859/196582\nLRAT_STREAM_PROGRESS additions=2800 step=194009/196582\nLRAT_STREAM_PROGRESS additions=2900 step=194164/196582\nLRAT_STREAM_PROGRESS additions=3000 step=194315/196582\nLRAT_STREAM_PROGRESS additions=3100 step=194467/196582\nLRAT_STREAM_PROGRESS additions=3200 step=194616/196582\nLRAT_STREAM_PROGRESS additions=3300 step=194766/196582\nLRAT_STREAM_PROGRESS additions=3400 step=194919/196582\nLRAT_STREAM_PROGRESS additions=3500 step=195065/196582\nLRAT_STREAM_PROGRESS additions=3600 step=195222/196582\nLRAT_STREAM_PROGRESS additions=3700 step=195369/196582\nLRAT_STREAM_PROGRESS additions=3800 step=195513/196582\nLRAT_STREAM_PROGRESS additions=3900 step=195671/196582\nLRAT_STREAM_PROGRESS additions=4000 step=195827/196582\nLRAT_STREAM_PROGRESS additions=4100 step=195980/196582\nLRAT_STREAM_PROGRESS additions=4200 step=196132/196582\nLRAT_STREAM_PROGRESS additions=4300 step=196283/196582\nLRAT_STREAM_PROGRESS additions=4400 step=196442/196582\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk025",
+      "source_sha256": "896435ff9305db3822622e3ee3c2b91eb3deef87f94b0fdb2a31c16ddfcc1551",
+      "exit_code": 0,
+      "seconds": 57.815,
+      "log": "LRAT chunk progress: 1000 additions, source step 198113/203043\nLRAT chunk progress: 2000 additions, source step 199647/203043\nLRAT chunk progress: 3000 additions, source step 201217/203043\nLRAT chunk progress: 4000 additions, source step 202778/203043\nLRAT_STREAM_PROGRESS additions=100 step=196739/203043\nLRAT_STREAM_PROGRESS additions=200 step=196894/203043\nLRAT_STREAM_PROGRESS additions=300 step=197041/203043\nLRAT_STREAM_PROGRESS additions=400 step=197186/203043\nLRAT_STREAM_PROGRESS additions=500 step=197339/203043\nLRAT_STREAM_PROGRESS additions=600 step=197489/203043\nLRAT_STREAM_PROGRESS additions=700 step=197645/203043\nLRAT_STREAM_PROGRESS additions=800 step=197808/203043\nLRAT_STREAM_PROGRESS additions=900 step=197964/203043\nLRAT_STREAM_PROGRESS additions=1000 step=198113/203043\nLRAT_STREAM_PROGRESS additions=1100 step=198267/203043\nLRAT_STREAM_PROGRESS additions=1200 step=198423/203043\nLRAT_STREAM_PROGRESS additions=1300 step=198573/203043\nLRAT_STREAM_PROGRESS additions=1400 step=198720/203043\nLRAT_STREAM_PROGRESS additions=1500 step=198875/203043\nLRAT_STREAM_PROGRESS additions=1600 step=199028/203043\nLRAT_STREAM_PROGRESS additions=1700 step=199179/203043\nLRAT_STREAM_PROGRESS additions=1800 step=199334/203043\nLRAT_STREAM_PROGRESS additions=1900 step=199491/203043\nLRAT_STREAM_PROGRESS additions=2000 step=199647/203043\nLRAT_STREAM_PROGRESS additions=2100 step=199807/203043\nLRAT_STREAM_PROGRESS additions=2200 step=199958/203043\nLRAT_STREAM_PROGRESS additions=2300 step=200109/203043\nLRAT_STREAM_PROGRESS additions=2400 step=200268/203043\nLRAT_STREAM_PROGRESS additions=2500 step=200427/203043\nLRAT_STREAM_PROGRESS additions=2600 step=200588/203043\nLRAT_STREAM_PROGRESS additions=2700 step=200745/203043\nLRAT_STREAM_PROGRESS additions=2800 step=200901/203043\nLRAT_STREAM_PROGRESS additions=2900 step=201063/203043\nLRAT_STREAM_PROGRESS additions=3000 step=201217/203043\nLRAT_STREAM_PROGRESS additions=3100 step=201374/203043\nLRAT_STREAM_PROGRESS additions=3200 step=201534/203043\nLRAT_STREAM_PROGRESS additions=3300 step=201682/203043\nLRAT_STREAM_PROGRESS additions=3400 step=201839/203043\nLRAT_STREAM_PROGRESS additions=3500 step=201997/203043\nLRAT_STREAM_PROGRESS additions=3600 step=202155/203043\nLRAT_STREAM_PROGRESS additions=3700 step=202306/203043\nLRAT_STREAM_PROGRESS additions=3800 step=202470/203043\nLRAT_STREAM_PROGRESS additions=3900 step=202617/203043\nLRAT_STREAM_PROGRESS additions=4000 step=202778/203043\nLRAT_STREAM_PROGRESS additions=4100 step=202947/203043\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk026",
+      "source_sha256": "49ba08c1bc010166255bc9615a1400a869ec0f9829844713515b2ce7bd5fb99f",
+      "exit_code": 0,
+      "seconds": 54.524,
+      "log": "LRAT chunk progress: 1000 additions, source step 204571/208543\nLRAT chunk progress: 2000 additions, source step 206114/208543\nLRAT chunk progress: 3000 additions, source step 207678/208543\nLRAT_STREAM_PROGRESS additions=100 step=203205/208543\nLRAT_STREAM_PROGRESS additions=200 step=203357/208543\nLRAT_STREAM_PROGRESS additions=300 step=203508/208543\nLRAT_STREAM_PROGRESS additions=400 step=203654/208543\nLRAT_STREAM_PROGRESS additions=500 step=203804/208543\nLRAT_STREAM_PROGRESS additions=600 step=203959/208543\nLRAT_STREAM_PROGRESS additions=700 step=204107/208543\nLRAT_STREAM_PROGRESS additions=800 step=204260/208543\nLRAT_STREAM_PROGRESS additions=900 step=204417/208543\nLRAT_STREAM_PROGRESS additions=1000 step=204571/208543\nLRAT_STREAM_PROGRESS additions=1100 step=204733/208543\nLRAT_STREAM_PROGRESS additions=1200 step=204883/208543\nLRAT_STREAM_PROGRESS additions=1300 step=205041/208543\nLRAT_STREAM_PROGRESS additions=1400 step=205200/208543\nLRAT_STREAM_PROGRESS additions=1500 step=205352/208543\nLRAT_STREAM_PROGRESS additions=1600 step=205504/208543\nLRAT_STREAM_PROGRESS additions=1700 step=205659/208543\nLRAT_STREAM_PROGRESS additions=1800 step=205811/208543\nLRAT_STREAM_PROGRESS additions=1900 step=205963/208543\nLRAT_STREAM_PROGRESS additions=2000 step=206114/208543\nLRAT_STREAM_PROGRESS additions=2100 step=206267/208543\nLRAT_STREAM_PROGRESS additions=2200 step=206429/208543\nLRAT_STREAM_PROGRESS additions=2300 step=206576/208543\nLRAT_STREAM_PROGRESS additions=2400 step=206735/208543\nLRAT_STREAM_PROGRESS additions=2500 step=206893/208543\nLRAT_STREAM_PROGRESS additions=2600 step=207051/208543\nLRAT_STREAM_PROGRESS additions=2700 step=207208/208543\nLRAT_STREAM_PROGRESS additions=2800 step=207361/208543\nLRAT_STREAM_PROGRESS additions=2900 step=207517/208543\nLRAT_STREAM_PROGRESS additions=3000 step=207678/208543\nLRAT_STREAM_PROGRESS additions=3100 step=207831/208543\nLRAT_STREAM_PROGRESS additions=3200 step=207994/208543\nLRAT_STREAM_PROGRESS additions=3300 step=208143/208543\nLRAT_STREAM_PROGRESS additions=3400 step=208298/208543\nLRAT_STREAM_PROGRESS additions=3500 step=208443/208543\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk027",
+      "source_sha256": "48e49cb29ff7425e6b8bb969e29041703a53f884ee92b7f828695951af203306",
+      "exit_code": 0,
+      "seconds": 53.685,
+      "log": "LRAT chunk progress: 1000 additions, source step 210058/213784\nLRAT chunk progress: 2000 additions, source step 211597/213784\nLRAT chunk progress: 3000 additions, source step 213158/213784\nLRAT_STREAM_PROGRESS additions=100 step=208698/213784\nLRAT_STREAM_PROGRESS additions=200 step=208847/213784\nLRAT_STREAM_PROGRESS additions=300 step=208994/213784\nLRAT_STREAM_PROGRESS additions=400 step=209145/213784\nLRAT_STREAM_PROGRESS additions=500 step=209301/213784\nLRAT_STREAM_PROGRESS additions=600 step=209456/213784\nLRAT_STREAM_PROGRESS additions=700 step=209609/213784\nLRAT_STREAM_PROGRESS additions=800 step=209764/213784\nLRAT_STREAM_PROGRESS additions=900 step=209913/213784\nLRAT_STREAM_PROGRESS additions=1000 step=210058/213784\nLRAT_STREAM_PROGRESS additions=1100 step=210213/213784\nLRAT_STREAM_PROGRESS additions=1200 step=210370/213784\nLRAT_STREAM_PROGRESS additions=1300 step=210526/213784\nLRAT_STREAM_PROGRESS additions=1400 step=210675/213784\nLRAT_STREAM_PROGRESS additions=1500 step=210825/213784\nLRAT_STREAM_PROGRESS additions=1600 step=210975/213784\nLRAT_STREAM_PROGRESS additions=1700 step=211126/213784\nLRAT_STREAM_PROGRESS additions=1800 step=211283/213784\nLRAT_STREAM_PROGRESS additions=1900 step=211438/213784\nLRAT_STREAM_PROGRESS additions=2000 step=211597/213784\nLRAT_STREAM_PROGRESS additions=2100 step=211758/213784\nLRAT_STREAM_PROGRESS additions=2200 step=211927/213784\nLRAT_STREAM_PROGRESS additions=2300 step=212076/213784\nLRAT_STREAM_PROGRESS additions=2400 step=212229/213784\nLRAT_STREAM_PROGRESS additions=2500 step=212385/213784\nLRAT_STREAM_PROGRESS additions=2600 step=212539/213784\nLRAT_STREAM_PROGRESS additions=2700 step=212692/213784\nLRAT_STREAM_PROGRESS additions=2800 step=212848/213784\nLRAT_STREAM_PROGRESS additions=2900 step=212999/213784\nLRAT_STREAM_PROGRESS additions=3000 step=213158/213784\nLRAT_STREAM_PROGRESS additions=3100 step=213314/213784\nLRAT_STREAM_PROGRESS additions=3200 step=213466/213784\nLRAT_STREAM_PROGRESS additions=3300 step=213618/213784\nLRAT_STREAM_PROGRESS additions=3400 step=213777/213784\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk028",
+      "source_sha256": "6958d76c62b5e9b8a0059b02b80cfe3def3f24f773bb29d500408ecb6bb6c35a",
+      "exit_code": 0,
+      "seconds": 52.625,
+      "log": "LRAT chunk progress: 1000 additions, source step 215335/219877\nLRAT chunk progress: 2000 additions, source step 216858/219877\nLRAT chunk progress: 3000 additions, source step 218445/219877\nLRAT_STREAM_PROGRESS additions=100 step=213942/219877\nLRAT_STREAM_PROGRESS additions=200 step=214105/219877\nLRAT_STREAM_PROGRESS additions=300 step=214259/219877\nLRAT_STREAM_PROGRESS additions=400 step=214422/219877\nLRAT_STREAM_PROGRESS additions=500 step=214577/219877\nLRAT_STREAM_PROGRESS additions=600 step=214721/219877\nLRAT_STREAM_PROGRESS additions=700 step=214878/219877\nLRAT_STREAM_PROGRESS additions=800 step=215031/219877\nLRAT_STREAM_PROGRESS additions=900 step=215182/219877\nLRAT_STREAM_PROGRESS additions=1000 step=215335/219877\nLRAT_STREAM_PROGRESS additions=1100 step=215483/219877\nLRAT_STREAM_PROGRESS additions=1200 step=215634/219877\nLRAT_STREAM_PROGRESS additions=1300 step=215790/219877\nLRAT_STREAM_PROGRESS additions=1400 step=215941/219877\nLRAT_STREAM_PROGRESS additions=1500 step=216093/219877\nLRAT_STREAM_PROGRESS additions=1600 step=216247/219877\nLRAT_STREAM_PROGRESS additions=1700 step=216401/219877\nLRAT_STREAM_PROGRESS additions=1800 step=216554/219877\nLRAT_STREAM_PROGRESS additions=1900 step=216706/219877\nLRAT_STREAM_PROGRESS additions=2000 step=216858/219877\nLRAT_STREAM_PROGRESS additions=2100 step=217011/219877\nLRAT_STREAM_PROGRESS additions=2200 step=217168/219877\nLRAT_STREAM_PROGRESS additions=2300 step=217320/219877\nLRAT_STREAM_PROGRESS additions=2400 step=217488/219877\nLRAT_STREAM_PROGRESS additions=2500 step=217674/219877\nLRAT_STREAM_PROGRESS additions=2600 step=217828/219877\nLRAT_STREAM_PROGRESS additions=2700 step=217978/219877\nLRAT_STREAM_PROGRESS additions=2800 step=218133/219877\nLRAT_STREAM_PROGRESS additions=2900 step=218290/219877\nLRAT_STREAM_PROGRESS additions=3000 step=218445/219877\nLRAT_STREAM_PROGRESS additions=3100 step=218591/219877\nLRAT_STREAM_PROGRESS additions=3200 step=218736/219877\nLRAT_STREAM_PROGRESS additions=3300 step=218881/219877\nLRAT_STREAM_PROGRESS additions=3400 step=219043/219877\nLRAT_STREAM_PROGRESS additions=3500 step=219189/219877\nLRAT_STREAM_PROGRESS additions=3600 step=219341/219877\nLRAT_STREAM_PROGRESS additions=3700 step=219497/219877\nLRAT_STREAM_PROGRESS additions=3800 step=219637/219877\nLRAT_STREAM_PROGRESS additions=3900 step=219790/219877\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk029",
+      "source_sha256": "c07af462ea5a9ac396107e817f0acb1ea3b7f35660a3d837880c957669fe8708",
+      "exit_code": 0,
+      "seconds": 53.994,
+      "log": "LRAT chunk progress: 1000 additions, source step 221370/226044\nLRAT chunk progress: 2000 additions, source step 222854/226044\nLRAT chunk progress: 3000 additions, source step 224369/226044\nLRAT chunk progress: 4000 additions, source step 225904/226044\nLRAT_STREAM_PROGRESS additions=100 step=220024/226044\nLRAT_STREAM_PROGRESS additions=200 step=220172/226044\nLRAT_STREAM_PROGRESS additions=300 step=220327/226044\nLRAT_STREAM_PROGRESS additions=400 step=220488/226044\nLRAT_STREAM_PROGRESS additions=500 step=220641/226044\nLRAT_STREAM_PROGRESS additions=600 step=220786/226044\nLRAT_STREAM_PROGRESS additions=700 step=220927/226044\nLRAT_STREAM_PROGRESS additions=800 step=221069/226044\nLRAT_STREAM_PROGRESS additions=900 step=221218/226044\nLRAT_STREAM_PROGRESS additions=1000 step=221370/226044\nLRAT_STREAM_PROGRESS additions=1100 step=221519/226044\nLRAT_STREAM_PROGRESS additions=1200 step=221667/226044\nLRAT_STREAM_PROGRESS additions=1300 step=221813/226044\nLRAT_STREAM_PROGRESS additions=1400 step=221962/226044\nLRAT_STREAM_PROGRESS additions=1500 step=222107/226044\nLRAT_STREAM_PROGRESS additions=1600 step=222252/226044\nLRAT_STREAM_PROGRESS additions=1700 step=222395/226044\nLRAT_STREAM_PROGRESS additions=1800 step=222541/226044\nLRAT_STREAM_PROGRESS additions=1900 step=222695/226044\nLRAT_STREAM_PROGRESS additions=2000 step=222854/226044\nLRAT_STREAM_PROGRESS additions=2100 step=223010/226044\nLRAT_STREAM_PROGRESS additions=2200 step=223158/226044\nLRAT_STREAM_PROGRESS additions=2300 step=223316/226044\nLRAT_STREAM_PROGRESS additions=2400 step=223472/226044\nLRAT_STREAM_PROGRESS additions=2500 step=223619/226044\nLRAT_STREAM_PROGRESS additions=2600 step=223769/226044\nLRAT_STREAM_PROGRESS additions=2700 step=223918/226044\nLRAT_STREAM_PROGRESS additions=2800 step=224069/226044\nLRAT_STREAM_PROGRESS additions=2900 step=224219/226044\nLRAT_STREAM_PROGRESS additions=3000 step=224369/226044\nLRAT_STREAM_PROGRESS additions=3100 step=224520/226044\nLRAT_STREAM_PROGRESS additions=3200 step=224678/226044\nLRAT_STREAM_PROGRESS additions=3300 step=224829/226044\nLRAT_STREAM_PROGRESS additions=3400 step=224983/226044\nLRAT_STREAM_PROGRESS additions=3500 step=225135/226044\nLRAT_STREAM_PROGRESS additions=3600 step=225292/226044\nLRAT_STREAM_PROGRESS additions=3700 step=225444/226044\nLRAT_STREAM_PROGRESS additions=3800 step=225597/226044\nLRAT_STREAM_PROGRESS additions=3900 step=225747/226044\nLRAT_STREAM_PROGRESS additions=4000 step=225904/226044\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk030",
+      "source_sha256": "62a697ea4e586829e575410bffd8dde9513cfb126aff8d94c2daafec9034f01d",
+      "exit_code": 0,
+      "seconds": 51.594,
+      "log": "LRAT chunk progress: 1000 additions, source step 227543/233279\nLRAT chunk progress: 2000 additions, source step 229069/233279\nLRAT chunk progress: 3000 additions, source step 230564/233279\nLRAT chunk progress: 4000 additions, source step 232197/233279\nLRAT_STREAM_PROGRESS additions=100 step=226186/233279\nLRAT_STREAM_PROGRESS additions=200 step=226336/233279\nLRAT_STREAM_PROGRESS additions=300 step=226493/233279\nLRAT_STREAM_PROGRESS additions=400 step=226642/233279\nLRAT_STREAM_PROGRESS additions=500 step=226793/233279\nLRAT_STREAM_PROGRESS additions=600 step=226943/233279\nLRAT_STREAM_PROGRESS additions=700 step=227090/233279\nLRAT_STREAM_PROGRESS additions=800 step=227242/233279\nLRAT_STREAM_PROGRESS additions=900 step=227391/233279\nLRAT_STREAM_PROGRESS additions=1000 step=227543/233279\nLRAT_STREAM_PROGRESS additions=1100 step=227698/233279\nLRAT_STREAM_PROGRESS additions=1200 step=227847/233279\nLRAT_STREAM_PROGRESS additions=1300 step=228002/233279\nLRAT_STREAM_PROGRESS additions=1400 step=228158/233279\nLRAT_STREAM_PROGRESS additions=1500 step=228305/233279\nLRAT_STREAM_PROGRESS additions=1600 step=228457/233279\nLRAT_STREAM_PROGRESS additions=1700 step=228605/233279\nLRAT_STREAM_PROGRESS additions=1800 step=228763/233279\nLRAT_STREAM_PROGRESS additions=1900 step=228913/233279\nLRAT_STREAM_PROGRESS additions=2000 step=229069/233279\nLRAT_STREAM_PROGRESS additions=2100 step=229222/233279\nLRAT_STREAM_PROGRESS additions=2200 step=229370/233279\nLRAT_STREAM_PROGRESS additions=2300 step=229521/233279\nLRAT_STREAM_PROGRESS additions=2400 step=229671/233279\nLRAT_STREAM_PROGRESS additions=2500 step=229816/233279\nLRAT_STREAM_PROGRESS additions=2600 step=229962/233279\nLRAT_STREAM_PROGRESS additions=2700 step=230111/233279\nLRAT_STREAM_PROGRESS additions=2800 step=230261/233279\nLRAT_STREAM_PROGRESS additions=2900 step=230415/233279\nLRAT_STREAM_PROGRESS additions=3000 step=230564/233279\nLRAT_STREAM_PROGRESS additions=3100 step=230718/233279\nLRAT_STREAM_PROGRESS additions=3200 step=230873/233279\nLRAT_STREAM_PROGRESS additions=3300 step=231029/233279\nLRAT_STREAM_PROGRESS additions=3400 step=231183/233279\nLRAT_STREAM_PROGRESS additions=3500 step=231344/233279\nLRAT_STREAM_PROGRESS additions=3600 step=231496/233279\nLRAT_STREAM_PROGRESS additions=3700 step=231650/233279\nLRAT_STREAM_PROGRESS additions=3800 step=231816/233279\nLRAT_STREAM_PROGRESS additions=3900 step=232000/233279\nLRAT_STREAM_PROGRESS additions=4000 step=232197/233279\nLRAT_STREAM_PROGRESS additions=4100 step=232397/233279\nLRAT_STREAM_PROGRESS additions=4200 step=232597/233279\nLRAT_STREAM_PROGRESS additions=4300 step=232769/233279\nLRAT_STREAM_PROGRESS additions=4400 step=232925/233279\nLRAT_STREAM_PROGRESS additions=4500 step=233079/233279\nLRAT_STREAM_PROGRESS additions=4600 step=233232/233279\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk031",
+      "source_sha256": "0e0a241ca8b27251dfd2f78a383e61133c963df90eb4f7689cf0c98ea26181d3",
+      "exit_code": 0,
+      "seconds": 52.022,
+      "log": "LRAT chunk progress: 1000 additions, source step 234801/240037\nLRAT chunk progress: 2000 additions, source step 236343/240037\nLRAT chunk progress: 3000 additions, source step 237866/240037\nLRAT chunk progress: 4000 additions, source step 239428/240037\nLRAT_STREAM_PROGRESS additions=100 step=233429/240037\nLRAT_STREAM_PROGRESS additions=200 step=233578/240037\nLRAT_STREAM_PROGRESS additions=300 step=233736/240037\nLRAT_STREAM_PROGRESS additions=400 step=233894/240037\nLRAT_STREAM_PROGRESS additions=500 step=234039/240037\nLRAT_STREAM_PROGRESS additions=600 step=234192/240037\nLRAT_STREAM_PROGRESS additions=700 step=234348/240037\nLRAT_STREAM_PROGRESS additions=800 step=234495/240037\nLRAT_STREAM_PROGRESS additions=900 step=234648/240037\nLRAT_STREAM_PROGRESS additions=1000 step=234801/240037\nLRAT_STREAM_PROGRESS additions=1100 step=234949/240037\nLRAT_STREAM_PROGRESS additions=1200 step=235107/240037\nLRAT_STREAM_PROGRESS additions=1300 step=235268/240037\nLRAT_STREAM_PROGRESS additions=1400 step=235429/240037\nLRAT_STREAM_PROGRESS additions=1500 step=235578/240037\nLRAT_STREAM_PROGRESS additions=1600 step=235731/240037\nLRAT_STREAM_PROGRESS additions=1700 step=235885/240037\nLRAT_STREAM_PROGRESS additions=1800 step=236036/240037\nLRAT_STREAM_PROGRESS additions=1900 step=236188/240037\nLRAT_STREAM_PROGRESS additions=2000 step=236343/240037\nLRAT_STREAM_PROGRESS additions=2100 step=236495/240037\nLRAT_STREAM_PROGRESS additions=2200 step=236651/240037\nLRAT_STREAM_PROGRESS additions=2300 step=236799/240037\nLRAT_STREAM_PROGRESS additions=2400 step=236956/240037\nLRAT_STREAM_PROGRESS additions=2500 step=237109/240037\nLRAT_STREAM_PROGRESS additions=2600 step=237259/240037\nLRAT_STREAM_PROGRESS additions=2700 step=237412/240037\nLRAT_STREAM_PROGRESS additions=2800 step=237567/240037\nLRAT_STREAM_PROGRESS additions=2900 step=237714/240037\nLRAT_STREAM_PROGRESS additions=3000 step=237866/240037\nLRAT_STREAM_PROGRESS additions=3100 step=238024/240037\nLRAT_STREAM_PROGRESS additions=3200 step=238180/240037\nLRAT_STREAM_PROGRESS additions=3300 step=238332/240037\nLRAT_STREAM_PROGRESS additions=3400 step=238494/240037\nLRAT_STREAM_PROGRESS additions=3500 step=238648/240037\nLRAT_STREAM_PROGRESS additions=3600 step=238805/240037\nLRAT_STREAM_PROGRESS additions=3700 step=238964/240037\nLRAT_STREAM_PROGRESS additions=3800 step=239109/240037\nLRAT_STREAM_PROGRESS additions=3900 step=239262/240037\nLRAT_STREAM_PROGRESS additions=4000 step=239428/240037\nLRAT_STREAM_PROGRESS additions=4100 step=239581/240037\nLRAT_STREAM_PROGRESS additions=4200 step=239729/240037\nLRAT_STREAM_PROGRESS additions=4300 step=239877/240037\nLRAT_STREAM_PROGRESS additions=4400 step=240031/240037\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk032",
+      "source_sha256": "3aecde56f5f621406d304eb0197f70350b69bdbb099d99e0013db59e6fb36eb2",
+      "exit_code": 0,
+      "seconds": 51.884,
+      "log": "LRAT chunk progress: 1000 additions, source step 241555/246259\nLRAT chunk progress: 2000 additions, source step 243077/246259\nLRAT chunk progress: 3000 additions, source step 244586/246259\nLRAT chunk progress: 4000 additions, source step 246143/246259\nLRAT_STREAM_PROGRESS additions=100 step=240188/246259\nLRAT_STREAM_PROGRESS additions=200 step=240343/246259\nLRAT_STREAM_PROGRESS additions=300 step=240495/246259\nLRAT_STREAM_PROGRESS additions=400 step=240650/246259\nLRAT_STREAM_PROGRESS additions=500 step=240799/246259\nLRAT_STREAM_PROGRESS additions=600 step=240949/246259\nLRAT_STREAM_PROGRESS additions=700 step=241103/246259\nLRAT_STREAM_PROGRESS additions=800 step=241252/246259\nLRAT_STREAM_PROGRESS additions=900 step=241401/246259\nLRAT_STREAM_PROGRESS additions=1000 step=241555/246259\nLRAT_STREAM_PROGRESS additions=1100 step=241711/246259\nLRAT_STREAM_PROGRESS additions=1200 step=241860/246259\nLRAT_STREAM_PROGRESS additions=1300 step=242014/246259\nLRAT_STREAM_PROGRESS additions=1400 step=242166/246259\nLRAT_STREAM_PROGRESS additions=1500 step=242324/246259\nLRAT_STREAM_PROGRESS additions=1600 step=242471/246259\nLRAT_STREAM_PROGRESS additions=1700 step=242622/246259\nLRAT_STREAM_PROGRESS additions=1800 step=242774/246259\nLRAT_STREAM_PROGRESS additions=1900 step=242924/246259\nLRAT_STREAM_PROGRESS additions=2000 step=243077/246259\nLRAT_STREAM_PROGRESS additions=2100 step=243224/246259\nLRAT_STREAM_PROGRESS additions=2200 step=243373/246259\nLRAT_STREAM_PROGRESS additions=2300 step=243519/246259\nLRAT_STREAM_PROGRESS additions=2400 step=243676/246259\nLRAT_STREAM_PROGRESS additions=2500 step=243825/246259\nLRAT_STREAM_PROGRESS additions=2600 step=243979/246259\nLRAT_STREAM_PROGRESS additions=2700 step=244125/246259\nLRAT_STREAM_PROGRESS additions=2800 step=244273/246259\nLRAT_STREAM_PROGRESS additions=2900 step=244429/246259\nLRAT_STREAM_PROGRESS additions=3000 step=244586/246259\nLRAT_STREAM_PROGRESS additions=3100 step=244735/246259\nLRAT_STREAM_PROGRESS additions=3200 step=244889/246259\nLRAT_STREAM_PROGRESS additions=3300 step=245052/246259\nLRAT_STREAM_PROGRESS additions=3400 step=245209/246259\nLRAT_STREAM_PROGRESS additions=3500 step=245372/246259\nLRAT_STREAM_PROGRESS additions=3600 step=245528/246259\nLRAT_STREAM_PROGRESS additions=3700 step=245693/246259\nLRAT_STREAM_PROGRESS additions=3800 step=245839/246259\nLRAT_STREAM_PROGRESS additions=3900 step=245985/246259\nLRAT_STREAM_PROGRESS additions=4000 step=246143/246259\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk033",
+      "source_sha256": "eb3a9ccf1c36808206749fbb6a1d791414c4422973e2a2cb826dd4c7d2c06f19",
+      "exit_code": 0,
+      "seconds": 50.74,
+      "log": "LRAT chunk progress: 1000 additions, source step 247772/252893\nLRAT chunk progress: 2000 additions, source step 249303/252893\nLRAT chunk progress: 3000 additions, source step 250846/252893\nLRAT chunk progress: 4000 additions, source step 252393/252893\nLRAT_STREAM_PROGRESS additions=100 step=246412/252893\nLRAT_STREAM_PROGRESS additions=200 step=246564/252893\nLRAT_STREAM_PROGRESS additions=300 step=246717/252893\nLRAT_STREAM_PROGRESS additions=400 step=246870/252893\nLRAT_STREAM_PROGRESS additions=500 step=247019/252893\nLRAT_STREAM_PROGRESS additions=600 step=247168/252893\nLRAT_STREAM_PROGRESS additions=700 step=247318/252893\nLRAT_STREAM_PROGRESS additions=800 step=247476/252893\nLRAT_STREAM_PROGRESS additions=900 step=247625/252893\nLRAT_STREAM_PROGRESS additions=1000 step=247772/252893\nLRAT_STREAM_PROGRESS additions=1100 step=247926/252893\nLRAT_STREAM_PROGRESS additions=1200 step=248074/252893\nLRAT_STREAM_PROGRESS additions=1300 step=248231/252893\nLRAT_STREAM_PROGRESS additions=1400 step=248383/252893\nLRAT_STREAM_PROGRESS additions=1500 step=248536/252893\nLRAT_STREAM_PROGRESS additions=1600 step=248688/252893\nLRAT_STREAM_PROGRESS additions=1700 step=248839/252893\nLRAT_STREAM_PROGRESS additions=1800 step=248989/252893\nLRAT_STREAM_PROGRESS additions=1900 step=249146/252893\nLRAT_STREAM_PROGRESS additions=2000 step=249303/252893\nLRAT_STREAM_PROGRESS additions=2100 step=249459/252893\nLRAT_STREAM_PROGRESS additions=2200 step=249607/252893\nLRAT_STREAM_PROGRESS additions=2300 step=249764/252893\nLRAT_STREAM_PROGRESS additions=2400 step=249923/252893\nLRAT_STREAM_PROGRESS additions=2500 step=250075/252893\nLRAT_STREAM_PROGRESS additions=2600 step=250221/252893\nLRAT_STREAM_PROGRESS additions=2700 step=250378/252893\nLRAT_STREAM_PROGRESS additions=2800 step=250531/252893\nLRAT_STREAM_PROGRESS additions=2900 step=250687/252893\nLRAT_STREAM_PROGRESS additions=3000 step=250846/252893\nLRAT_STREAM_PROGRESS additions=3100 step=251001/252893\nLRAT_STREAM_PROGRESS additions=3200 step=251157/252893\nLRAT_STREAM_PROGRESS additions=3300 step=251312/252893\nLRAT_STREAM_PROGRESS additions=3400 step=251457/252893\nLRAT_STREAM_PROGRESS additions=3500 step=251616/252893\nLRAT_STREAM_PROGRESS additions=3600 step=251778/252893\nLRAT_STREAM_PROGRESS additions=3700 step=251931/252893\nLRAT_STREAM_PROGRESS additions=3800 step=252085/252893\nLRAT_STREAM_PROGRESS additions=3900 step=252239/252893\nLRAT_STREAM_PROGRESS additions=4000 step=252393/252893\nLRAT_STREAM_PROGRESS additions=4100 step=252545/252893\nLRAT_STREAM_PROGRESS additions=4200 step=252702/252893\nLRAT_STREAM_PROGRESS additions=4300 step=252856/252893\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk034",
+      "source_sha256": "2217506ca0264c065a27886180e2e29b02fae2b5c20f3bc4f0b6eeb9a97b8aef",
+      "exit_code": 0,
+      "seconds": 52.927,
+      "log": "LRAT chunk progress: 1000 additions, source step 254478/258834\nLRAT chunk progress: 2000 additions, source step 256029/258834\nLRAT chunk progress: 3000 additions, source step 257513/258834\nLRAT_STREAM_PROGRESS additions=100 step=253046/258834\nLRAT_STREAM_PROGRESS additions=200 step=253202/258834\nLRAT_STREAM_PROGRESS additions=300 step=253359/258834\nLRAT_STREAM_PROGRESS additions=400 step=253523/258834\nLRAT_STREAM_PROGRESS additions=500 step=253685/258834\nLRAT_STREAM_PROGRESS additions=600 step=253845/258834\nLRAT_STREAM_PROGRESS additions=700 step=254008/258834\nLRAT_STREAM_PROGRESS additions=800 step=254162/258834\nLRAT_STREAM_PROGRESS additions=900 step=254317/258834\nLRAT_STREAM_PROGRESS additions=1000 step=254478/258834\nLRAT_STREAM_PROGRESS additions=1100 step=254636/258834\nLRAT_STREAM_PROGRESS additions=1200 step=254798/258834\nLRAT_STREAM_PROGRESS additions=1300 step=254953/258834\nLRAT_STREAM_PROGRESS additions=1400 step=255107/258834\nLRAT_STREAM_PROGRESS additions=1500 step=255256/258834\nLRAT_STREAM_PROGRESS additions=1600 step=255410/258834\nLRAT_STREAM_PROGRESS additions=1700 step=255561/258834\nLRAT_STREAM_PROGRESS additions=1800 step=255719/258834\nLRAT_STREAM_PROGRESS additions=1900 step=255872/258834\nLRAT_STREAM_PROGRESS additions=2000 step=256029/258834\nLRAT_STREAM_PROGRESS additions=2100 step=256174/258834\nLRAT_STREAM_PROGRESS additions=2200 step=256327/258834\nLRAT_STREAM_PROGRESS additions=2300 step=256477/258834\nLRAT_STREAM_PROGRESS additions=2400 step=256625/258834\nLRAT_STREAM_PROGRESS additions=2500 step=256775/258834\nLRAT_STREAM_PROGRESS additions=2600 step=256927/258834\nLRAT_STREAM_PROGRESS additions=2700 step=257075/258834\nLRAT_STREAM_PROGRESS additions=2800 step=257222/258834\nLRAT_STREAM_PROGRESS additions=2900 step=257363/258834\nLRAT_STREAM_PROGRESS additions=3000 step=257513/258834\nLRAT_STREAM_PROGRESS additions=3100 step=257670/258834\nLRAT_STREAM_PROGRESS additions=3200 step=257826/258834\nLRAT_STREAM_PROGRESS additions=3300 step=257976/258834\nLRAT_STREAM_PROGRESS additions=3400 step=258132/258834\nLRAT_STREAM_PROGRESS additions=3500 step=258279/258834\nLRAT_STREAM_PROGRESS additions=3600 step=258421/258834\nLRAT_STREAM_PROGRESS additions=3700 step=258580/258834\nLRAT_STREAM_PROGRESS additions=3800 step=258729/258834\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk035",
+      "source_sha256": "97a2459ffcad6716926cdab1e66a7a54c244a688dbf2aafcd050b3e20f3cb54b",
+      "exit_code": 0,
+      "seconds": 55.216,
+      "log": "LRAT chunk progress: 1000 additions, source step 260357/264813\nLRAT chunk progress: 2000 additions, source step 261944/264813\nLRAT chunk progress: 3000 additions, source step 263527/264813\nLRAT_STREAM_PROGRESS additions=100 step=258988/264813\nLRAT_STREAM_PROGRESS additions=200 step=259140/264813\nLRAT_STREAM_PROGRESS additions=300 step=259290/264813\nLRAT_STREAM_PROGRESS additions=400 step=259443/264813\nLRAT_STREAM_PROGRESS additions=500 step=259594/264813\nLRAT_STREAM_PROGRESS additions=600 step=259744/264813\nLRAT_STREAM_PROGRESS additions=700 step=259898/264813\nLRAT_STREAM_PROGRESS additions=800 step=260049/264813\nLRAT_STREAM_PROGRESS additions=900 step=260201/264813\nLRAT_STREAM_PROGRESS additions=1000 step=260357/264813\nLRAT_STREAM_PROGRESS additions=1100 step=260515/264813\nLRAT_STREAM_PROGRESS additions=1200 step=260674/264813\nLRAT_STREAM_PROGRESS additions=1300 step=260837/264813\nLRAT_STREAM_PROGRESS additions=1400 step=261003/264813\nLRAT_STREAM_PROGRESS additions=1500 step=261160/264813\nLRAT_STREAM_PROGRESS additions=1600 step=261315/264813\nLRAT_STREAM_PROGRESS additions=1700 step=261478/264813\nLRAT_STREAM_PROGRESS additions=1800 step=261641/264813\nLRAT_STREAM_PROGRESS additions=1900 step=261797/264813\nLRAT_STREAM_PROGRESS additions=2000 step=261944/264813\nLRAT_STREAM_PROGRESS additions=2100 step=262106/264813\nLRAT_STREAM_PROGRESS additions=2200 step=262261/264813\nLRAT_STREAM_PROGRESS additions=2300 step=262422/264813\nLRAT_STREAM_PROGRESS additions=2400 step=262586/264813\nLRAT_STREAM_PROGRESS additions=2500 step=262746/264813\nLRAT_STREAM_PROGRESS additions=2600 step=262906/264813\nLRAT_STREAM_PROGRESS additions=2700 step=263057/264813\nLRAT_STREAM_PROGRESS additions=2800 step=263207/264813\nLRAT_STREAM_PROGRESS additions=2900 step=263370/264813\nLRAT_STREAM_PROGRESS additions=3000 step=263527/264813\nLRAT_STREAM_PROGRESS additions=3100 step=263682/264813\nLRAT_STREAM_PROGRESS additions=3200 step=263831/264813\nLRAT_STREAM_PROGRESS additions=3300 step=263974/264813\nLRAT_STREAM_PROGRESS additions=3400 step=264132/264813\nLRAT_STREAM_PROGRESS additions=3500 step=264310/264813\nLRAT_STREAM_PROGRESS additions=3600 step=264455/264813\nLRAT_STREAM_PROGRESS additions=3700 step=264605/264813\nLRAT_STREAM_PROGRESS additions=3800 step=264762/264813\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk036",
+      "source_sha256": "19b75a38cc0cf7c6178f24b30d135b7cf9d511da3bc1c41472ffcf1e961b6eea",
+      "exit_code": 0,
+      "seconds": 56.07,
+      "log": "LRAT chunk progress: 1000 additions, source step 266369/270757\nLRAT chunk progress: 2000 additions, source step 267915/270757\nLRAT chunk progress: 3000 additions, source step 269496/270757\nLRAT_STREAM_PROGRESS additions=100 step=264971/270757\nLRAT_STREAM_PROGRESS additions=200 step=265124/270757\nLRAT_STREAM_PROGRESS additions=300 step=265276/270757\nLRAT_STREAM_PROGRESS additions=400 step=265439/270757\nLRAT_STREAM_PROGRESS additions=500 step=265591/270757\nLRAT_STREAM_PROGRESS additions=600 step=265740/270757\nLRAT_STREAM_PROGRESS additions=700 step=265889/270757\nLRAT_STREAM_PROGRESS additions=800 step=266048/270757\nLRAT_STREAM_PROGRESS additions=900 step=266210/270757\nLRAT_STREAM_PROGRESS additions=1000 step=266369/270757\nLRAT_STREAM_PROGRESS additions=1100 step=266525/270757\nLRAT_STREAM_PROGRESS additions=1200 step=266676/270757\nLRAT_STREAM_PROGRESS additions=1300 step=266824/270757\nLRAT_STREAM_PROGRESS additions=1400 step=266978/270757\nLRAT_STREAM_PROGRESS additions=1500 step=267132/270757\nLRAT_STREAM_PROGRESS additions=1600 step=267288/270757\nLRAT_STREAM_PROGRESS additions=1700 step=267442/270757\nLRAT_STREAM_PROGRESS additions=1800 step=267602/270757\nLRAT_STREAM_PROGRESS additions=1900 step=267758/270757\nLRAT_STREAM_PROGRESS additions=2000 step=267915/270757\nLRAT_STREAM_PROGRESS additions=2100 step=268067/270757\nLRAT_STREAM_PROGRESS additions=2200 step=268233/270757\nLRAT_STREAM_PROGRESS additions=2300 step=268387/270757\nLRAT_STREAM_PROGRESS additions=2400 step=268546/270757\nLRAT_STREAM_PROGRESS additions=2500 step=268701/270757\nLRAT_STREAM_PROGRESS additions=2600 step=268856/270757\nLRAT_STREAM_PROGRESS additions=2700 step=269011/270757\nLRAT_STREAM_PROGRESS additions=2800 step=269172/270757\nLRAT_STREAM_PROGRESS additions=2900 step=269333/270757\nLRAT_STREAM_PROGRESS additions=3000 step=269496/270757\nLRAT_STREAM_PROGRESS additions=3100 step=269650/270757\nLRAT_STREAM_PROGRESS additions=3200 step=269808/270757\nLRAT_STREAM_PROGRESS additions=3300 step=269966/270757\nLRAT_STREAM_PROGRESS additions=3400 step=270119/270757\nLRAT_STREAM_PROGRESS additions=3500 step=270282/270757\nLRAT_STREAM_PROGRESS additions=3600 step=270441/270757\nLRAT_STREAM_PROGRESS additions=3700 step=270600/270757\nLRAT_STREAM_PROGRESS additions=3800 step=270754/270757\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk037",
+      "source_sha256": "00214580d1981e4da63d6cefe93788c30d3c267474bc0afc4eff40e97b65816e",
+      "exit_code": 0,
+      "seconds": 57.137,
+      "log": "LRAT chunk progress: 1000 additions, source step 272337/276887\nLRAT chunk progress: 2000 additions, source step 273913/276887\nLRAT chunk progress: 3000 additions, source step 275544/276887\nLRAT_STREAM_PROGRESS additions=100 step=270916/276887\nLRAT_STREAM_PROGRESS additions=200 step=271073/276887\nLRAT_STREAM_PROGRESS additions=300 step=271226/276887\nLRAT_STREAM_PROGRESS additions=400 step=271383/276887\nLRAT_STREAM_PROGRESS additions=500 step=271545/276887\nLRAT_STREAM_PROGRESS additions=600 step=271698/276887\nLRAT_STREAM_PROGRESS additions=700 step=271851/276887\nLRAT_STREAM_PROGRESS additions=800 step=272015/276887\nLRAT_STREAM_PROGRESS additions=900 step=272179/276887\nLRAT_STREAM_PROGRESS additions=1000 step=272337/276887\nLRAT_STREAM_PROGRESS additions=1100 step=272489/276887\nLRAT_STREAM_PROGRESS additions=1200 step=272649/276887\nLRAT_STREAM_PROGRESS additions=1300 step=272808/276887\nLRAT_STREAM_PROGRESS additions=1400 step=272971/276887\nLRAT_STREAM_PROGRESS additions=1500 step=273127/276887\nLRAT_STREAM_PROGRESS additions=1600 step=273278/276887\nLRAT_STREAM_PROGRESS additions=1700 step=273435/276887\nLRAT_STREAM_PROGRESS additions=1800 step=273592/276887\nLRAT_STREAM_PROGRESS additions=1900 step=273747/276887\nLRAT_STREAM_PROGRESS additions=2000 step=273913/276887\nLRAT_STREAM_PROGRESS additions=2100 step=274074/276887\nLRAT_STREAM_PROGRESS additions=2200 step=274228/276887\nLRAT_STREAM_PROGRESS additions=2300 step=274382/276887\nLRAT_STREAM_PROGRESS additions=2400 step=274549/276887\nLRAT_STREAM_PROGRESS additions=2500 step=274721/276887\nLRAT_STREAM_PROGRESS additions=2600 step=274881/276887\nLRAT_STREAM_PROGRESS additions=2700 step=275051/276887\nLRAT_STREAM_PROGRESS additions=2800 step=275216/276887\nLRAT_STREAM_PROGRESS additions=2900 step=275378/276887\nLRAT_STREAM_PROGRESS additions=3000 step=275544/276887\nLRAT_STREAM_PROGRESS additions=3100 step=275707/276887\nLRAT_STREAM_PROGRESS additions=3200 step=275869/276887\nLRAT_STREAM_PROGRESS additions=3300 step=276024/276887\nLRAT_STREAM_PROGRESS additions=3400 step=276187/276887\nLRAT_STREAM_PROGRESS additions=3500 step=276352/276887\nLRAT_STREAM_PROGRESS additions=3600 step=276504/276887\nLRAT_STREAM_PROGRESS additions=3700 step=276660/276887\nLRAT_STREAM_PROGRESS additions=3800 step=276817/276887\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk038",
+      "source_sha256": "b291a1efd930850e7e56d0c1852413bd45b3ae17a047f8f0cdaca3293e7b8fdf",
+      "exit_code": 0,
+      "seconds": 54.162,
+      "log": "LRAT chunk progress: 1000 additions, source step 278496/283132\nLRAT chunk progress: 2000 additions, source step 280120/283132\nLRAT chunk progress: 3000 additions, source step 281745/283132\nLRAT_STREAM_PROGRESS additions=100 step=277049/283132\nLRAT_STREAM_PROGRESS additions=200 step=277212/283132\nLRAT_STREAM_PROGRESS additions=300 step=277374/283132\nLRAT_STREAM_PROGRESS additions=400 step=277533/283132\nLRAT_STREAM_PROGRESS additions=500 step=277691/283132\nLRAT_STREAM_PROGRESS additions=600 step=277844/283132\nLRAT_STREAM_PROGRESS additions=700 step=278011/283132\nLRAT_STREAM_PROGRESS additions=800 step=278175/283132\nLRAT_STREAM_PROGRESS additions=900 step=278338/283132\nLRAT_STREAM_PROGRESS additions=1000 step=278496/283132\nLRAT_STREAM_PROGRESS additions=1100 step=278664/283132\nLRAT_STREAM_PROGRESS additions=1200 step=278820/283132\nLRAT_STREAM_PROGRESS additions=1300 step=278978/283132\nLRAT_STREAM_PROGRESS additions=1400 step=279143/283132\nLRAT_STREAM_PROGRESS additions=1500 step=279304/283132\nLRAT_STREAM_PROGRESS additions=1600 step=279469/283132\nLRAT_STREAM_PROGRESS additions=1700 step=279631/283132\nLRAT_STREAM_PROGRESS additions=1800 step=279793/283132\nLRAT_STREAM_PROGRESS additions=1900 step=279959/283132\nLRAT_STREAM_PROGRESS additions=2000 step=280120/283132\nLRAT_STREAM_PROGRESS additions=2100 step=280275/283132\nLRAT_STREAM_PROGRESS additions=2200 step=280442/283132\nLRAT_STREAM_PROGRESS additions=2300 step=280610/283132\nLRAT_STREAM_PROGRESS additions=2400 step=280783/283132\nLRAT_STREAM_PROGRESS additions=2500 step=280946/283132\nLRAT_STREAM_PROGRESS additions=2600 step=281115/283132\nLRAT_STREAM_PROGRESS additions=2700 step=281269/283132\nLRAT_STREAM_PROGRESS additions=2800 step=281432/283132\nLRAT_STREAM_PROGRESS additions=2900 step=281588/283132\nLRAT_STREAM_PROGRESS additions=3000 step=281745/283132\nLRAT_STREAM_PROGRESS additions=3100 step=281899/283132\nLRAT_STREAM_PROGRESS additions=3200 step=282056/283132\nLRAT_STREAM_PROGRESS additions=3300 step=282210/283132\nLRAT_STREAM_PROGRESS additions=3400 step=282372/283132\nLRAT_STREAM_PROGRESS additions=3500 step=282523/283132\nLRAT_STREAM_PROGRESS additions=3600 step=282669/283132\nLRAT_STREAM_PROGRESS additions=3700 step=282823/283132\nLRAT_STREAM_PROGRESS additions=3800 step=282979/283132\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk039",
+      "source_sha256": "8f84e02842ecdebbb7950d8bae8b46761685e79e9dead0e5894f1a5c0c8bfa41",
+      "exit_code": 0,
+      "seconds": 53.891,
+      "log": "LRAT chunk progress: 1000 additions, source step 284711/289595\nLRAT chunk progress: 2000 additions, source step 286341/289595\nLRAT chunk progress: 3000 additions, source step 288007/289595\nLRAT_STREAM_PROGRESS additions=100 step=283285/289595\nLRAT_STREAM_PROGRESS additions=200 step=283443/289595\nLRAT_STREAM_PROGRESS additions=300 step=283596/289595\nLRAT_STREAM_PROGRESS additions=400 step=283748/289595\nLRAT_STREAM_PROGRESS additions=500 step=283907/289595\nLRAT_STREAM_PROGRESS additions=600 step=284074/289595\nLRAT_STREAM_PROGRESS additions=700 step=284236/289595\nLRAT_STREAM_PROGRESS additions=800 step=284392/289595\nLRAT_STREAM_PROGRESS additions=900 step=284551/289595\nLRAT_STREAM_PROGRESS additions=1000 step=284711/289595\nLRAT_STREAM_PROGRESS additions=1100 step=284874/289595\nLRAT_STREAM_PROGRESS additions=1200 step=285039/289595\nLRAT_STREAM_PROGRESS additions=1300 step=285199/289595\nLRAT_STREAM_PROGRESS additions=1400 step=285360/289595\nLRAT_STREAM_PROGRESS additions=1500 step=285521/289595\nLRAT_STREAM_PROGRESS additions=1600 step=285681/289595\nLRAT_STREAM_PROGRESS additions=1700 step=285848/289595\nLRAT_STREAM_PROGRESS additions=1800 step=286013/289595\nLRAT_STREAM_PROGRESS additions=1900 step=286177/289595\nLRAT_STREAM_PROGRESS additions=2000 step=286341/289595\nLRAT_STREAM_PROGRESS additions=2100 step=286509/289595\nLRAT_STREAM_PROGRESS additions=2200 step=286683/289595\nLRAT_STREAM_PROGRESS additions=2300 step=286859/289595\nLRAT_STREAM_PROGRESS additions=2400 step=287032/289595\nLRAT_STREAM_PROGRESS additions=2500 step=287214/289595\nLRAT_STREAM_PROGRESS additions=2600 step=287383/289595\nLRAT_STREAM_PROGRESS additions=2700 step=287541/289595\nLRAT_STREAM_PROGRESS additions=2800 step=287695/289595\nLRAT_STREAM_PROGRESS additions=2900 step=287851/289595\nLRAT_STREAM_PROGRESS additions=3000 step=288007/289595\nLRAT_STREAM_PROGRESS additions=3100 step=288179/289595\nLRAT_STREAM_PROGRESS additions=3200 step=288343/289595\nLRAT_STREAM_PROGRESS additions=3300 step=288513/289595\nLRAT_STREAM_PROGRESS additions=3400 step=288679/289595\nLRAT_STREAM_PROGRESS additions=3500 step=288845/289595\nLRAT_STREAM_PROGRESS additions=3600 step=289018/289595\nLRAT_STREAM_PROGRESS additions=3700 step=289184/289595\nLRAT_STREAM_PROGRESS additions=3800 step=289340/289595\nLRAT_STREAM_PROGRESS additions=3900 step=289503/289595\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk040",
+      "source_sha256": "d104787d6cb0e2ccb22e6625e11d559cdbfdb803eaf71520d82e9eadb9d23608",
+      "exit_code": 0,
+      "seconds": 54.05,
+      "log": "LRAT chunk progress: 1000 additions, source step 291190/298145\nLRAT chunk progress: 2000 additions, source step 292844/298145\nLRAT chunk progress: 3000 additions, source step 294808/298145\nLRAT chunk progress: 4000 additions, source step 296670/298145\nLRAT_STREAM_PROGRESS additions=100 step=289754/298145\nLRAT_STREAM_PROGRESS additions=200 step=289909/298145\nLRAT_STREAM_PROGRESS additions=300 step=290073/298145\nLRAT_STREAM_PROGRESS additions=400 step=290233/298145\nLRAT_STREAM_PROGRESS additions=500 step=290388/298145\nLRAT_STREAM_PROGRESS additions=600 step=290545/298145\nLRAT_STREAM_PROGRESS additions=700 step=290706/298145\nLRAT_STREAM_PROGRESS additions=800 step=290866/298145\nLRAT_STREAM_PROGRESS additions=900 step=291026/298145\nLRAT_STREAM_PROGRESS additions=1000 step=291190/298145\nLRAT_STREAM_PROGRESS additions=1100 step=291364/298145\nLRAT_STREAM_PROGRESS additions=1200 step=291533/298145\nLRAT_STREAM_PROGRESS additions=1300 step=291698/298145\nLRAT_STREAM_PROGRESS additions=1400 step=291858/298145\nLRAT_STREAM_PROGRESS additions=1500 step=292030/298145\nLRAT_STREAM_PROGRESS additions=1600 step=292196/298145\nLRAT_STREAM_PROGRESS additions=1700 step=292357/298145\nLRAT_STREAM_PROGRESS additions=1800 step=292522/298145\nLRAT_STREAM_PROGRESS additions=1900 step=292686/298145\nLRAT_STREAM_PROGRESS additions=2000 step=292844/298145\nLRAT_STREAM_PROGRESS additions=2100 step=293013/298145\nLRAT_STREAM_PROGRESS additions=2200 step=293208/298145\nLRAT_STREAM_PROGRESS additions=2300 step=293408/298145\nLRAT_STREAM_PROGRESS additions=2400 step=293608/298145\nLRAT_STREAM_PROGRESS additions=2500 step=293808/298145\nLRAT_STREAM_PROGRESS additions=2600 step=294008/298145\nLRAT_STREAM_PROGRESS additions=2700 step=294208/298145\nLRAT_STREAM_PROGRESS additions=2800 step=294408/298145\nLRAT_STREAM_PROGRESS additions=2900 step=294608/298145\nLRAT_STREAM_PROGRESS additions=3000 step=294808/298145\nLRAT_STREAM_PROGRESS additions=3100 step=295008/298145\nLRAT_STREAM_PROGRESS additions=3200 step=295208/298145\nLRAT_STREAM_PROGRESS additions=3300 step=295408/298145\nLRAT_STREAM_PROGRESS additions=3400 step=295608/298145\nLRAT_STREAM_PROGRESS additions=3500 step=295796/298145\nLRAT_STREAM_PROGRESS additions=3600 step=295967/298145\nLRAT_STREAM_PROGRESS additions=3700 step=296137/298145\nLRAT_STREAM_PROGRESS additions=3800 step=296311/298145\nLRAT_STREAM_PROGRESS additions=3900 step=296491/298145\nLRAT_STREAM_PROGRESS additions=4000 step=296670/298145\nLRAT_STREAM_PROGRESS additions=4100 step=296851/298145\nLRAT_STREAM_PROGRESS additions=4200 step=297027/298145\nLRAT_STREAM_PROGRESS additions=4300 step=297205/298145\nLRAT_STREAM_PROGRESS additions=4400 step=297372/298145\nLRAT_STREAM_PROGRESS additions=4500 step=297545/298145\nLRAT_STREAM_PROGRESS additions=4600 step=297705/298145\nLRAT_STREAM_PROGRESS additions=4700 step=297875/298145\nLRAT_STREAM_PROGRESS additions=4800 step=298033/298145\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk041",
+      "source_sha256": "c479cb9ab39230a0b839c32ec2b8c8503c2cde90d2c79bbc2cb9eba66f0728c5",
+      "exit_code": 0,
+      "seconds": 54.274,
+      "log": "LRAT chunk progress: 1000 additions, source step 299830/306567\nLRAT chunk progress: 2000 additions, source step 301478/306567\nLRAT chunk progress: 3000 additions, source step 303389/306567\nLRAT chunk progress: 4000 additions, source step 305130/306567\nLRAT_STREAM_PROGRESS additions=100 step=298306/306567\nLRAT_STREAM_PROGRESS additions=200 step=298477/306567\nLRAT_STREAM_PROGRESS additions=300 step=298640/306567\nLRAT_STREAM_PROGRESS additions=400 step=298816/306567\nLRAT_STREAM_PROGRESS additions=500 step=298987/306567\nLRAT_STREAM_PROGRESS additions=600 step=299153/306567\nLRAT_STREAM_PROGRESS additions=700 step=299315/306567\nLRAT_STREAM_PROGRESS additions=800 step=299486/306567\nLRAT_STREAM_PROGRESS additions=900 step=299662/306567\nLRAT_STREAM_PROGRESS additions=1000 step=299830/306567\nLRAT_STREAM_PROGRESS additions=1100 step=299989/306567\nLRAT_STREAM_PROGRESS additions=1200 step=300143/306567\nLRAT_STREAM_PROGRESS additions=1300 step=300304/306567\nLRAT_STREAM_PROGRESS additions=1400 step=300469/306567\nLRAT_STREAM_PROGRESS additions=1500 step=300638/306567\nLRAT_STREAM_PROGRESS additions=1600 step=300814/306567\nLRAT_STREAM_PROGRESS additions=1700 step=300968/306567\nLRAT_STREAM_PROGRESS additions=1800 step=301132/306567\nLRAT_STREAM_PROGRESS additions=1900 step=301298/306567\nLRAT_STREAM_PROGRESS additions=2000 step=301478/306567\nLRAT_STREAM_PROGRESS additions=2100 step=301656/306567\nLRAT_STREAM_PROGRESS additions=2200 step=301835/306567\nLRAT_STREAM_PROGRESS additions=2300 step=302009/306567\nLRAT_STREAM_PROGRESS additions=2400 step=302192/306567\nLRAT_STREAM_PROGRESS additions=2500 step=302392/306567\nLRAT_STREAM_PROGRESS additions=2600 step=302591/306567\nLRAT_STREAM_PROGRESS additions=2700 step=302790/306567\nLRAT_STREAM_PROGRESS additions=2800 step=302990/306567\nLRAT_STREAM_PROGRESS additions=2900 step=303190/306567\nLRAT_STREAM_PROGRESS additions=3000 step=303389/306567\nLRAT_STREAM_PROGRESS additions=3100 step=303564/306567\nLRAT_STREAM_PROGRESS additions=3200 step=303742/306567\nLRAT_STREAM_PROGRESS additions=3300 step=303922/306567\nLRAT_STREAM_PROGRESS additions=3400 step=304083/306567\nLRAT_STREAM_PROGRESS additions=3500 step=304248/306567\nLRAT_STREAM_PROGRESS additions=3600 step=304423/306567\nLRAT_STREAM_PROGRESS additions=3700 step=304597/306567\nLRAT_STREAM_PROGRESS additions=3800 step=304772/306567\nLRAT_STREAM_PROGRESS additions=3900 step=304945/306567\nLRAT_STREAM_PROGRESS additions=4000 step=305130/306567\nLRAT_STREAM_PROGRESS additions=4100 step=305305/306567\nLRAT_STREAM_PROGRESS additions=4200 step=305484/306567\nLRAT_STREAM_PROGRESS additions=4300 step=305675/306567\nLRAT_STREAM_PROGRESS additions=4400 step=305853/306567\nLRAT_STREAM_PROGRESS additions=4500 step=306035/306567\nLRAT_STREAM_PROGRESS additions=4600 step=306225/306567\nLRAT_STREAM_PROGRESS additions=4700 step=306407/306567\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14LRAT.Chunk042",
+      "source_sha256": "55d2f564429e94472f308549300c2439690122c7dbf6fd3b47370bfa8d917a54",
+      "exit_code": 0,
+      "seconds": 25.267,
+      "log": "LRAT_STREAM_PROGRESS additions=100 step=306750/307680\nLRAT_STREAM_PROGRESS additions=200 step=306938/307680\nLRAT_STREAM_PROGRESS additions=300 step=307125/307680\nLRAT_STREAM_PROGRESS additions=400 step=307315/307680\nLRAT_STREAM_PROGRESS additions=500 step=307507/307680\n",
+      "expected_failure": false
+    },
+    {
+      "module": "MathIsEasy.Minkowski14.GraphCertificate",
+      "source_sha256": "d83eee4fe4e3fab32fb7954629a8e3a79c52a19147f3f245b000eb96b0e8f780",
+      "exit_code": 0,
+      "seconds": 2.264,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Final",
+      "source_sha256": "9da74ef537ed8a11947eae88fa63c536a9bcb3d31541418aa2c8653d854d6f17",
+      "exit_code": 0,
+      "seconds": 2.294,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "FoundationAudit",
+      "source_sha256": "f5dccc1c1693849cfff556518bb8e93b0bb0ddd3607bab84a5d08bcf388a9839",
+      "exit_code": 0,
+      "seconds": 0.774,
+      "log": "",
+      "expected_failure": false
+    },
+    {
+      "module": "Audit",
+      "source_sha256": "5265d059c18764d5eecec73f3f35089bcea50c449a637c12e1cecbab3cbbd44f",
+      "exit_code": 0,
+      "seconds": 2.247,
+      "log": "Foundation audit passed: Minkowski14.plane_unit_ball; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.plane_dimension; axioms: [propext, Classical.choice, Quot.sound]\nFoundation audit passed: Minkowski14.at_least_five_colours; axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.zeta_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rho_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.polygonNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.rotated_side_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.Coordinate.eval_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.eval_sideCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.parameter_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.edges_unit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MathIsEasy.Minkowski14.FinalGraph.notFourColourable' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_unit_ball' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Minkowski14.plane_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]\nMinkowski14.plane_no_four_colouring (c : Minkowski14.Plane \u2192 Fin 4) : \u2203 x y, dist x y = 1 \u2227 c x = c y\nMinkowski14.plane_unit_ball (x : Minkowski14.Plane) :\n  \u2016x\u2016 \u2264 1 \u2194\n    (have this := x;\n      this) \u2208\n      (convexHull \u211d) {z | z ^ 14 = 1}\nMinkowski14.at_least_five_colours {n : \u2115} (c : Minkowski14.Plane \u2192 Fin n)\n  (proper : \u2200 (x y : Minkowski14.Plane), dist x y = 1 \u2192 c x \u2260 c y) : 5 \u2264 n\n",
+      "expected_failure": false
+    },
+    {
+      "module": "PositiveControlSAT",
+      "source_sha256": "dafb66aa7e48707f8604771fc50cfb56f39ed84ec532710a5a30aed3ff21cd07",
+      "exit_code": 0,
+      "seconds": 0.918,
+      "log": "'PositiveControl.certificate.clause_3' depends on axioms: [propext]\n",
+      "expected_failure": false
+    },
+    {
+      "module": "NegativeControl",
+      "source_sha256": "2c8ce4a9f125c8fded7b4ad5d6ae4bbf6119de73e7f80839db469759aebfdd4f",
+      "exit_code": 1,
+      "seconds": 1.987,
+      "log": "NegativeControl.lean:6:2: error: Tactic `decide` proved that the proposition\n  { a0 := 1, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }.sub\n      { a0 := 0, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 } =\n    { a0 := 2, a1 := 0, a2 := 0, a3 := 0, a4 := 0, a5 := 0 }\nis false\n",
+      "expected_failure": true
+    },
+    {
+      "module": "NegativeControlSAT",
+      "source_sha256": "12e1194aa7e379cb15b163b06a0804ce602368179588eb74b91e3a7f29cc838a",
+      "exit_code": 1,
+      "seconds": 0.91,
+      "log": "NegativeControlSAT.lean:12:0: error: LRAT step 0, clause 2: no refutation: #[], #[1], [(-1, 1)]\n",
+      "expected_failure": true
+    },
+    {
+      "module": "NegativeKernel",
+      "source_sha256": "5747a8c5250334584fcdc37b4aee7c82c6bd6b472b94e50277a493b5b9dbd7e9",
+      "exit_code": 1,
+      "seconds": 1.189,
+      "log": "NegativeKernel.lean:6:0: error: (kernel) declaration type mismatch, 'Minkowski14RejectedKernelControl' has type\n  True\nbut it is expected to have type\n  False\n",
+      "expected_failure": true
+    }
+  ]
+}
