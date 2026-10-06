@@ -91,3 +91,12 @@ References
 * Panna Gehér, Note on the chromatic number of Minkowski planes: the regular
   polygon case (2023), https://arxiv.org/abs/2301.13695 . An upper bound of
   six for even regular polygons with at most 22 vertices.
+
+Public source build
+-------------------
+
+The manually dispatched Azure workflow compiles the displayed commit and
+prints the final theorem and its axioms. See PUBLIC-CI.rst for the resource
+limits, source provenance, logs and reproduction procedure.
+
+https://github.com/MathIsEvenEasier/minkowski14/actions/workflows/lean.yml

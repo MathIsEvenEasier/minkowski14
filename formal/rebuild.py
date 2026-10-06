@@ -64,6 +64,7 @@ def compile_module(name,expected_error=None):
  ok=(code==0) if expected_error is None else (code!=0 and code!=124 and expected_error in log)
  save('IN_PROGRESS' if ok else 'FAILED')
  print(name+': '+('PASS' if ok else 'FAIL'),flush=True)
+ if name in ('Audit','PositiveControlSAT') or expected_error is not None or not ok: print(log,flush=True)
  if not ok:raise RuntimeError('Verification failed: '+name)
 for module in order:compile_module(module)
 for module,diagnostic in controls.items():compile_module(module,diagnostic)
