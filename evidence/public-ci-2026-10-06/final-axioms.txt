@@ -1,0 +1,3 @@
+'Minkowski14.at_least_five_colours' depends on axioms: [propext, Classical.choice, Quot.sound]
+Minkowski14.at_least_five_colours {n : ℕ} (c : Minkowski14.Plane → Fin n)
+  (proper : ∀ (x y : Minkowski14.Plane), dist x y = 1 → c x ≠ c y) : 5 ≤ n

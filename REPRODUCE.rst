@@ -44,9 +44,10 @@ decompressed. From the prepared checkout::
     python3 rebuild.py
 
 The plan rebuilds all 162 project modules in dependency order and then
-checks three intentional failures. The driver itself has not been run
-end to end: the recorded verification used the development worker and a
-separate final-audit helper. Its dependency plan was validated in Azure.
+checks three intentional failures. The public GitHub Actions run
+linked in README.rst executed the driver end to end from the displayed
+commit. Its compiler records and final axiom output are preserved in
+evidence/public-ci-2026-10-06/. Earlier development records remain below.
 
 For this project's authoring environment, substantial compilation and
 proof audits run only in Azure. The driver enforces a prepared-job marker

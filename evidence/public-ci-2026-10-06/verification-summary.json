@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_PUBLIC_CI",
+  "repository": "minkowski14",
+  "run_url": "https://github.com/MathIsEvenEasier/minkowski14/actions/runs/37468510724",
+  "commit": "e0f5e2a086fb0ab080b4a9393b72d33fc87e5918",
+  "positive_modules": 162,
+  "negative_controls": 3,
+  "final_theorem": "Minkowski14.at_least_five_colours",
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_hashes_match_current_checkout": true,
+  "files_sha256": {
+    "provenance.json": "8932c7979c4c4f6bd02d892fe7d9aa76647c85b6f8c15a0160c1fddc438b7c7f",
+    "rebuild-report.json": "9c5643a76d5418c44dbda6d8e85b2681c7e330a67204cd83124546e3fc015617",
+    "github-run.json": "a6773c627f6132b9f913db84aa09be0d3eb4fcbefcbbe3f3b998a52e0346aa38",
+    "final-axioms.txt": "ca1d404ef8c597faa60894d0df894297de82d976b332fac782f9c6dbb13c4cd2"
+  }
+}

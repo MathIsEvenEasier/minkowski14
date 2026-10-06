@@ -1,5 +1,5 @@
 At least five colours for the regular fourteen-gon plane
-=======================================================
+========================================================
 
 Let P14 be the convex hull of the complex fourteenth roots of unity, and
 let the plane carry the norm with closed unit ball P14. Every colouring
@@ -95,8 +95,14 @@ References
 Public source build
 -------------------
 
-The manually dispatched Azure workflow compiles the displayed commit and
-prints the final theorem and its axioms. See PUBLIC-CI.rst for the resource
-limits, source provenance, logs and reproduction procedure.
+A public GitHub Actions build on 6 October 2026 rebuilt all
+162 positive modules from commit e0f5e2a086fb0ab080b4a9393b72d33fc87e5918
+and rejected 3 deliberately invalid controls. The final theorem's
+printed axioms are propext, Classical.choice and Quot.sound.
 
-https://github.com/MathIsEvenEasier/minkowski14/actions/workflows/lean.yml
+https://github.com/MathIsEvenEasier/minkowski14/actions/runs/37468510724
+
+Permanent copies of the compiler records, exact source hashes, final axiom
+output and confirmed Azure cleanup are in evidence/public-ci-2026-10-06/.
+The proof-source hashes still match this checkout. See PUBLIC-CI.rst for
+the resource limits, trust boundary and reproduction procedure.

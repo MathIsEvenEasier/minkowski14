@@ -1,0 +1,67 @@
+{
+  "conclusion": "success",
+  "headSha": "e0f5e2a086fb0ab080b4a9393b72d33fc87e5918",
+  "jobs": [
+    {
+      "completedAt": "2026-10-06T14:01:49Z",
+      "conclusion": "success",
+      "databaseId": 112285565522,
+      "name": "verify",
+      "startedAt": "2026-10-06T13:10:33Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-06T13:10:35Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-06T13:10:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T13:10:36Z",
+          "conclusion": "success",
+          "name": "Check out the dispatched commit",
+          "number": 2,
+          "startedAt": "2026-10-06T13:10:35Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:01:25Z",
+          "conclusion": "success",
+          "name": "Rebuild proofs and print axioms",
+          "number": 3,
+          "startedAt": "2026-10-06T13:10:36Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:01:25Z",
+          "conclusion": "success",
+          "name": "Preserve compiler records",
+          "number": 4,
+          "startedAt": "2026-10-06T14:01:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:01:26Z",
+          "conclusion": "success",
+          "name": "Post Check out the dispatched commit",
+          "number": 8,
+          "startedAt": "2026-10-06T14:01:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T14:01:26Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 9,
+          "startedAt": "2026-10-06T14:01:26Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/MathIsEvenEasier/minkowski14/actions/runs/37468510724/job/112285565522"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/MathIsEvenEasier/minkowski14/actions/runs/37468510724"
+}
