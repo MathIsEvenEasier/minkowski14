@@ -17,15 +17,15 @@ made. Whether five colours suffice for the whole plane remains open.
 Start here
 ----------
 
-* RESULT.rst: the mathematical argument and its relation to prior work.
-* docs/: interactive unit ball, actual edge witnesses, colouring constraints
+* `RESULT.rst <RESULT.rst>`_: the mathematical argument and its relation to prior work.
+* `docs/ <docs/>`_: interactive unit ball, actual edge witnesses, colouring constraints
   and a conceptual dependency map with links to formal sources.
-* formal/Final.lean: the unconditional theorem at_least_five_colours.
-* formal/Plane.lean: plane_dimension, plane_unit_ball and plane_distance.
-* evidence/verification-final.json: compiler evidence, source hashes,
+* `formal/Final.lean <formal/Final.lean>`_: the unconditional theorem at_least_five_colours.
+* `formal/Plane.lean <formal/Plane.lean>`_: plane_dimension, plane_unit_ball and plane_distance.
+* `evidence/verification-final.json <evidence/verification-final.json>`_: compiler evidence, source hashes,
   final axiom audit and negative controls.
-* REPRODUCE.rst: file layout, lightweight integrity checks and full replay.
-* review/README.rst: a focused checklist for mathematical review.
+* `REPRODUCE.rst <REPRODUCE.rst>`_: file layout, lightweight integrity checks and full replay.
+* `review/README.rst <review/README.rst>`_: a focused checklist for mathematical review.
 
 Proof in brief
 --------------
