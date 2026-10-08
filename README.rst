@@ -60,10 +60,9 @@ The geometry generator reproduced all 31 generated files byte for byte.
 These computations supply witnesses, not additional logical assumptions.
 The browser uses numerical approximations solely for illustrations.
 
-The Lean result is the lower bound five. Gehér's published upper bound six
-is background, not a theorem formalized here. Combined with that result,
-5 <= chi(R^2,P14) <= 6. Neither a five-colouring of the plane nor a lower
-bound six is claimed.
+The Lean result gives the lower bound five. Together with Gehér's
+published upper bound six, it yields 5 <= chi(R^2,P14) <= 6.
+The upper bound is cited and is outside this formalization.
 
 Provenance and acknowledgments
 -------------------------------

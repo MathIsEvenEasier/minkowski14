@@ -17,7 +17,7 @@ colouring uses at least five colours.
 
 The formal conclusion is Minkowski14.at_least_five_colours in
 formal/Final.lean. Its only colouring hypothesis is that points at distance
-one have distinct colours. The normed space is defined, not assumed.
+one have distinct colours. The proof constructs the normed space.
 
 The norm and its sides
 -----------------------
@@ -126,7 +126,7 @@ This describes how the witness was found; search completeness and solver
 correctness are not premises of the final theorem. The current release
 checks the supplied finite object and its refutation directly.
 
-The geometric chain is new in this release. The finite graph, original
+This release adds the geometric proof. The finite graph, original
 CNF/LRAT inputs and earlier logical bridge were retained as source data
 and rebuilt after cleaning the importer. Sources and successful compiler
 records are matched by hashes. See REPRODUCE.rst and evidence/.
@@ -144,8 +144,7 @@ Together with the present theorem, that gives
 The exact value five or six remains undetermined here. The upper bound is
 cited, not part of the Lean development. A bounded literature search did
 not locate the same fourteen-gon lower bound in the screened sources;
-this does not establish priority. The release seeks mathematical and
-prior-work review, not an endorsement of a first-proof claim.
+this does not establish priority. Mathematical and prior-work review are pending.
 
 References
 ----------
