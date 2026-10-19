@@ -1,0 +1,8 @@
+output/
+tmp/
+REVIEW.rst
+package.py
+*.aux
+*.log
+*.out
+*.synctex.gz

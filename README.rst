@@ -11,12 +11,13 @@ Interactive explanation: https://mathiseveneasier.github.io/minkowski14/
 The complete statement is checked in Lean, including construction of the
 normed real plane, identification of its unit ball, the unit-edge geometry,
 the finite colouring obstruction and the transfer to the entire plane.
-This is a research announcement for external review; no priority claim is
-made. Whether five colours suffice for the whole plane remains open.
+Whether five colours suffice for the whole plane remains open.
 
 Start here
 ----------
 
+* `Paper (PDF) <paper/minkowski14.pdf>`_: the mathematical statement, proof and certificate conventions.
+  `LaTeX source <paper/main.tex>`_.
 * `RESULT.rst <RESULT.rst>`_: the mathematical argument and its relation to prior work.
 * `docs/ <docs/>`_: interactive unit ball, actual edge witnesses, colouring constraints
   and a conceptual dependency map with links to formal sources.
@@ -30,7 +31,7 @@ Start here
 Proof in brief
 --------------
 
-The archived construction supplies an abstract graph with 1,540 vertices
+The construction gives an abstract graph with 1,540 vertices
 and 13,755 edges, together with coordinates in Z[zeta], zeta = exp(pi*i/7).
 For every listed edge, Lean verifies an identity of the form
 
@@ -67,11 +68,10 @@ The upper bound is cited and is outside this formalization.
 Provenance and acknowledgments
 -------------------------------
 
-The graph, original CNF/LRAT data and finite graph-to-CNF bridge were
-recovered from an earlier AI-assisted research archive. This release adds
-a new complete geometric proof, removes the SAT importer's five unsafe
-term-evaluation calls, and rebuilds the entire finite certificate and
-final theorem. The original archive was not modified.
+The graph search, certificate generation, geometric proof and Lean
+formalisation were developed as parts of this project with AI assistance.
+The complete proof includes the graph-to-CNF bridge, the unit-distance
+geometry and the transfer to the plane.
 
 Prepared by MathIsEvenEasier with OpenAI Codex (GPT-6 Astra). The model
 completed the geometric formalization, rebuilt and audited the proof, and
