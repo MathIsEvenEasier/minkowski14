@@ -34,7 +34,7 @@ Citing this work
 For the mathematical result, please cite the manuscript:
 
   Bartosz Paprzycki (2026). *A five-colour lower bound for the regular
-  fourteen-gon norm*. Preprint, revised 29 October 2026.
+  fourteen-gon norm*. Preprint.
   `Manuscript at the cited revision <https://github.com/MathIsEvenEasier/minkowski14/blob/61b5d1a3760567372fd12c4f614990a1d2b442fb/paper/minkowski14.pdf>`_.
 
 MathIsEvenEasier is Bartosz Paprzycki's GitHub account and the pseudonym
@@ -50,7 +50,7 @@ Copy this BibTeX entry, or download `citation.bib <citation.bib>`_:
      title = {A five-colour lower bound for the regular fourteen-gon norm},
      year = {2026},
      month = oct,
-     note = {Preprint, revised 29 October 2026},
+     note = {Preprint},
      url = {https://github.com/MathIsEvenEasier/minkowski14/blob/61b5d1a3760567372fd12c4f614990a1d2b442fb/paper/minkowski14.pdf}
    }
 
