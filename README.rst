@@ -28,6 +28,47 @@ Start here
 * `REPRODUCE.rst <REPRODUCE.rst>`_: file layout, lightweight integrity checks and full replay.
 * `review/README.rst <review/README.rst>`_: a focused checklist for mathematical review.
 
+Citing this work
+----------------
+
+For the mathematical result, please cite the manuscript:
+
+  Bartosz Paprzycki (2026). *A five-colour lower bound for the regular
+  fourteen-gon norm*. Preprint, revised 29 October 2026.
+  `Manuscript at the cited revision <https://github.com/MathIsEvenEasier/minkowski14/blob/61b5d1a3760567372fd12c4f614990a1d2b442fb/paper/minkowski14.pdf>`_.
+
+MathIsEvenEasier is Bartosz Paprzycki's GitHub account and the pseudonym
+used in earlier manuscript versions. Please use **Bartosz Paprzycki** as
+the author of the current manuscript and repository citation.
+
+Copy this BibTeX entry, or download `citation.bib <citation.bib>`_:
+
+.. code-block:: bibtex
+
+   @unpublished{paprzycki2026fourteengon,
+     author = {Paprzycki, Bartosz},
+     title = {A five-colour lower bound for the regular fourteen-gon norm},
+     year = {2026},
+     month = oct,
+     note = {Preprint, revised 29 October 2026},
+     url = {https://github.com/MathIsEvenEasier/minkowski14/blob/61b5d1a3760567372fd12c4f614990a1d2b442fb/paper/minkowski14.pdf}
+   }
+
+For reuse of the code or certificates, also cite the repository snapshot:
+
+  Bartosz Paprzycki (2026). *Minkowski fourteen-gon: graph, certificates
+  and Lean formalisation*. Code and certificates, snapshot of
+  29 October 2026. GitHub.
+  `Repository at commit 61b5d1a <https://github.com/MathIsEvenEasier/minkowski14/tree/61b5d1a3760567372fd12c4f614990a1d2b442fb>`_.
+
+The second entry in ``citation.bib`` provides this citation. Both links
+identify the same fixed revision; cite the revision you actually use if
+you work with a different version. This snapshot has no DOI.
+
+`CITATION.cff <CITATION.cff>`_ supplies the metadata for GitHub's
+**Cite this repository** button, with the manuscript as the preferred
+citation.
+
 Proof in brief
 --------------
 

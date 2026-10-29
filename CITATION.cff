@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  For the mathematical result, please cite the manuscript in preferred-citation.
+  For reuse of the code or certificates, also cite the repository snapshot.
+  Both entries are available in citation.bib.
+type: software
+title: 'Minkowski fourteen-gon: graph, certificates and Lean formalisation'
+authors:
+  - family-names: Paprzycki
+    given-names: Bartosz
+    alias: MathIsEvenEasier
+repository-code: 'https://github.com/MathIsEvenEasier/minkowski14'
+url: 'https://github.com/MathIsEvenEasier/minkowski14/tree/61b5d1a3760567372fd12c4f614990a1d2b442fb'
+commit: '61b5d1a3760567372fd12c4f614990a1d2b442fb'
+version: '2026-10-29'
+date-released: '2026-10-29'
+preferred-citation:
+  type: unpublished
+  title: 'A five-colour lower bound for the regular fourteen-gon norm'
+  authors:
+    - family-names: Paprzycki
+      given-names: Bartosz
+  year: 2026
+  month: 10
+  date-released: '2026-10-29'
+  notes: 'Preprint, revised 29 October 2026.'
+  url: 'https://github.com/MathIsEvenEasier/minkowski14/blob/61b5d1a3760567372fd12c4f614990a1d2b442fb/paper/minkowski14.pdf'
