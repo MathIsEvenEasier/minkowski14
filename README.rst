@@ -73,7 +73,8 @@ formalisation were developed as parts of this project with AI assistance.
 The complete proof includes the graph-to-CNF bridge, the unit-distance
 geometry and the transfer to the plane.
 
-Prepared by MathIsEvenEasier with OpenAI Codex (GPT-6 Astra). The model
+Prepared by Bartosz Paprzycki (GitHub: MathIsEvenEasier) with OpenAI Codex
+(GPT-6 Astra). The model
 completed the geometric formalization, rebuilt and audited the proof, and
 prepared the exposition and verification tooling under human direction.
 Independent expert review is pending.
